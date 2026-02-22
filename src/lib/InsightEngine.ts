@@ -10,6 +10,7 @@ export function generateMatches(
 ): MatchSchema[] {
     const matches: MatchSchema[] = [];
     const MIN_CONNECTIONS_PER_INSTITUTION = 8;
+    const isDeepDive = institutions.length === 1 && employers.length === 1;
 
     const liberalArtsKeywords = ['english', 'history', 'philosophy', 'sociology', 'psychology', 'political', 'anthropology', 'communications', 'liberal arts', 'humanities', 'theology', 'fine arts', 'music', 'literature', 'design'];
 
@@ -152,20 +153,34 @@ export function generateMatches(
 
             // Generate Bespoke, Creative AI Reasoning connecting O*NET to IPEDS and Curriculum
             const topSkills = emp.requiredSkills.slice(0, 3).join(', ');
-            let aiReasoning = `Strategic Partnership Analysis: ${inst.name} & ${emp.name}.\n`;
+            let aiReasoning = '';
 
-            if (overlap.length > 0) {
-                aiReasoning += `This connection is driven by direct alignment between the university's academic output in [${overlap.join(', ').toUpperCase()}] and the employer's need for O*NET-validated skills such as ${topSkills}. `;
-                aiReasoning += ipedsNarrative;
-                aiReasoning += scaleNarrative;
+            if (isDeepDive) {
+                aiReasoning = `### The Friction & Connective Labor Deficit\n`;
+                aiReasoning += `In evaluating the potential pipeline between ${inst.name} and ${emp.name}, the Insight Engine identifies a highly specific opportunity to combat the 'Productivity Tax.' While traditional models focus on rote task automation, ${emp.name} requires advanced cognitive adaptability in ${emp.industry}. This connection relies heavily on the 'Connective Labor' framework, prioritizing critical thinking and ethical AI interaction over basic procedural output.\n\n`;
+
+                aiReasoning += `### Curricular Alignment & O*NET Bridges\n`;
+                aiReasoning += `The deterministic math supporting this bridge is grounded in a ${overlap.length > 0 ? `direct mapping between the institution's primary strengths in [${overlap.join(', ').toUpperCase()}] and the employer's need for O*NET-validated skills such as ${topSkills}. ` : `structural exploration of latent competencies rather than obvious direct mappings. `}`;
+                aiReasoning += ipedsNarrative + scaleNarrative + '\n\n';
+
+                aiReasoning += `### Phase Integration & Evaluative Judgement\n`;
                 aiReasoning += liberalArtsNarrative;
-                aiReasoning += `Creatively, this partnership could evolve into a specialized cooperative education program where students apply these exact foundational elements in real-world ${emp.industry} environments before graduation.`;
+                aiReasoning += `Ultimately, formalizing this bespoke pathway allows ${inst.name} to advance its ecosystem integration (Phase 5 of the Strategic Framework), providing students a live, frictive environment to practice 'Evaluative Judgement' against authentic ${emp.industry} challenges.`;
             } else {
-                aiReasoning += `While direct program overlap is not immediately obvious, the critical workforce need for O*NET skills like ${topSkills} presents an opportunity for cross-disciplinary training. `;
-                aiReasoning += ipedsNarrative;
-                aiReasoning += scaleNarrative;
-                aiReasoning += liberalArtsNarrative;
-                aiReasoning += `A creative approach would involve ${inst.name} developing a micro-credential or boot-camp tailored specifically to upskill the local workforce for ${emp.name}'s emerging roles in ${emp.industry}.`;
+                aiReasoning = `Strategic Partnership Analysis: ${inst.name} & ${emp.name}.\n`;
+                if (overlap.length > 0) {
+                    aiReasoning += `This connection is driven by direct alignment between the university's academic output in [${overlap.join(', ').toUpperCase()}] and the employer's need for O*NET-validated skills such as ${topSkills}. `;
+                    aiReasoning += ipedsNarrative;
+                    aiReasoning += scaleNarrative;
+                    aiReasoning += liberalArtsNarrative;
+                    aiReasoning += `Creatively, this partnership could evolve into a specialized cooperative education program where students apply these exact foundational elements in real-world ${emp.industry} environments before graduation.`;
+                } else {
+                    aiReasoning += `While direct program overlap is not immediately obvious, the critical workforce need for O*NET skills like ${topSkills} presents an opportunity for cross-disciplinary training. `;
+                    aiReasoning += ipedsNarrative;
+                    aiReasoning += scaleNarrative;
+                    aiReasoning += liberalArtsNarrative;
+                    aiReasoning += `A creative approach would involve ${inst.name} developing a micro-credential or boot-camp tailored specifically to upskill the local workforce for ${emp.name}'s emerging roles in ${emp.industry}.`;
+                }
             }
 
             potentialMatches.push({

@@ -10,6 +10,11 @@ import { InstitutionSchema, EmployerSchema } from '@/types';
 export default function Explore() {
     const [instId, setInstId] = useState<string>('');
     const [empId, setEmpId] = useState<string>('');
+    const [instSearch, setInstSearch] = useState<string>('');
+    const [empSearch, setEmpSearch] = useState<string>('');
+
+    const filteredInsts = mockInstitutions.filter(i => i.name.toLowerCase().includes(instSearch.toLowerCase()) || i.region.toLowerCase().includes(instSearch.toLowerCase()));
+    const filteredEmps = mockEmployers.filter(e => e.name.toLowerCase().includes(empSearch.toLowerCase()) || e.industry.toLowerCase().includes(empSearch.toLowerCase()));
 
     const selectedInst = mockInstitutions.find(i => i.id === instId);
     const selectedEmp = mockEmployers.find(e => e.id === empId);
@@ -39,35 +44,65 @@ export default function Explore() {
 
                 {/* Selectors */}
                 <div className="grid md:grid-cols-2 gap-6">
-                    <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                        <label className="block text-sm font-semibold text-slate-600 uppercase tracking-widest mb-3 flex items-center gap-2">
+                    <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col h-[320px]">
+                        <label className="block text-sm font-semibold text-slate-600 uppercase tracking-widest mb-3 flex items-center gap-2 shrink-0">
                             <GraduationCap className="text-blue-500 w-5 h-5" /> Select Institution
                         </label>
+                        <div className="relative mb-3 shrink-0">
+                            <Search className="absolute left-3 top-2.5 h-4 w-4 text-slate-400" />
+                            <input
+                                type="text"
+                                placeholder="Search by name or region..."
+                                className="w-full bg-slate-50 border border-slate-300 text-slate-800 rounded-lg pl-10 p-2 text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-shadow outline-none"
+                                value={instSearch}
+                                onChange={(e) => setInstSearch(e.target.value)}
+                            />
+                        </div>
                         <select
-                            className="w-full bg-slate-50 border border-slate-300 text-slate-800 rounded-lg p-3 font-medium focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-shadow"
+                            className="w-full flex-grow bg-slate-50 border border-slate-300 text-slate-800 rounded-lg p-2 font-medium focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-shadow outline-none overflow-y-auto"
                             value={instId}
                             onChange={(e) => setInstId(e.target.value)}
+                            size={6}
                         >
-                            <option value="">-- Choose an Institution --</option>
-                            {mockInstitutions.map(inst => (
-                                <option key={inst.id} value={inst.id}>{inst.name} ({inst.region})</option>
+                            {filteredInsts.map(inst => (
+                                <option key={inst.id} value={inst.id} className="p-2 border-b border-slate-100 last:border-0 hover:bg-slate-200 cursor-pointer">
+                                    {inst.name} ({inst.region})
+                                </option>
                             ))}
+                            {filteredInsts.length === 0 && (
+                                <option disabled className="p-2 text-slate-400 italic">No institutions found.</option>
+                            )}
                         </select>
                     </div>
 
-                    <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
-                        <label className="block text-sm font-semibold text-slate-600 uppercase tracking-widest mb-3 flex items-center gap-2">
+                    <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col h-[320px]">
+                        <label className="block text-sm font-semibold text-slate-600 uppercase tracking-widest mb-3 flex items-center gap-2 shrink-0">
                             <Building2 className="text-emerald-500 w-5 h-5" /> Select Employer
                         </label>
+                        <div className="relative mb-3 shrink-0">
+                            <Search className="absolute left-3 top-2.5 h-4 w-4 text-slate-400" />
+                            <input
+                                type="text"
+                                placeholder="Search by name or industry..."
+                                className="w-full bg-slate-50 border border-slate-300 text-slate-800 rounded-lg pl-10 p-2 text-sm focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-shadow outline-none"
+                                value={empSearch}
+                                onChange={(e) => setEmpSearch(e.target.value)}
+                            />
+                        </div>
                         <select
-                            className="w-full bg-slate-50 border border-slate-300 text-slate-800 rounded-lg p-3 font-medium focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-shadow"
+                            className="w-full flex-grow bg-slate-50 border border-slate-300 text-slate-800 rounded-lg p-2 font-medium focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-shadow outline-none overflow-y-auto"
                             value={empId}
                             onChange={(e) => setEmpId(e.target.value)}
+                            size={6}
                         >
-                            <option value="">-- Choose an Employer --</option>
-                            {mockEmployers.map(emp => (
-                                <option key={emp.id} value={emp.id}>{emp.name} ({emp.industry})</option>
+                            {filteredEmps.map(emp => (
+                                <option key={emp.id} value={emp.id} className="p-2 border-b border-slate-100 last:border-0 hover:bg-slate-200 cursor-pointer">
+                                    {emp.name} ({emp.industry})
+                                </option>
                             ))}
+                            {filteredEmps.length === 0 && (
+                                <option disabled className="p-2 text-slate-400 italic">No employers found.</option>
+                            )}
                         </select>
                     </div>
                 </div>
@@ -116,9 +151,13 @@ export default function Explore() {
                                         <BrainCircuit className="w-5 h-5 text-purple-500" /> Generative AI Reasoning
                                     </h3>
                                     <div className="bg-purple-50 rounded-xl p-6 border border-purple-100 text-purple-900 leading-relaxed font-medium">
-                                        {match.aiReasoning.split('\n').map((line, idx) => (
-                                            <p key={idx} className="mb-2 last:mb-0">{line}</p>
-                                        ))}
+                                        {match.aiReasoning.split('\n').map((line, idx) => {
+                                            if (!line.trim()) return null;
+                                            if (line.trim().startsWith('### ')) {
+                                                return <h4 key={idx} className="text-lg font-bold text-[#0F2C52] mt-6 mb-2 first:mt-0">{line.replace('### ', '')}</h4>;
+                                            }
+                                            return <p key={idx} className="mb-3 last:mb-0">{line}</p>;
+                                        })}
                                     </div>
                                 </div>
 
