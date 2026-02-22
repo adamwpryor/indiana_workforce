@@ -4,7 +4,9 @@
         "name": "Anderson University",
         "region": "Anderson",
         "topMajors": [],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 4045
+        },
         "type": "Master's Colleges & Universities: Medium Programs",
         "ipedsMetrics": {
             "sixYearGraduationRate": 56.2,
@@ -21,7 +23,9 @@
             "Respiratory Therapy",
             "Economics"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 21058
+        },
         "type": "Doctoral Universities: High Research Activity",
         "ipedsMetrics": {
             "sixYearGraduationRate": 63.8,
@@ -39,7 +43,9 @@
             "Sign Language Interpreting",
             "Science Education"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 4058
+        },
         "type": "Master's Colleges & Universities: Medium Programs",
         "ipedsMetrics": {
             "sixYearGraduationRate": 61.5,
@@ -55,7 +61,9 @@
             "Psychology",
             "Biochemistry"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 15058
+        },
         "type": "Doctoral Universities: High Research Activity",
         "ipedsMetrics": {
             "sixYearGraduationRate": 82.1,
@@ -73,7 +81,9 @@
             "Criminal Justice",
             "Public Administration"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 2071
+        },
         "type": "Baccalaureate Colleges: Diverse Fields",
         "ipedsMetrics": {
             "sixYearGraduationRate": 33.4,
@@ -90,7 +100,9 @@
             "Business and Leadership",
             "Music"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 2084
+        },
         "type": "Baccalaureate Colleges: Arts & Sciences Focus",
         "ipedsMetrics": {
             "sixYearGraduationRate": 84.5,
@@ -107,7 +119,9 @@
             "Elementary Education",
             "Accounting"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 2110
+        },
         "type": "Baccalaureate Colleges: Diverse Fields",
         "ipedsMetrics": {
             "sixYearGraduationRate": 57.9,
@@ -122,7 +136,9 @@
             "Film Production",
             "Communication"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 2123
+        },
         "type": "Baccalaureate Colleges: Diverse Fields",
         "ipedsMetrics": {
             "sixYearGraduationRate": 68.2,
@@ -139,7 +155,9 @@
             "Chemistry",
             "Theology"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 2136
+        },
         "type": "Baccalaureate Colleges: Diverse Fields",
         "ipedsMetrics": {
             "sixYearGraduationRate": 60.1,
@@ -157,7 +175,9 @@
             "Occupational Therapy",
             "Counseling"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 4136
+        },
         "type": "Master's Colleges & Universities: Medium Programs",
         "ipedsMetrics": {
             "sixYearGraduationRate": 62.7,
@@ -169,7 +189,9 @@
         "name": "Indiana State University",
         "region": "Indiana",
         "topMajors": [],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 11149
+        },
         "type": "Doctoral Universities: High Research Activity",
         "ipedsMetrics": {
             "sixYearGraduationRate": 47.6,
@@ -186,7 +208,9 @@
             "Computer Sciences",
             "Arts and Sciences"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 4149
+        },
         "type": "Master's Colleges & Universities: Medium Programs",
         "ipedsMetrics": {
             "sixYearGraduationRate": 44.9,
@@ -204,7 +228,9 @@
             "Environmental Science",
             "Cybersecurity"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 40149
+        },
         "type": "Doctoral Universities: Very High Research Activity",
         "ipedsMetrics": {
             "sixYearGraduationRate": 79.8,
@@ -222,7 +248,9 @@
             "STEM",
             "arts and humanities"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 40149
+        },
         "type": "Doctoral Universities: Very High Research Activity",
         "ipedsMetrics": {
             "sixYearGraduationRate": 53.7,
@@ -238,7 +266,9 @@
             "Seminary Studies",
             "Education"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 15149
+        },
         "type": "Doctoral/Professional Universities",
         "ipedsMetrics": {
             "sixYearGraduationRate": 67.5,
@@ -256,7 +286,9 @@
             "Automotive Technology",
             "Education – Early Childhood"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 1649
+        },
         "type": "Associate's Colleges: High Transfer-High Traditional",
         "ipedsMetrics": {
             "sixYearGraduationRate": 26.3,
@@ -274,7 +306,9 @@
             "Athletic Training",
             "Peace Studies"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 4201
+        },
         "type": "Master's Colleges & Universities: Medium Programs",
         "ipedsMetrics": {
             "sixYearGraduationRate": 60.8,
@@ -292,7 +326,9 @@
             "Nursing",
             "Osteopathic Medicine"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 15201
+        },
         "type": "Doctoral/Professional Universities",
         "ipedsMetrics": {
             "sixYearGraduationRate": 64.6,
@@ -310,7 +346,9 @@
             "cybersecurity",
             "sports technology"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 45240
+        },
         "type": "Doctoral Universities: Very High Research Activity",
         "ipedsMetrics": {
             "sixYearGraduationRate": 82.8,
@@ -328,7 +366,9 @@
             "Chemical Engineering",
             "Civil & Environmental Engineering"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 1766
+        },
         "type": "Special Focus Four-Year: Engineering and Other Technology Schools",
         "ipedsMetrics": {
             "sixYearGraduationRate": 87.9,
@@ -346,7 +386,9 @@
             "Business and Leadership",
             "Arts, Letters & Music"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 2279
+        },
         "type": "Baccalaureate Colleges: Diverse Fields",
         "ipedsMetrics": {
             "sixYearGraduationRate": 51.7,
@@ -363,7 +405,9 @@
             "Art",
             "Religious Studies"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 4292
+        },
         "type": "Master's Colleges & Universities: Medium Programs",
         "ipedsMetrics": {
             "sixYearGraduationRate": 78.4,
@@ -381,7 +425,9 @@
             "Orthotics and Prosthetics",
             "Chemistry"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 15292
+        },
         "type": "Doctoral/Professional Universities",
         "ipedsMetrics": {
             "sixYearGraduationRate": 65.9,
@@ -396,7 +442,9 @@
             "Physician Assistant Science",
             "Mental Health Education"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 4305
+        },
         "type": "Master's Colleges & Universities: Larger Programs",
         "ipedsMetrics": {
             "sixYearGraduationRate": 68.8,
@@ -414,7 +462,9 @@
             "Engineering",
             "Physical Therapy"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 15305
+        },
         "type": "Doctoral/Professional Universities",
         "ipedsMetrics": {
             "sixYearGraduationRate": 62.4,
@@ -432,7 +482,9 @@
             "Science and Technology",
             "Faith and Service"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 13305
+        },
         "type": "Doctoral Universities: Very High Research Activity",
         "ipedsMetrics": {
             "sixYearGraduationRate": 97.2,
@@ -450,7 +502,9 @@
             "Physician Assistant Studies",
             "Game and Application Development"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 4305
+        },
         "type": "Master's Colleges & Universities: Medium Programs",
         "ipedsMetrics": {
             "sixYearGraduationRate": 56.9,
@@ -468,7 +522,9 @@
             "Business",
             "Nursing and Health Professions"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 4305
+        },
         "type": "Master's Colleges & Universities: Larger Programs",
         "ipedsMetrics": {
             "sixYearGraduationRate": 48.7,
@@ -486,7 +542,9 @@
             "Physician Assistant Studies",
             "Chemistry"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 4318
+        },
         "type": "Master's Colleges & Universities: Larger Programs",
         "ipedsMetrics": {
             "sixYearGraduationRate": 70.6,
@@ -504,7 +562,9 @@
             "Agribusiness",
             "Collaborative Robotics Training"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 1818
+        },
         "type": "Associate's Colleges: High Transfer-High Traditional",
         "ipedsMetrics": {
             "sixYearGraduationRate": 32.8,
@@ -516,7 +576,9 @@
         "name": "Wabash College",
         "region": "Crawfordsville",
         "topMajors": [],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 2331
+        },
         "type": "Baccalaureate Colleges: Arts & Sciences Focus",
         "ipedsMetrics": {
             "sixYearGraduationRate": 83.9,
@@ -534,7 +596,9 @@
             "Elementary Education",
             "Cybersecurity and Information Assurance"
         ],
-        "studentDemographics": {},
+        "studentDemographics": {
+            "totalStudents": 1831
+        },
         "type": "Special Focus Four-Year: Other Health Professions Schools",
         "ipedsMetrics": {
             "sixYearGraduationRate": 51.1,

@@ -9,7 +9,7 @@ export function generateMatches(
     employers: EmployerSchema[]
 ): MatchSchema[] {
     const matches: MatchSchema[] = [];
-    const MIN_CONNECTIONS_PER_INSTITUTION = 6;
+    const MIN_CONNECTIONS_PER_INSTITUTION = 8;
 
     const liberalArtsKeywords = ['english', 'history', 'philosophy', 'sociology', 'psychology', 'political', 'anthropology', 'communications', 'liberal arts', 'humanities', 'theology', 'fine arts', 'music', 'literature', 'design'];
 
@@ -184,11 +184,6 @@ export function generateMatches(
 
         // Filter for "natural" matches meeting a threshold
         let acceptedMatches = potentialMatches.filter(m => m.matchStrengthScore >= 65);
-
-        // Cap maximum connections to 25 to prevent extreme hub overcrowding
-        if (acceptedMatches.length > 25) {
-            acceptedMatches = acceptedMatches.slice(0, 25);
-        }
 
         // GUARANTEE BASELINE CONNECTIONS:
         if (acceptedMatches.length < MIN_CONNECTIONS_PER_INSTITUTION) {
