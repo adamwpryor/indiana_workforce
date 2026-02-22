@@ -84,12 +84,10 @@ def main():
             # We use Firecrawl's extract endpoint with pydantic schema to force structured JSON output
             data = app.scrape(
                 url,
-                params={
-                    'formats': ['extract'],
-                    'extract': {
-                        'schema': InstitutionExtractSchema.model_json_schema(),
-                        'prompt': f"Extract detailed profile information for {name} from their homepage. Identify their top majors, overall student enrollment numeric figure, and classify their institution type strictly as one of: 'R1', 'Liberal Arts', 'Community College', or 'Other'."
-                    }
+                formats=['extract'],
+                extract={
+                    'prompt': f"Extract detailed profile information for {name} from their homepage. Identify their top majors, overall student enrollment numeric figure, and classify their institution type strictly as one of: 'R1', 'Liberal Arts', 'Community College', or 'Other'.",
+                    'schema': InstitutionExtractSchema.model_json_schema()
                 }
             )
             
