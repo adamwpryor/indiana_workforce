@@ -9,6 +9,11 @@ export interface InstitutionSchema {
     firstGenerationPercentage?: number;
   };
   type: string; // Carnegie Classification
+  ipedsMetrics?: {
+    sixYearGraduationRate: number;
+    stemDegreePercentage: number;
+    institutionalEndowmentMillion: number;
+  };
 }
 
 export interface EmployerSchema {

@@ -1,10 +1,10 @@
 export const INSTITUTION_COLORS: Record<string, string> = {
-    'R1: Doctoral Universities - Very High Research Activity': '#1D4ED8', // blue-700
-    'R2: Doctoral Universities - High Research Activity': '#2563EB', // blue-600
-    'Master\'s Colleges & Universities': '#3B82F6', // blue-500
-    'Baccalaureate Colleges': '#60A5FA', // blue-400
-    'Associates Colleges': '#93C5FD', // blue-300
-    DEFAULT: '#BFDBFE', // blue-200
+    'R1: Doctoral Universities - Very High Research Activity': '#87CEEB', // Sky Blue
+    'R2: Doctoral Universities - High Research Activity': '#87CEEB',
+    'Master\'s Colleges & Universities': '#87CEEB',
+    'Baccalaureate Colleges': '#87CEEB',
+    'Associates Colleges': '#87CEEB',
+    DEFAULT: '#87CEEB', // All institutions are Sky Blue
 };
 
 export const SECTOR_PALETTE = [
@@ -12,13 +12,10 @@ export const SECTOR_PALETTE = [
     '#8B5CF6', // violet-500
     '#F59E0B', // amber-500
     '#F43F5E', // rose-500
-    '#06B6D4', // cyan-500
     '#D946EF', // fuchsia-500
     '#84CC16', // lime-500
     '#F97316', // orange-500
     '#EC4899', // pink-500
-    '#14B8A6', // teal-500
-    '#6366F1', // indigo-500
     '#EAB308', // yellow-500
 ];
 

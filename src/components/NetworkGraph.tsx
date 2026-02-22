@@ -152,15 +152,28 @@ export default function NetworkGraph({ data, onNodeClick, selectedNodeId }: Netw
                     ctx.fill();
                 }}
                 linkColor={(link: any) => {
-                    if (!selectedNodeId) return 'rgba(249, 217, 170, 0.4)'; /* Peach for links */
+                    const baseColor = 'rgba(249, 217, 170, 0.4)'; // Peach base for all links
+                    const highlightColor = 'rgba(249, 217, 170, 0.9)';
+                    const dimColor = 'rgba(249, 217, 170, 0.1)';
+
+                    if (!selectedNodeId) return baseColor;
+
                     const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
                     const targetId = typeof link.target === 'object' ? link.target.id : link.target;
                     const isConnected = sourceId === selectedNodeId || targetId === selectedNodeId;
-                    return isConnected ? 'rgba(249, 217, 170, 0.9)' : 'rgba(249, 217, 170, 0.05)';
+
+                    return isConnected ? highlightColor : dimColor;
                 }}
-                linkWidth={(link: any) => Math.max(1, (link.value - 60) / 10)}
+                linkWidth={(link: any) => {
+                    // Score range is roughly 40-100. Normalize to a 1 - 5 pixel width.
+                    const minWidth = 1;
+                    const maxWidth = 5;
+                    // Protect against undefined or low score edge cases
+                    const score = Math.max(40, link.value || 40);
+                    return minWidth + ((score - 40) / 60) * (maxWidth - minWidth);
+                }}
                 linkDirectionalParticles={2}
-                linkDirectionalParticleSpeed={(d: any) => d.value * 0.0001}
+                linkDirectionalParticleSpeed={(d: any) => (d.value || 40) * 0.0001}
             />
         </div>
     );

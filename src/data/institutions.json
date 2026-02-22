@@ -4,7 +4,12 @@
         "name": "Anderson University",
         "region": "Anderson",
         "topMajors": [],
-        "type": "Master's Colleges & Universities: Medium Programs"
+        "studentDemographics": {},
+        "type": "Master's Colleges & Universities: Medium Programs",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 56.2,
+            "stemDegreePercentage": 17.5
+        }
     },
     {
         "id": "ball-state-university",
@@ -16,7 +21,12 @@
             "Respiratory Therapy",
             "Economics"
         ],
-        "type": "Doctoral Universities: High Research Activity"
+        "studentDemographics": {},
+        "type": "Doctoral Universities: High Research Activity",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 63.8,
+            "stemDegreePercentage": 21.3
+        }
     },
     {
         "id": "bethel-university",
@@ -29,7 +39,12 @@
             "Sign Language Interpreting",
             "Science Education"
         ],
-        "type": "Master's Colleges & Universities: Medium Programs"
+        "studentDemographics": {},
+        "type": "Master's Colleges & Universities: Medium Programs",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 61.5,
+            "stemDegreePercentage": 24.8
+        }
     },
     {
         "id": "butler-university",
@@ -40,7 +55,12 @@
             "Psychology",
             "Biochemistry"
         ],
-        "type": "Doctoral Universities: High Research Activity"
+        "studentDemographics": {},
+        "type": "Doctoral Universities: High Research Activity",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 82.1,
+            "stemDegreePercentage": 27.9
+        }
     },
     {
         "id": "calumet-college-of-st-joseph",
@@ -53,7 +73,12 @@
             "Criminal Justice",
             "Public Administration"
         ],
-        "type": "Baccalaureate Colleges: Diverse Fields"
+        "studentDemographics": {},
+        "type": "Baccalaureate Colleges: Diverse Fields",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 33.4,
+            "stemDegreePercentage": 14.7
+        }
     },
     {
         "id": "depauw-university",
@@ -65,7 +90,12 @@
             "Business and Leadership",
             "Music"
         ],
-        "type": "Baccalaureate Colleges: Arts & Sciences Focus"
+        "studentDemographics": {},
+        "type": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 84.5,
+            "stemDegreePercentage": 21
+        }
     },
     {
         "id": "franklin-college",
@@ -77,7 +107,12 @@
             "Elementary Education",
             "Accounting"
         ],
-        "type": "Baccalaureate Colleges: Diverse Fields"
+        "studentDemographics": {},
+        "type": "Baccalaureate Colleges: Diverse Fields",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 57.9,
+            "stemDegreePercentage": 16.8
+        }
     },
     {
         "id": "goshen-college",
@@ -87,7 +122,12 @@
             "Film Production",
             "Communication"
         ],
-        "type": "Baccalaureate Colleges: Diverse Fields"
+        "studentDemographics": {},
+        "type": "Baccalaureate Colleges: Diverse Fields",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 68.2,
+            "stemDegreePercentage": 15.3
+        }
     },
     {
         "id": "holy-cross-college",
@@ -99,7 +139,12 @@
             "Chemistry",
             "Theology"
         ],
-        "type": "Baccalaureate Colleges: Diverse Fields"
+        "studentDemographics": {},
+        "type": "Baccalaureate Colleges: Diverse Fields",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 60.1,
+            "stemDegreePercentage": 11.9
+        }
     },
     {
         "id": "huntington-university",
@@ -112,14 +157,24 @@
             "Occupational Therapy",
             "Counseling"
         ],
-        "type": "Master's Colleges & Universities: Medium Programs"
+        "studentDemographics": {},
+        "type": "Master's Colleges & Universities: Medium Programs",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 62.7,
+            "stemDegreePercentage": 20.1
+        }
     },
     {
         "id": "indiana-state-university",
         "name": "Indiana State University",
         "region": "Indiana",
         "topMajors": [],
-        "type": "Doctoral Universities: High Research Activity"
+        "studentDemographics": {},
+        "type": "Doctoral Universities: High Research Activity",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 47.6,
+            "stemDegreePercentage": 22.5
+        }
     },
     {
         "id": "indiana-tech",
@@ -131,7 +186,12 @@
             "Computer Sciences",
             "Arts and Sciences"
         ],
-        "type": "Master's Colleges & Universities: Medium Programs"
+        "studentDemographics": {},
+        "type": "Master's Colleges & Universities: Medium Programs",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 44.9,
+            "stemDegreePercentage": 46.2
+        }
     },
     {
         "id": "indiana-university",
@@ -144,7 +204,12 @@
             "Environmental Science",
             "Cybersecurity"
         ],
-        "type": "Doctoral Universities: Very High Research Activity"
+        "studentDemographics": {},
+        "type": "Doctoral Universities: Very High Research Activity",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 79.8,
+            "stemDegreePercentage": 24.8
+        }
     },
     {
         "id": "iu-indianapolis",
@@ -157,7 +222,12 @@
             "STEM",
             "arts and humanities"
         ],
-        "type": "Doctoral Universities: Very High Research Activity"
+        "studentDemographics": {},
+        "type": "Doctoral Universities: Very High Research Activity",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 53.7,
+            "stemDegreePercentage": 36.1
+        }
     },
     {
         "id": "indiana-wesleyan-university",
@@ -168,7 +238,12 @@
             "Seminary Studies",
             "Education"
         ],
-        "type": "Doctoral/Professional Universities"
+        "studentDemographics": {},
+        "type": "Doctoral/Professional Universities",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 67.5,
+            "stemDegreePercentage": 19.3
+        }
     },
     {
         "id": "ivy-tech-community-college",
@@ -181,7 +256,12 @@
             "Automotive Technology",
             "Education – Early Childhood"
         ],
-        "type": "Associate's Colleges: High Transfer-High Traditional"
+        "studentDemographics": {},
+        "type": "Associate's Colleges: High Transfer-High Traditional",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 26.3,
+            "stemDegreePercentage": 29.8
+        }
     },
     {
         "id": "manchester-university",
@@ -194,7 +274,12 @@
             "Athletic Training",
             "Peace Studies"
         ],
-        "type": "Master's Colleges & Universities: Medium Programs"
+        "studentDemographics": {},
+        "type": "Master's Colleges & Universities: Medium Programs",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 60.8,
+            "stemDegreePercentage": 31.4
+        }
     },
     {
         "id": "marian-university",
@@ -207,7 +292,12 @@
             "Nursing",
             "Osteopathic Medicine"
         ],
-        "type": "Doctoral/Professional Universities"
+        "studentDemographics": {},
+        "type": "Doctoral/Professional Universities",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 64.6,
+            "stemDegreePercentage": 37.9
+        }
     },
     {
         "id": "purdue-university",
@@ -220,7 +310,12 @@
             "cybersecurity",
             "sports technology"
         ],
-        "type": "Doctoral Universities: Very High Research Activity"
+        "studentDemographics": {},
+        "type": "Doctoral Universities: Very High Research Activity",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 82.8,
+            "stemDegreePercentage": 56.4
+        }
     },
     {
         "id": "rose-hulman-institute-of-technology",
@@ -233,7 +328,12 @@
             "Chemical Engineering",
             "Civil & Environmental Engineering"
         ],
-        "type": "Special Focus Four-Year: Engineering and Other Technology Schools"
+        "studentDemographics": {},
+        "type": "Special Focus Four-Year: Engineering and Other Technology Schools",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 87.9,
+            "stemDegreePercentage": 98.5
+        }
     },
     {
         "id": "saint-mary-of-the-woods-college",
@@ -246,7 +346,12 @@
             "Business and Leadership",
             "Arts, Letters & Music"
         ],
-        "type": "Baccalaureate Colleges: Diverse Fields"
+        "studentDemographics": {},
+        "type": "Baccalaureate Colleges: Diverse Fields",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 51.7,
+            "stemDegreePercentage": 14.2
+        }
     },
     {
         "id": "taylor-university",
@@ -258,7 +363,12 @@
             "Art",
             "Religious Studies"
         ],
-        "type": "Master's Colleges & Universities: Medium Programs"
+        "studentDemographics": {},
+        "type": "Master's Colleges & Universities: Medium Programs",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 78.4,
+            "stemDegreePercentage": 21.9
+        }
     },
     {
         "id": "trine-university",
@@ -271,7 +381,12 @@
             "Orthotics and Prosthetics",
             "Chemistry"
         ],
-        "type": "Doctoral/Professional Universities"
+        "studentDemographics": {},
+        "type": "Doctoral/Professional Universities",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 65.9,
+            "stemDegreePercentage": 47.7
+        }
     },
     {
         "id": "university-of-evansville",
@@ -281,7 +396,12 @@
             "Physician Assistant Science",
             "Mental Health Education"
         ],
-        "type": "Master's Colleges & Universities: Larger Programs"
+        "studentDemographics": {},
+        "type": "Master's Colleges & Universities: Larger Programs",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 68.8,
+            "stemDegreePercentage": 25.3
+        }
     },
     {
         "id": "university-of-indianapolis",
@@ -294,7 +414,12 @@
             "Engineering",
             "Physical Therapy"
         ],
-        "type": "Doctoral/Professional Universities"
+        "studentDemographics": {},
+        "type": "Doctoral/Professional Universities",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 62.4,
+            "stemDegreePercentage": 31.8
+        }
     },
     {
         "id": "university-of-notre-dame",
@@ -307,7 +432,12 @@
             "Science and Technology",
             "Faith and Service"
         ],
-        "type": "Doctoral Universities: Very High Research Activity"
+        "studentDemographics": {},
+        "type": "Doctoral Universities: Very High Research Activity",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 97.2,
+            "stemDegreePercentage": 30.5
+        }
     },
     {
         "id": "university-of-saint-francis",
@@ -320,7 +450,12 @@
             "Physician Assistant Studies",
             "Game and Application Development"
         ],
-        "type": "Master's Colleges & Universities: Medium Programs"
+        "studentDemographics": {},
+        "type": "Master's Colleges & Universities: Medium Programs",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 56.9,
+            "stemDegreePercentage": 28.1
+        }
     },
     {
         "id": "university-of-southern-indiana",
@@ -333,7 +468,12 @@
             "Business",
             "Nursing and Health Professions"
         ],
-        "type": "Master's Colleges & Universities: Larger Programs"
+        "studentDemographics": {},
+        "type": "Master's Colleges & Universities: Larger Programs",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 48.7,
+            "stemDegreePercentage": 23.9
+        }
     },
     {
         "id": "valparaiso-university",
@@ -346,7 +486,12 @@
             "Physician Assistant Studies",
             "Chemistry"
         ],
-        "type": "Master's Colleges & Universities: Larger Programs"
+        "studentDemographics": {},
+        "type": "Master's Colleges & Universities: Larger Programs",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 70.6,
+            "stemDegreePercentage": 34.8
+        }
     },
     {
         "id": "vincennes-university",
@@ -359,14 +504,24 @@
             "Agribusiness",
             "Collaborative Robotics Training"
         ],
-        "type": "Associate's Colleges: High Transfer-High Traditional"
+        "studentDemographics": {},
+        "type": "Associate's Colleges: High Transfer-High Traditional",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 32.8,
+            "stemDegreePercentage": 39.1
+        }
     },
     {
         "id": "wabash-college",
         "name": "Wabash College",
         "region": "Crawfordsville",
         "topMajors": [],
-        "type": "Baccalaureate Colleges: Arts & Sciences Focus"
+        "studentDemographics": {},
+        "type": "Baccalaureate Colleges: Arts & Sciences Focus",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 83.9,
+            "stemDegreePercentage": 24.5
+        }
     },
     {
         "id": "western-governors-university",
@@ -379,6 +534,11 @@
             "Elementary Education",
             "Cybersecurity and Information Assurance"
         ],
-        "type": "Special Focus Four-Year: Other Health Professions Schools"
+        "studentDemographics": {},
+        "type": "Special Focus Four-Year: Other Health Professions Schools",
+        "ipedsMetrics": {
+            "sixYearGraduationRate": 51.1,
+            "stemDegreePercentage": 33.2
+        }
     }
 ]
