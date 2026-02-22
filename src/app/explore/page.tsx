@@ -58,21 +58,23 @@ export default function Explore() {
                                 onChange={(e) => setInstSearch(e.target.value)}
                             />
                         </div>
-                        <select
-                            className="w-full flex-grow bg-slate-50 border border-slate-300 text-slate-800 rounded-lg p-2 font-medium focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-shadow outline-none overflow-y-auto"
-                            value={instId}
-                            onChange={(e) => setInstId(e.target.value)}
-                            size={6}
-                        >
-                            {filteredInsts.map(inst => (
-                                <option key={inst.id} value={inst.id} className="p-2 border-b border-slate-100 last:border-0 hover:bg-slate-200 cursor-pointer">
-                                    {inst.name} ({inst.region})
-                                </option>
-                            ))}
-                            {filteredInsts.length === 0 && (
-                                <option disabled className="p-2 text-slate-400 italic">No institutions found.</option>
-                            )}
-                        </select>
+                        <div className="w-full flex-grow bg-slate-50 border border-slate-300 rounded-lg overflow-y-auto">
+                            <ul className="divide-y divide-slate-100">
+                                {filteredInsts.map(inst => (
+                                    <li key={inst.id}>
+                                        <button
+                                            onClick={() => setInstId(inst.id)}
+                                            className={`w-full text-left p-3 text-sm transition-colors ${instId === inst.id ? 'bg-blue-100 text-blue-900 font-bold border-l-4 border-blue-500' : 'text-slate-700 hover:bg-slate-200 font-medium border-l-4 border-transparent'}`}
+                                        >
+                                            {inst.name} <span className="opacity-75 text-xs">({inst.region})</span>
+                                        </button>
+                                    </li>
+                                ))}
+                                {filteredInsts.length === 0 && (
+                                    <li className="p-4 text-center text-slate-400 italic text-sm">No institutions found.</li>
+                                )}
+                            </ul>
+                        </div>
                     </div>
 
                     <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col h-[320px]">
@@ -89,21 +91,23 @@ export default function Explore() {
                                 onChange={(e) => setEmpSearch(e.target.value)}
                             />
                         </div>
-                        <select
-                            className="w-full flex-grow bg-slate-50 border border-slate-300 text-slate-800 rounded-lg p-2 font-medium focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-shadow outline-none overflow-y-auto"
-                            value={empId}
-                            onChange={(e) => setEmpId(e.target.value)}
-                            size={6}
-                        >
-                            {filteredEmps.map(emp => (
-                                <option key={emp.id} value={emp.id} className="p-2 border-b border-slate-100 last:border-0 hover:bg-slate-200 cursor-pointer">
-                                    {emp.name} ({emp.industry})
-                                </option>
-                            ))}
-                            {filteredEmps.length === 0 && (
-                                <option disabled className="p-2 text-slate-400 italic">No employers found.</option>
-                            )}
-                        </select>
+                        <div className="w-full flex-grow bg-slate-50 border border-slate-300 rounded-lg overflow-y-auto">
+                            <ul className="divide-y divide-slate-100">
+                                {filteredEmps.map(emp => (
+                                    <li key={emp.id}>
+                                        <button
+                                            onClick={() => setEmpId(emp.id)}
+                                            className={`w-full text-left p-3 text-sm transition-colors ${empId === emp.id ? 'bg-emerald-100 text-emerald-900 font-bold border-l-4 border-emerald-500' : 'text-slate-700 hover:bg-slate-200 font-medium border-l-4 border-transparent'}`}
+                                        >
+                                            {emp.name} <span className="opacity-75 text-xs">({emp.industry})</span>
+                                        </button>
+                                    </li>
+                                ))}
+                                {filteredEmps.length === 0 && (
+                                    <li className="p-4 text-center text-slate-400 italic text-sm">No employers found.</li>
+                                )}
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
