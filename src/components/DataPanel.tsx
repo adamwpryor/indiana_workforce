@@ -10,7 +10,7 @@ interface DataPanelProps {
 }
 
 export default function DataPanel({ institutions, employers, activeFilters, onFilterToggle, onClearFilters }: DataPanelProps) {
-    const totalStudents = institutions.reduce((acc, inst) => acc + inst.studentDemographics.totalStudents, 0);
+    const totalStudents = institutions.reduce((acc, inst) => acc + (inst.studentDemographics?.totalStudents || 0), 0);
 
     return (
         <div className="flex flex-col gap-6 h-full overflow-y-auto p-5 bg-slate-100 border-r border-slate-200">
