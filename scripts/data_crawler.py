@@ -1,85 +1,112 @@
 import os
 import json
-import requests
-import argparse
+from typing import List, Optional
+from pydantic import BaseModel, Field
+from firecrawl import FirecrawlApp
 
-# Zero-Trust/Conda-First principle: using Env Variables
-FIRECRAWL_API_KEY = os.environ.get("FIRECRAWL_API_KEY")
+# Define the precise schema to match the TypeScript interface `InstitutionSchema`
+class StudentDemographics(BaseModel):
+    totalStudents: int = Field(description="Total number of enrolled students")
+    underrepresentedMinorityPercentage: Optional[int] = Field(None, description="Percentage of underrepresented minority students if available (0-100)")
+    firstGenerationPercentage: Optional[int] = Field(None, description="Percentage of first-generation students if available (0-100)")
 
-INSTITUTION_PROMPT = """
-You are an AI extracting higher education data. Extract the following from the provided URL:
-1. Institution Name
-2. Region (City)
-3. Top 3 Majors or Programs
-4. Student Demographics (total students, underrepresented minority %, first generation %)
-5. Type (R1, Liberal Arts, Community College, or Other)
+class InstitutionExtractSchema(BaseModel):
+    id: str = Field(description="A unique lowercase slug identifier, e.g. 'purdue-university'")
+    name: str = Field(description="The full name of the institution")
+    region: str = Field(description="The city or primary region in Indiana where the campus is located")
+    topMajors: List[str] = Field(description="Top 3-5 most popular or notable degree programs")
+    studentDemographics: StudentDemographics
+    type: str = Field(description="One of: 'R1', 'Liberal Arts', 'Community College', or 'Other'")
 
-Return strictly as JSON matching the InstitutionSchema.
-"""
+# 34 specific Indiana institutions target list mapped to base URLs for scraping
+TARGET_INSTITUTIONS = {
+    "Anderson University": "https://anderson.edu",
+    "Ball State University": "https://www.bsu.edu",
+    "Bethel University": "https://www.betheluniversity.edu",
+    "Butler University": "https://www.butler.edu",
+    "Calumet College of St. Joseph": "https://www.ccsj.edu",
+    "DePauw University": "https://www.depauw.edu",
+    "Franklin College": "https://franklincollege.edu",
+    "Goshen College": "https://www.goshen.edu",
+    "Grace College (includes Grace College and Seminary)": "https://www.grace.edu",
+    "Hanover College": "https://www.hanover.edu",
+    "Holy Cross College": "https://www.hcc-nd.edu",
+    "Huntington University": "https://www.huntington.edu",
+    "Indiana State University": "https://www.indstate.edu",
+    "Indiana Tech": "https://indianatech.edu",
+    "Indiana University": "https://www.iu.edu",
+    "Indiana University Indianapolis": "https://indianapolis.iu.edu",
+    "Indiana Wesleyan University": "https://www.indwes.edu",
+    "Ivy Tech Community College": "https://www.ivytech.edu",
+    "Manchester University": "https://www.manchester.edu",
+    "Marian University": "https://www.marian.edu",
+    "Purdue University": "https://www.purdue.edu",
+    "Rose-Hulman Institute of Technology": "https://www.rose-hulman.edu",
+    "St. Mary of the Woods College": "https://www.smwc.edu",
+    "Taylor University": "https://www.taylor.edu",
+    "Trine University": "https://www.trine.edu",
+    "University of Evansville": "https://www.evansville.edu",
+    "University of Indianapolis": "https://www.uindy.edu",
+    "University of Notre Dame": "https://www.nd.edu",
+    "University of Saint Francis": "https://www.sf.edu",
+    "University of Southern Indiana": "https://www.usi.edu",
+    "Valparaiso University": "https://www.valpo.edu",
+    "Vincennes University": "https://www.vinu.edu",
+    "Wabash College": "https://www.wabash.edu",
+    "Western Governors University (WGU)": "https://www.wgu.edu"
+}
 
-EMPLOYER_PROMPT = """
-You are an AI extracting employer data from a career page. Extract the following:
-1. Employer Name
-2. Industry
-3. Top 3 Hiring Needs (e.g. Roles)
-4. Location (HQ or Primary)
-5. Required Skills (list of 3-5 technical or durable skills)
-
-Return strictly as JSON matching the EmployerSchema.
-"""
-
-def extract_data(url: str, prompt: str):
-    if not FIRECRAWL_API_KEY:
-        print("WARNING: FIRECRAWL_API_KEY is not set. Data cannot be crawled.")
-        return None
-
-    headers = {
-        "Authorization": f"Bearer {FIRECRAWL_API_KEY}",
-        "Content-Type": "application/json"
-    }
-    
-    payload = {
-        "url": url,
-        "prompt": prompt
-    }
-
-    try:
-        print(f"Submitting extraction request to Firecrawl for: {url}")
-        res = requests.post("https://api.firecrawl.dev/v1/extract", headers=headers, json=payload)
-        res.raise_for_status()
-        return res.json().get("data")
-    except Exception as e:
-        print(f"Error extracting data from {url}: {e}")
-        return None
+OUTPUT_FILE = os.path.join(os.path.dirname(__file__), '..', 'src', 'data', 'institutions.json')
 
 def main():
-    parser = argparse.ArgumentParser(description="AI Partner-Matching Crawler using Firecrawl")
-    parser.add_argument("--url", type=str, required=True, help="URL to crawl")
-    parser.add_argument("--type", choices=["institution", "employer"], required=True, help="Type of entity to extract")
-    parser.add_argument("--output", type=str, default="crawled_data.json", help="Output JSON file path")
-    
-    args = parser.parse_args()
+    api_key = os.getenv("FIRECRAWL_API_KEY")
+    if not api_key:
+        print("ERROR: FIRECRAWL_API_KEY environment variable not set.")
+        print("Please set it before running this Zero-Trust script.")
+        return
 
-    prompt = INSTITUTION_PROMPT if args.type == "institution" else EMPLOYER_PROMPT
+    # Initialize Firecrawl SDK
+    app = FirecrawlApp(api_key=api_key)
     
-    data = extract_data(args.url, prompt)
+    extracted_data = []
+
+    print(f"Starting Firecrawl Extraction for {len(TARGET_INSTITUTIONS)} Institutions...")
     
-    if data:
-        # Append to or create output file
-        existing_data = []
-        if os.path.exists(args.output):
-            with open(args.output, "r") as f:
-                try:
-                    existing_data = json.load(f)
-                except json.JSONDecodeError:
-                    existing_data = []
+    for name, url in TARGET_INSTITUTIONS.items():
+        print(f"Crawling {name}: {url}...")
+        try:
+            # We use Firecrawl's extract endpoint with pydantic schema to force structured JSON output
+            data = app.scrape_url(
+                url,
+                params={
+                    'formats': ['extract'],
+                    'extract': {
+                        'schema': InstitutionExtractSchema.model_json_schema(),
+                        'prompt': f"Extract detailed profile information for {name}. Identify their top majors, overall student enrollment numbers natively or generally, and classify their institution type strictly as one of: 'R1', 'Liberal Arts', 'Community College', or 'Other'."
+                    }
+                }
+            )
+            
+            if 'extract' in data:
+                result = data['extract']
+                # Merge the correct name from our index in case the LLM wanders
+                result['name'] = name
+                extracted_data.append(result)
+                print(f"  [+] Success: Parsed {name}")
+            else:
+                print(f"  [-] Failed: No 'extract' object returned for {name}.")
+                
+        except Exception as e:
+            print(f"  [!] Error crawling {name}: {e}")
+
+    # Ensure target directory exists
+    os.makedirs(os.path.dirname(OUTPUT_FILE), exist_ok=True)
+    
+    # Dump to JSON to be parsed into the app schema
+    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
+        json.dump(extracted_data, f, indent=4)
         
-        # Ensure we just append the structured object
-        existing_data.append(data)
-        
-        with open(args.output, "w") as f:
-            json.dump(existing_data, f, indent=2)
-        print(f"Successfully appended {args.type} data to {args.output}")
+    print(f"\nExtraction complete! Saved {len(extracted_data)} institutions to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()

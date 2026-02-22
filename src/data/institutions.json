@@ -1,0 +1,410 @@
+[
+    {
+        "id": "anderson-university",
+        "name": "Anderson University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "ball-state-university",
+        "name": "Ball State University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "bethel-university",
+        "name": "Bethel University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "butler-university",
+        "name": "Butler University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "calumet-college-of-st-joseph",
+        "name": "Calumet College of St. Joseph",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "depauw-university",
+        "name": "DePauw University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "franklin-college",
+        "name": "Franklin College",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "goshen-college",
+        "name": "Goshen College",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "grace-college",
+        "name": "Grace College (includes Grace College and Seminary)",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "hanover-college",
+        "name": "Hanover College",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "holy-cross-college",
+        "name": "Holy Cross College",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "huntington-university",
+        "name": "Huntington University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "indiana-state-university",
+        "name": "Indiana State University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "indiana-tech",
+        "name": "Indiana Tech",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "indiana-university",
+        "name": "Indiana University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "indiana-university-indianapolis",
+        "name": "Indiana University Indianapolis",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "indiana-wesleyan-university",
+        "name": "Indiana Wesleyan University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "ivy-tech-community-college",
+        "name": "Ivy Tech Community College",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "manchester-university",
+        "name": "Manchester University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "marian-university",
+        "name": "Marian University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "purdue-university",
+        "name": "Purdue University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "rose-hulman-institute-of-technology",
+        "name": "Rose-Hulman Institute of Technology",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "st-mary-of-the-woods-college",
+        "name": "St. Mary of the Woods College",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "taylor-university",
+        "name": "Taylor University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "trine-university",
+        "name": "Trine University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "university-of-evansville",
+        "name": "University of Evansville",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "university-of-indianapolis",
+        "name": "University of Indianapolis",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "university-of-notre-dame",
+        "name": "University of Notre Dame",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "university-of-saint-francis",
+        "name": "University of Saint Francis",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "university-of-southern-indiana",
+        "name": "University of Southern Indiana",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "valparaiso-university",
+        "name": "Valparaiso University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "vincennes-university",
+        "name": "Vincennes University",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "wabash-college",
+        "name": "Wabash College",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    },
+    {
+        "id": "western-governors-university",
+        "name": "Western Governors University (WGU)",
+        "region": "Indiana",
+        "topMajors": [
+            "Pending Data Crawler Scan"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Pending Classification"
+    }
+]
