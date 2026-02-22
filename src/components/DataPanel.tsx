@@ -1,5 +1,6 @@
 import { InstitutionSchema, EmployerSchema } from '@/types';
-import { Building2, GraduationCap, Filter, Search } from 'lucide-react';
+import { Building2, GraduationCap, Filter, Search, ArrowLeft, Network } from 'lucide-react';
+import Link from 'next/link';
 import { parseIndustries, getSectorColorMapping } from '@/lib/colorUtils';
 
 interface DataPanelProps {
@@ -24,6 +25,15 @@ export default function DataPanel({ institutions, employers, activeFilters, onFi
 
     return (
         <div className="flex flex-col gap-6 h-full overflow-y-auto p-5 bg-slate-100 border-r border-slate-200">
+            <div className="flex flex-col gap-2 pb-4 border-b border-slate-200">
+                <Link href="/" className="inline-flex items-center gap-2 text-[#0F2C52] hover:text-blue-700 font-bold text-sm transition-colors uppercase tracking-wider">
+                    <ArrowLeft className="w-4 h-4" /> Intro page
+                </Link>
+                <Link href="/explore" className="inline-flex items-center gap-2 text-slate-500 hover:text-slate-800 font-semibold text-xs transition-colors uppercase tracking-wider">
+                    <Network className="w-3.5 h-3.5" /> Imagine a connection sandbox
+                </Link>
+            </div>
+
             <div>
                 <h2 className="text-xl font-bold text-slate-800 mb-1">Statewide Overview</h2>
                 <p className="text-sm text-slate-500">Indiana Labor & Education Metrics</p>
