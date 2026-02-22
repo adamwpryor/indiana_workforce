@@ -119,17 +119,17 @@ export function generateMatches(
 
             if (isR1) {
                 scaleBonus += 12;
-                scoreBreakdown.push({ category: 'Enterprise Scale / R1 Research Output', score: 12 });
-                scaleNarrative += `As an R1 research institution, ${inst.name} operates at the enterprise scale necessary to partner on cutting-edge ${emp.industry} innovation. `;
+                scoreBreakdown.push({ category: 'Phase 5 Ecosystem Integration (R1 Scale)', score: 12 });
+                scaleNarrative += `As an R1 research institution, ${inst.name} operates at the enterprise scale necessary to achieve Phase 5 Ecosystem Integration, partnering on cutting-edge ${emp.industry} innovation. `;
             }
 
-            if (inst.studentDemographics.totalStudents > 25000) {
+            if ((inst.studentDemographics.totalStudents || 0) > 25000) {
                 scaleBonus += 8;
-                scoreBreakdown.push({ category: 'High-Volume Talent Pipeline', score: 8 });
-                scaleNarrative += `The massive student body ensures a reliable, high-volume flow of entry-level talent for scaled operations. `;
-            } else if (inst.studentDemographics.totalStudents > 10000) {
+                scoreBreakdown.push({ category: 'High-Volume Workflow Pipeline', score: 8 });
+                scaleNarrative += `The massive student body ensures a reliable, high-volume flow of entry-level talent for scaled Phase 3 operations. `;
+            } else if ((inst.studentDemographics.totalStudents || 0) > 10000) {
                 scaleBonus += 4;
-                scoreBreakdown.push({ category: 'Moderate-Volume Talent Pipeline', score: 4 });
+                scoreBreakdown.push({ category: 'Moderate-Volume Workflow Pipeline', score: 4 });
             }
 
             // Liberal Arts Counterweight Bonus
@@ -138,12 +138,12 @@ export function generateMatches(
                 const employerValuesHumanities = empKeywords.some(s => s.includes('communication') || s.includes('writing') || s.includes('critical thinking') || s.includes('analysis') || s.includes('management') || s.includes('design') || s.includes('strategy'));
                 if (employerValuesHumanities) {
                     liberalArtsBonus = 15;
-                    scoreBreakdown.push({ category: 'Human Analytics & Ethics Alignment', score: 15 });
-                    liberalArtsNarrative = `The institution's robust liberal arts framework provides the crucial critical thinking and communication skills explicitly required for ${emp.name}'s strategic roles. `;
+                    scoreBreakdown.push({ category: 'Connective Labor & Evaluative Judgement', score: 15 });
+                    liberalArtsNarrative = `The institution's robust liberal arts framework protects against the 'Connective Labor Deficit,' providing the crucial evaluative judgement and communication skills explicitly required for ${emp.name}'s strategic roles. `;
                 } else {
                     liberalArtsBonus = 7;
-                    scoreBreakdown.push({ category: 'Cross-Disciplinary Versatility', score: 7 });
-                    liberalArtsNarrative = `Furthermore, the institution's liberal arts core ensures cognitive flexibility, an essential trait for navigating the unmapped challenges in modern ${emp.industry} environments. `;
+                    scoreBreakdown.push({ category: 'Systemic Workflow Design & Metacognition', score: 7 });
+                    liberalArtsNarrative = `Furthermore, the institution's liberal arts core ensures cognitive flexibility and tolerance for ambiguity—essential traits for navigating complex AI workflows and avoiding the 'Productivity Tax' in modern ${emp.industry} environments. `;
                 }
             }
 
@@ -182,8 +182,11 @@ export function generateMatches(
         // Sort potential matches by score descending
         potentialMatches.sort((a, b) => b.matchStrengthScore - a.matchStrengthScore);
 
-        // Filter for "natural" matches meeting a threshold
-        let acceptedMatches = potentialMatches.filter(m => m.matchStrengthScore >= 65);
+        // Filter for "natural" matches meeting a threshold based on institution size/output
+        const isMassiveNode = inst.type.toLowerCase().includes('very high research') || (inst.studentDemographics.totalStudents || 0) > 25000;
+        const dynamicThreshold = isMassiveNode ? 75 : 60;
+
+        let acceptedMatches = potentialMatches.filter(m => m.matchStrengthScore >= dynamicThreshold);
 
         // GUARANTEE BASELINE CONNECTIONS:
         if (acceptedMatches.length < MIN_CONNECTIONS_PER_INSTITUTION) {
