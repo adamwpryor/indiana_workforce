@@ -219,14 +219,20 @@
     },
     {
         "id": "indiana-university",
-        "name": "Indiana University",
-        "region": "Indiana",
+        "name": "Indiana University Bloomington",
+        "region": "Bloomington",
         "topMajors": [
-            "Nursing",
-            "Criminal Justice",
-            "Epidemiology",
-            "Environmental Science",
-            "Cybersecurity"
+            "Business",
+            "Finance",
+            "Informatics",
+            "Computer Science",
+            "Public Policy",
+            "Liberal Arts",
+            "Life Sciences",
+            "Data Science",
+            "Management",
+            "Cybersecurity",
+            "Media Studies"
         ],
         "studentDemographics": {
             "totalStudents": 40149
