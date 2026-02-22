@@ -1,0 +1,3800 @@
+[
+    {
+        "id": "eli-lilly-and-company",
+        "name": "Eli Lilly and Company",
+        "industry": "Pharmaceuticals",
+        "hiringNeeds": [
+            "Research Scientist",
+            "Chemical Engineer",
+            "Data Scientist",
+            "Clinical Trial Manager",
+            "Marketing Associate"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Biochemistry",
+            "Statistical Analysis (R/SAS)",
+            "Good Manufacturing Practices (GMP)",
+            "Project Management",
+            "Data Visualization"
+        ]
+    },
+    {
+        "id": "cummins",
+        "name": "Cummins Inc.",
+        "industry": "Advanced Manufacturing",
+        "hiringNeeds": [
+            "Mechanical Engineer",
+            "Electrical Engineer",
+            "Supply Chain Analyst",
+            "Software Developer",
+            "Accountant"
+        ],
+        "location": "Columbus",
+        "requiredSkills": [
+            "CAD (Creo/SolidWorks)",
+            "Engine Systems",
+            "Lean Six Sigma",
+            "Data Analytics",
+            "Financial Reporting"
+        ]
+    },
+    {
+        "id": "iu-health",
+        "name": "Indiana University Health",
+        "industry": "Healthcare",
+        "hiringNeeds": [
+            "Registered Nurse (RN)",
+            "Medical Technologist",
+            "Physical Therapist",
+            "Healthcare Administrator",
+            "IT Systems Analyst"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Patient Care",
+            "Electronic Medical Records (EMR)",
+            "Clinical Assessment",
+            "Medical Terminology",
+            "Problem Solving"
+        ]
+    },
+    {
+        "id": "salesforce",
+        "name": "Salesforce",
+        "industry": "Technology",
+        "hiringNeeds": [
+            "Software Engineer",
+            "Solutions Engineer",
+            "Account Executive",
+            "Product Manager",
+            "Marketing Cloud Specialist"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Java/Python",
+            "Cloud Computing (AWS/Azure)",
+            "Agile Methodologies",
+            "CRM Software",
+            "Communication"
+        ]
+    },
+    {
+        "id": "purdue-university",
+        "name": "Purdue University",
+        "industry": "Higher Education",
+        "hiringNeeds": [
+            "Professor / Lecturer",
+            "Research Associate",
+            "IT Specialist",
+            "Admissions Counselor",
+            "Facilities Manager"
+        ],
+        "location": "West Lafayette",
+        "requiredSkills": [
+            "Academic Research",
+            "Curriculum Development",
+            "Network Administration",
+            "Public Speaking",
+            "Grant Writing"
+        ]
+    },
+    {
+        "id": "cook-medical",
+        "name": "Cook Medical",
+        "industry": "Medical Devices",
+        "hiringNeeds": [
+            "Biomedical Engineer",
+            "Quality Engineer",
+            "Regulatory Affairs Specialist",
+            "Machinist",
+            "Clinical Specialist"
+        ],
+        "location": "Bloomington",
+        "requiredSkills": [
+            "Medical Device Design",
+            "FDA Regulations (21 CFR 820)",
+            "Quality Assurance",
+            "Technical Writing",
+            "Clinical Research"
+        ]
+    },
+    {
+        "id": "elevance-health",
+        "name": "Elevance Health (formerly Anthem)",
+        "industry": "Health Insurance",
+        "hiringNeeds": [
+            "Data Analyst",
+            "Underwriter",
+            "Actuarial Analyst",
+            "Care Manager (RN)",
+            "Business Systems Analyst"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "SQL",
+            "Healthcare Economics",
+            "Risk Assessment",
+            "Microsoft Excel",
+            "Business Analysis"
+        ]
+    },
+    {
+        "id": "roche-diagnostics",
+        "name": "Roche Diagnostics",
+        "industry": "Life Sciences",
+        "hiringNeeds": [
+            "Biotechnologist",
+            "Systems Engineer",
+            "Marketing Manager",
+            "Quality Control Scientist",
+            "Supply Chain Planner"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Assay Development",
+            "Systems Integration",
+            "Medical Diagnostics",
+            "GMP/GLP",
+            "SAP"
+        ]
+    },
+    {
+        "id": "allison-transmission",
+        "name": "Allison Transmission",
+        "industry": "Automotive Manufacturing",
+        "hiringNeeds": [
+            "Controls Engineer",
+            "Manufacturing Engineer",
+            "Test Technician",
+            "Powertrain Engineer",
+            "Finance Analyst"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "PLC Programming",
+            "Powertrain Systems",
+            "Data Acquisition",
+            "Geometric Dimensioning & Tolerancing (GD&T)",
+            "Financial Modeling"
+        ]
+    },
+    {
+        "id": "steel-dynamics",
+        "name": "Steel Dynamics, Inc.",
+        "industry": "Advanced Manufacturing (Steel)",
+        "hiringNeeds": [
+            "Metallurgical Engineer",
+            "Electrical Maintenance Technician",
+            "Process Engineer",
+            "Safety Manager",
+            "Operations Supervisor"
+        ],
+        "location": "Fort Wayne",
+        "requiredSkills": [
+            "Metallurgy",
+            "Industrial Automation",
+            "Process Optimization",
+            "OSHA Regulations",
+            "Leadership"
+        ]
+    },
+    {
+        "id": "fedex",
+        "name": "FedEx",
+        "industry": "Logistics & Supply Chain",
+        "hiringNeeds": [
+            "Package Handler",
+            "Logistics Coordinator",
+            "Operations Manager",
+            "Aircraft Mechanic",
+            "Courier/Driver"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Logistics Planning",
+            "Warehouse Management Systems (WMS)",
+            "Time Management",
+            "Aviation Maintenance",
+            "Customer Service"
+        ]
+    },
+    {
+        "id": "zimmer-biomet",
+        "name": "Zimmer Biomet",
+        "industry": "Medical Devices",
+        "hiringNeeds": [
+            "Product Development Engineer",
+            "Quality Assurance Auditor",
+            "CNC Programmer",
+            "Marketing Communications Specialist",
+            "Clinical Affairs"
+        ],
+        "location": "Warsaw",
+        "requiredSkills": [
+            "Orthopedics",
+            "ISO 13485",
+            "CAD/CAM",
+            "Digital Marketing",
+            "Project Management"
+        ]
+    },
+    {
+        "id": "community-health-network",
+        "name": "Community Health Network",
+        "industry": "Healthcare",
+        "hiringNeeds": [
+            "Registered Nurse",
+            "Behavioral Health Therapist",
+            "Patient Care Technician",
+            "Radiologic Technologist",
+            "Medical Assistant"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Patient Advocacy",
+            "Mental Health Counseling",
+            "EMR (Epic)",
+            "Diagnostic Imaging",
+            "Teamwork"
+        ]
+    },
+    {
+        "id": "subaru-of-indiana-automotive",
+        "name": "Subaru of Indiana Automotive (SIA)",
+        "industry": "Automotive Manufacturing",
+        "hiringNeeds": [
+            "Production Associate",
+            "Maintenance Technician",
+            "Quality Engineer",
+            "Robotics Engineer",
+            "Logistics Specialist"
+        ],
+        "location": "Lafayette",
+        "requiredSkills": [
+            "Robotics (Fanuc/Yaskawa)",
+            "PLC Troubleshooting",
+            "Statistical Process Control (SPC)",
+            "Assembly Line Operations",
+            "Kaizen"
+        ]
+    },
+    {
+        "id": "university-of-notre-dame",
+        "name": "University of Notre Dame",
+        "industry": "Higher Education",
+        "hiringNeeds": [
+            "Faculty (various disciplines)",
+            "Postdoctoral Researcher",
+            "IT Security Analyst",
+            "Development Officer (Fundraising)",
+            "Campus Dining Staff"
+        ],
+        "location": "Notre Dame",
+        "requiredSkills": [
+            "Higher Education Teaching",
+            "Scientific Research",
+            "Cybersecurity",
+            "Donor Relations",
+            "Collaboration"
+        ]
+    },
+    {
+        "id": "oneamerica",
+        "name": "OneAmerica Financial Partners",
+        "industry": "Finance & Insurance",
+        "hiringNeeds": [
+            "Actuary",
+            "Financial Advisor",
+            "IT Business Analyst",
+            "Claims Adjuster",
+            "Sales Representative"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Actuarial Science",
+            "Financial Planning",
+            "Business Requirements Gathering",
+            "Insurance Policies",
+            "Client Relationship Management"
+        ]
+    },
+    {
+        "id": "thor-industries",
+        "name": "Thor Industries",
+        "industry": "Advanced Manufacturing (RV)",
+        "hiringNeeds": [
+            "Product Manager",
+            "Manufacturing Engineer",
+            "Brand Manager",
+            "Accountant",
+            "Design Engineer"
+        ],
+        "location": "Elkhart",
+        "requiredSkills": [
+            "Product Lifecycle Management",
+            "Lean Manufacturing",
+            "Market Research",
+            "AutoCAD/SolidWorks",
+            "Financial Analysis"
+        ]
+    },
+    {
+        "id": "infosys",
+        "name": "Infosys",
+        "industry": "Technology",
+        "hiringNeeds": [
+            "Technology Analyst",
+            "Consultant",
+            "Project Manager",
+            "Data Engineer",
+            "Cloud Architect"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Java/.NET",
+            "Database Management (SQL)",
+            "Cloud Platforms (AWS/Azure/GCP)",
+            "Agile/Scrum",
+            "Client Communication"
+        ]
+    },
+    {
+        "id": "indianapolis-public-schools",
+        "name": "Indianapolis Public Schools",
+        "industry": "K-12 Education",
+        "hiringNeeds": [
+            "Teacher (All Grades/Subjects)",
+            "School Administrator",
+            "Special Education Paraprofessional",
+            "School Nurse",
+            "Operations Staff"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Classroom Management",
+            "Instructional Design",
+            "Individualized Education Program (IEP)",
+            "Student Health",
+            "Interpersonal Skills"
+        ]
+    },
+    {
+        "id": "ascension-st-vincent",
+        "name": "Ascension St. Vincent",
+        "industry": "Healthcare",
+        "hiringNeeds": [
+            "Cardiovascular Technologist",
+            "Surgical Technologist",
+            "Pharmacist",
+            "Respiratory Therapist",
+            "Physician Assistant"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Cardiac Care",
+            "Sterile Processing",
+            "Pharmacology",
+            "Ventilator Management",
+            "Clinical Diagnosis"
+        ]
+    },
+    {
+        "id": "toyota-motor-manufacturing-indiana",
+        "name": "Toyota Motor Manufacturing Indiana (TMMI)",
+        "industry": "Automotive Manufacturing",
+        "hiringNeeds": [
+            "Production Team Member",
+            "Maintenance Team Member",
+            "Process Engineer",
+            "Logistics Analyst",
+            "IT Specialist"
+        ],
+        "location": "Princeton",
+        "requiredSkills": [
+            "Toyota Production System (TPS)",
+            "Robotics Maintenance",
+            "Process Improvement",
+            "Just-In-Time (JIT) Logistics",
+            "Problem Solving"
+        ]
+    },
+    {
+        "id": "elanco",
+        "name": "Elanco Animal Health",
+        "industry": "Animal Health",
+        "hiringNeeds": [
+            "Veterinarian",
+            "Research Scientist (Biology/Chemistry)",
+            "Manufacturing Associate",
+            "Sales Representative",
+            "Regulatory Affairs"
+        ],
+        "location": "Greenfield",
+        "requiredSkills": [
+            "Animal Science",
+            "Molecular Biology",
+            "GMP",
+            "Sales & Negotiation",
+            "Global Regulatory Submissions"
+        ]
+    },
+    {
+        "id": "parkview-health",
+        "name": "Parkview Health",
+        "industry": "Healthcare",
+        "hiringNeeds": [
+            "Nurse Practitioner",
+            "Lab Scientist",
+            "Ultrasound Technologist",
+            "IT Help Desk Technician",
+            "Patient Financial Services Rep"
+        ],
+        "location": "Fort Wayne",
+        "requiredSkills": [
+            "Advanced Practice Nursing",
+            "Laboratory Testing",
+            "Sonography",
+            "Technical Support",
+            "Medical Billing"
+        ]
+    },
+    {
+        "id": "simon-property-group",
+        "name": "Simon Property Group",
+        "industry": "Real Estate",
+        "hiringNeeds": [
+            "Leasing Agent",
+            "Property Manager",
+            "Marketing Director",
+            "Financial Analyst",
+            "Paralegal"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Commercial Real Estate",
+            "Contract Negotiation",
+            "Digital Marketing",
+            "Financial Modeling",
+            "Legal Research"
+        ]
+    },
+    {
+        "id": "genesys",
+        "name": "Genesys",
+        "industry": "Technology",
+        "hiringNeeds": [
+            "Cloud Software Engineer",
+            "DevOps Engineer",
+            "Technical Support Engineer",
+            "User Experience (UX) Designer",
+            "Solutions Consultant"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Microservices Architecture",
+            "CI/CD Pipelines",
+            "Customer-facing Technical Support",
+            "UI/UX Design Principles",
+            "SaaS"
+        ]
+    },
+    {
+        "id": "indiana-university",
+        "name": "Indiana University",
+        "industry": "Higher Education",
+        "hiringNeeds": [
+            "Academic Advisor",
+            "Data Analyst (Institutional Research)",
+            "Network Engineer",
+            "Librarian",
+            "Events Coordinator"
+        ],
+        "location": "Bloomington",
+        "requiredSkills": [
+            "Student Advising",
+            "Statistical Software (SPSS/Stata)",
+            "Network Security",
+            "Information Literacy",
+            "Event Planning"
+        ]
+    },
+    {
+        "id": "kar-global",
+        "name": "KAR Global",
+        "industry": "Automotive Services",
+        "hiringNeeds": [
+            "Data Scientist",
+            "Auction Manager",
+            "Software Developer",
+            "Logistics Specialist",
+            "Dealer Services Representative"
+        ],
+        "location": "Carmel",
+        "requiredSkills": [
+            "Machine Learning",
+            "Operations Management",
+            "Full-Stack Development",
+            "Transportation Logistics",
+            "Customer Relationship Management"
+        ]
+    },
+    {
+        "id": "niSource-nipsco",
+        "name": "NiSource / NIPSCO",
+        "industry": "Utilities",
+        "hiringNeeds": [
+            "Electrical Lineman",
+            "Gas Technician",
+            "Substation Engineer",
+            "Customer Service Representative",
+            "Project Manager (Construction)"
+        ],
+        "location": "Merrillville",
+        "requiredSkills": [
+            "High-Voltage Systems",
+            "Natural Gas Distribution",
+            "Power Systems Engineering",
+            "De-escalation",
+            "Construction Management"
+        ]
+    },
+    {
+        "id": "berry-global",
+        "name": "Berry Global",
+        "industry": "Plastics Manufacturing",
+        "hiringNeeds": [
+            "Process Engineer",
+            "Machine Operator",
+            "Industrial Designer",
+            "Supply Chain Manager",
+            "EHS Specialist"
+        ],
+        "location": "Evansville",
+        "requiredSkills": [
+            "Injection Molding/Extrusion",
+            "Quality Control",
+            "Product Design",
+            "Inventory Management",
+            "Environmental Health & Safety (EHS)"
+        ]
+    },
+    {
+        "id": "ivy-tech-community-college",
+        "name": "Ivy Tech Community College",
+        "industry": "Higher Education",
+        "hiringNeeds": [
+            "Instructor (Nursing, IT, Business)",
+            "Academic Advisor",
+            "Enrollment Specialist",
+            "Career Coach",
+            "IT Support"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Adult Education",
+            "Student Success Planning",
+            "Admissions Processes",
+            "Career Counseling",
+            "Help Desk Support"
+        ]
+    },
+    {
+        "id": "lippert",
+        "name": "Lippert",
+        "industry": "Advanced Manufacturing (RV Components)",
+        "hiringNeeds": [
+            "Welder",
+            "Operations Leader",
+            "Mechanical Engineer",
+            "Automation Technician",
+            "Sales Account Manager"
+        ],
+        "location": "Elkhart",
+        "requiredSkills": [
+            "MIG/TIG Welding",
+            "Leadership",
+            "SolidWorks",
+            "PLC/Robotics",
+            "B2B Sales"
+        ]
+    },
+    {
+        "id": "sweetwater-sound",
+        "name": "Sweetwater Sound",
+        "industry": "Retail (Music & Audio)",
+        "hiringNeeds": [
+            "Sales Engineer",
+            "Warehouse Associate",
+            "Web Developer",
+            "Marketing Copywriter",
+            "Guitar Technician"
+        ],
+        "location": "Fort Wayne",
+        "requiredSkills": [
+            "Audio Engineering",
+            "Customer Service",
+            "E-commerce Platforms",
+            "Content Creation",
+            "Musical Instrument Repair"
+        ]
+    },
+    {
+        "id": "old-national-bank",
+        "name": "Old National Bank",
+        "industry": "Banking",
+        "hiringNeeds": [
+            "Personal Banker",
+            "Mortgage Loan Officer",
+            "Commercial Lender",
+            "Branch Manager",
+            "Compliance Analyst"
+        ],
+        "location": "Evansville",
+        "requiredSkills": [
+            "Financial Product Sales",
+            "Loan Origination",
+            "Credit Analysis",
+            "Team Leadership",
+            "Banking Regulations"
+        ]
+    },
+    {
+        "id": "state-of-indiana",
+        "name": "State of Indiana",
+        "industry": "Government",
+        "hiringNeeds": [
+            "IT Specialist",
+            "Policy Analyst",
+            "Accountant/Auditor",
+            "DCS Family Case Manager",
+            "Administrative Assistant"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Public Administration",
+            "Data Analysis",
+            "Government Accounting",
+            "Social Work",
+            "Organizational Skills"
+        ]
+    },
+    {
+        "id": "wabash-national",
+        "name": "Wabash National",
+        "industry": "Advanced Manufacturing (Trailers)",
+        "hiringNeeds": [
+            "Welder",
+            "Design Engineer",
+            "Production Supervisor",
+            "Materials Planner",
+            "Sales Manager"
+        ],
+        "location": "Lafayette",
+        "requiredSkills": [
+            "Welding Fabrication",
+            "Finite Element Analysis (FEA)",
+            "Production Scheduling",
+            "Material Requirements Planning (MRP)",
+            "Negotiation"
+        ]
+    },
+    {
+        "id": "franciscan-health",
+        "name": "Franciscan Health",
+        "industry": "Healthcare",
+        "hiringNeeds": [
+            "Medical Assistant",
+            "Occupational Therapist",
+            "Sonographer",
+            "Pharmacy Technician",
+            "Patient Access Representative"
+        ],
+        "location": "Mishawaka",
+        "requiredSkills": [
+            "Clinical Procedures",
+            "Rehabilitation Therapy",
+            "Medical Imaging",
+            "Medication Dispensing",
+            "Patient Registration"
+        ]
+    },
+    {
+        "id": "catalent",
+        "name": "Catalent Pharma Solutions",
+        "industry": "Life Sciences",
+        "hiringNeeds": [
+            "Quality Assurance Specialist",
+            "Manufacturing Operator",
+            "Formulation Scientist",
+            "Project Manager",
+            "Validation Engineer"
+        ],
+        "location": "Bloomington",
+        "requiredSkills": [
+            "cGMP",
+            "Aseptic Technique",
+            "Pharmaceutical Development",
+            "Client Relations",
+            "Equipment Validation (IQ/OQ/PQ)"
+        ]
+    },
+    {
+        "id": "amazon",
+        "name": "Amazon",
+        "industry": "Logistics & E-commerce",
+        "hiringNeeds": [
+            "Warehouse Associate",
+            "Area Manager",
+            "HR Assistant",
+            "IT Support Technician",
+            "Process Assistant"
+        ],
+        "location": "Whitestown",
+        "requiredSkills": [
+            "Inventory Control",
+            "Team Leadership",
+            "Human Resources",
+            "Hardware Troubleshooting",
+            "Process Flow"
+        ]
+    },
+    {
+        "id": "rose-hulman-institute-of-technology",
+        "name": "Rose-Hulman Institute of Technology",
+        "industry": "Higher Education",
+        "hiringNeeds": [
+            "Professor (Engineering/CS)",
+            "Lab Manager",
+            "Instructional Designer",
+            "Career Services Advisor",
+            "Systems Administrator"
+        ],
+        "location": "Terre Haute",
+        "requiredSkills": [
+            "STEM Education",
+            "Laboratory Management",
+            "E-Learning Technologies",
+            "Career Counseling",
+            "Server Administration"
+        ]
+    },
+    {
+        "id": "navistar",
+        "name": "Navistar",
+        "industry": "Automotive Manufacturing",
+        "hiringNeeds": [
+            "Diesel Mechanic",
+            "Service Advisor",
+            "Parts Specialist",
+            "Technical Trainer"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Diesel Engine Repair",
+            "Customer Service",
+            "Inventory Management",
+            "Technical Instruction"
+        ]
+    },
+    {
+        "id": "aes-indiana",
+        "name": "AES Indiana",
+        "industry": "Utilities",
+        "hiringNeeds": [
+            "Electrical Engineer",
+            "Lineworker",
+            "Power Plant Operator",
+            "Data Analyst",
+            "Customer Solutions Rep"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Power Distribution Systems",
+            "Electrical Safety",
+            "Grid Operations",
+            "Data Analysis",
+            "Problem Solving"
+        ]
+    },
+    {
+        "id": "republic-airways",
+        "name": "Republic Airways",
+        "industry": "Aviation",
+        "hiringNeeds": [
+            "Pilot",
+            "Flight Attendant",
+            "Aviation Maintenance Technician",
+            "Crew Scheduler",
+            "Dispatcher"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "FAA Certification",
+            "Customer Service",
+            "Aircraft Systems",
+            "Logistics",
+            "Decision Making"
+        ]
+    },
+    {
+        "id": "fort-wayne-community-schools",
+        "name": "Fort Wayne Community Schools",
+        "industry": "K-12 Education",
+        "hiringNeeds": [
+            "Elementary Teacher",
+            "High School Math Teacher",
+            "Speech Language Pathologist",
+            "School Counselor",
+            "Bus Driver"
+        ],
+        "location": "Fort Wayne",
+        "requiredSkills": [
+            "Curriculum Planning",
+            "Differentiated Instruction",
+            "Communication Disorders",
+            "Student Counseling",
+            "Safe Driving Record"
+        ]
+    },
+    {
+        "id": "carmel-clay-schools",
+        "name": "Carmel Clay Schools",
+        "industry": "K-12 Education",
+        "hiringNeeds": [
+            "Teacher (All levels)",
+            "Instructional Assistant",
+            "Technology Integration Specialist",
+            "Substitute Teacher",
+            "Cafeteria Staff"
+        ],
+        "location": "Carmel",
+        "requiredSkills": [
+            "Pedagogy",
+            "Special Needs Support",
+            "EdTech Tools",
+            "Flexibility",
+            "Teamwork"
+        ]
+    },
+    {
+        "id": "do-it-best-corp",
+        "name": "Do it Best Corp.",
+        "industry": "Retail (Hardware Wholesale)",
+        "hiringNeeds": [
+            "Category Manager",
+            "Warehouse Supervisor",
+            "Software Developer",
+            "Marketing Coordinator",
+            "Financial Analyst"
+        ],
+        "location": "Fort Wayne",
+        "requiredSkills": [
+            "Merchandising",
+            "Warehouse Operations",
+            "C#/.NET",
+            "Content Marketing",
+            "Financial Analysis"
+        ]
+    },
+    {
+        "id": "ns-crane",
+        "name": "Naval Surface Warfare Center, Crane Division",
+        "industry": "Government / Defense",
+        "hiringNeeds": [
+            "Electronics Engineer",
+            "Mechanical Engineer",
+            "Computer Scientist",
+            "Physicist",
+            "Logistics Management Specialist"
+        ],
+        "location": "Crane",
+        "requiredSkills": [
+            "RF Engineering",
+            "Systems Engineering",
+            "Cybersecurity",
+            "Scientific Research",
+            "Defense Acquisition"
+        ]
+    },
+    {
+        "id": "honda-manufacturing-of-indiana",
+        "name": "Honda Manufacturing of Indiana",
+        "industry": "Automotive Manufacturing",
+        "hiringNeeds": [
+            "Production Associate",
+            "Quality Engineer",
+            "Equipment Service Technician",
+            "Supply Chain Coordinator",
+            "Human Resources Generalist"
+        ],
+        "location": "Greensburg",
+        "requiredSkills": [
+            "Assembly",
+            "Root Cause Analysis",
+            "Hydraulics/Pneumatics",
+            "Supply Chain Management",
+            "Employee Relations"
+        ]
+    },
+    {
+        "id": "deaconess-health-system",
+        "name": "Deaconess Health System",
+        "industry": "Healthcare",
+        "hiringNeeds": [
+            "Registered Nurse (ICU, Med/Surg)",
+            "Certified Nursing Assistant (CNA)",
+            "Medical Lab Technician",
+            "Pharmacist",
+            "Health Information Manager"
+        ],
+        "location": "Evansville",
+        "requiredSkills": [
+            "Critical Care",
+            "Patient Assistance",
+            "Clinical Laboratory Science",
+            "Medication Management",
+            "HIPAA Compliance"
+        ]
+    },
+    {
+        "id": "caterpillar",
+        "name": "Caterpillar Inc.",
+        "industry": "Advanced Manufacturing",
+        "hiringNeeds": [
+            "Welder",
+            "Engine Assembler",
+            "Manufacturing Engineer",
+            "Supply Chain Analyst",
+            "EH&S Professional"
+        ],
+        "location": "Lafayette",
+        "requiredSkills": [
+            "Blueprint Reading",
+            "Mechanical Assembly",
+            "Process Improvement",
+            "Logistics Planning",
+            "Safety Regulations"
+        ]
+    },
+    {
+        "id": "corteva-agriscience",
+        "name": "Corteva Agriscience",
+        "industry": "Agribusiness",
+        "hiringNeeds": [
+            "Research Scientist (Plant Breeding)",
+            "Data Scientist",
+            "Sales Representative (Crop Protection)",
+            "Chemical Process Engineer",
+            "IT Project Manager"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Genetics",
+            "Machine Learning",
+            "Agronomy",
+            "Chemical Engineering",
+            "Agile Project Management"
+        ]
+    },
+    {
+        "id": "us-steel",
+        "name": "United States Steel Corporation",
+        "industry": "Advanced Manufacturing (Steel)",
+        "hiringNeeds": [
+            "Maintenance Technician (Electrical/Mechanical)",
+            "Production Associate",
+            "Process Manager",
+            "Crane Operator",
+            "Quality Engineer"
+        ],
+        "location": "Gary",
+        "requiredSkills": [
+            "Industrial Maintenance",
+            "Heavy Machinery Operation",
+            "Production Management",
+            "Safety Procedures",
+            "Quality Management Systems"
+        ]
+    },
+    {
+        "id": "high-alpha",
+        "name": "High Alpha",
+        "industry": "Technology (Venture Studio)",
+        "hiringNeeds": [
+            "Product Manager",
+            "Software Engineer",
+            "UX/UI Designer",
+            "Sales Development Representative",
+            "Marketing Manager"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "SaaS Product Management",
+            "Ruby on Rails/React",
+            "User-Centered Design",
+            "Lead Generation",
+            "Growth Marketing"
+        ]
+    },
+    {
+        "id": "marian-university",
+        "name": "Marian University",
+        "industry": "Higher Education",
+        "hiringNeeds": [
+            "Nursing Faculty",
+            "Admissions Counselor",
+            "IT Help Desk Specialist",
+            "Biology Lab Coordinator",
+            "Assistant Professor (Business)"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Clinical Nursing Education",
+            "Student Recruitment",
+            "Technical Support",
+            "Lab Safety",
+            "Business Acumen"
+        ]
+    },
+    {
+        "id": "evansville-vanderburgh-school-corporation",
+        "name": "Evansville Vanderburgh School Corporation",
+        "industry": "K-12 Education",
+        "hiringNeeds": [
+            "Special Education Teacher",
+            "Elementary Teacher",
+            "School Psychologist",
+            "Custodian",
+            "IT Technician"
+        ],
+        "location": "Evansville",
+        "requiredSkills": [
+            "IEP Development",
+            "Early Childhood Education",
+            "Psychological Assessment",
+            "Facilities Maintenance",
+            "Network Support"
+        ]
+    },
+    {
+        "id": "ball-state-university",
+        "name": "Ball State University",
+        "industry": "Higher Education",
+        "hiringNeeds": [
+            "Faculty (Architecture, Business, etc.)",
+            "Academic Advisor",
+            "Systems Analyst",
+            "Residence Hall Director",
+            "Marketing Specialist"
+        ],
+        "location": "Muncie",
+        "requiredSkills": [
+            "University Teaching",
+            "Student Development Theory",
+            "Enterprise Systems (Banner)",
+            "Conflict Resolution",
+            "Digital Communication"
+        ]
+    },
+    {
+        "id": "vera-bradley",
+        "name": "Vera Bradley",
+        "industry": "Retail / Apparel",
+        "hiringNeeds": [
+            "Product Designer",
+            "Retail Store Manager",
+            "Digital Marketing Analyst",
+            "Supply Chain Planner",
+            "Financial Analyst"
+        ],
+        "location": "Roanoke",
+        "requiredSkills": [
+            "Textile Design",
+            "Retail Management",
+            "SEO/SEM",
+            "Demand Forecasting",
+            "Corporate Finance"
+        ]
+    },
+    {
+        "id": "indiana-state-university",
+        "name": "Indiana State University",
+        "industry": "Higher Education",
+        "hiringNeeds": [
+            "Professor (Aviation, Nursing)",
+            "Admissions Representative",
+            "Financial Aid Counselor",
+            "IT Support Specialist",
+            "Director of Development"
+        ],
+        "location": "Terre Haute",
+        "requiredSkills": [
+            "Aviation Technology",
+            "Student Recruitment",
+            "Financial Aid Regulations",
+            "Customer Service",
+            "Fundraising"
+        ]
+    },
+    {
+        "id": "am-general",
+        "name": "AM General",
+        "industry": "Defense Manufacturing",
+        "hiringNeeds": [
+            "Assembly Technician",
+            "Welding Engineer",
+            "Program Manager",
+            "Vehicle Test Engineer",
+            "Supply Quality Engineer"
+        ],
+        "location": "South Bend",
+        "requiredSkills": [
+            "Mechanical Assembly",
+            "Welding Processes",
+            "Defense Contracting",
+            "Vehicle Dynamics",
+            "Supplier Audits"
+        ]
+    },
+    {
+        "id": "forest-river",
+        "name": "Forest River, Inc.",
+        "industry": "Advanced Manufacturing (RV)",
+        "hiringNeeds": [
+            "Production Line Worker",
+            "Plant Manager",
+            "CAD Drafter",
+            "Quality Inspector",
+            "Dealer Sales Representative"
+        ],
+        "location": "Elkhart",
+        "requiredSkills": [
+            "Hand Tool Proficiency",
+            "Operations Management",
+            "AutoCAD",
+            "Quality Control",
+            "Relationship Building"
+        ]
+    },
+    {
+        "id": "ge-aviation",
+        "name": "GE Aviation",
+        "industry": "Aerospace Manufacturing",
+        "hiringNeeds": [
+            "Assembly & Test Technician",
+            "Manufacturing Engineer",
+            "Materials Scientist",
+            "EHS Manager",
+            "Lean Leader"
+        ],
+        "location": "Lafayette",
+        "requiredSkills": [
+            "Jet Engine Assembly",
+            "Process Engineering",
+            "Metallurgy",
+            "Environmental Compliance",
+            "Value Stream Mapping"
+        ]
+    },
+    {
+        "id": "beck-s-hybrids",
+        "name": "Beck's Hybrids",
+        "industry": "Agribusiness",
+        "hiringNeeds": [
+            "Seed Technician",
+            "Agronomist",
+            "Sales Associate",
+            "Research Associate",
+            "Software Developer"
+        ],
+        "location": "Atlanta",
+        "requiredSkills": [
+            "Agronomy",
+            "Crop Scouting",
+            "Customer Relations",
+            "Agricultural Research",
+            "Data Management"
+        ]
+    },
+    {
+        "id": "interactive-intelligence-genesys",
+        "name": "Interactive Intelligence (acquired by Genesys)",
+        "industry": "Technology",
+        "hiringNeeds": [
+            "Cloud Architect",
+            "Technical Writer",
+            "Customer Success Manager",
+            "QA Automation Engineer",
+            "Renewals Specialist"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "AWS Services",
+            "Technical Documentation",
+            "Client Relationship Management",
+            "Test Automation Frameworks",
+            "Sales"
+        ]
+    },
+    {
+        "id": "sauder-woodworking",
+        "name": "Sauder Woodworking Co.",
+        "industry": "Manufacturing (Furniture)",
+        "hiringNeeds": [
+            "Industrial Engineer",
+            "Production Worker",
+            "Maintenance Technician",
+            "Product Designer",
+            "Logistics Coordinator"
+        ],
+        "location": "Grabill",
+        "requiredSkills": [
+            "Process Optimization",
+            "Woodworking",
+            "Mechanical Maintenance",
+            "Furniture Design",
+            "Shipping and Receiving"
+        ]
+    },
+    {
+        "id": "cleveland-cliffs",
+        "name": "Cleveland-Cliffs",
+        "industry": "Advanced Manufacturing (Steel)",
+        "hiringNeeds": [
+            "Operating Technician",
+            "Electrical Engineer",
+            "Shift Manager",
+            "Reliability Engineer",
+            "Environmental Engineer"
+        ],
+        "location": "Burns Harbor",
+        "requiredSkills": [
+            "Steelmaking Processes",
+            "Power Distribution",
+            "Supervision",
+            "Predictive Maintenance",
+            "Regulatory Compliance"
+        ]
+    },
+    {
+        "id": "butler-university",
+        "name": "Butler University",
+        "industry": "Higher Education",
+        "hiringNeeds": [
+            "Faculty (Pharmacy, Business)",
+            "IT Support Analyst",
+            "Accountant",
+            "Student Affairs Professional",
+            "Athletics Coach"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Post-secondary Instruction",
+            "Help Desk Support",
+            "University Accounting",
+            "Student Engagement",
+            "Coaching"
+        ]
+    },
+    {
+        "id": "endress-hauser",
+        "name": "Endress+Hauser",
+        "industry": "Manufacturing (Instrumentation)",
+        "hiringNeeds": [
+            "Inside Sales Engineer",
+            "Field Service Technician",
+            "Production Engineer",
+            "Marketing Specialist",
+            "Calibration Technician"
+        ],
+        "location": "Greenwood",
+        "requiredSkills": [
+            "Technical Sales",
+            "Instrumentation & Control",
+            "Manufacturing Processes",
+            "B2B Marketing",
+            "Metrology"
+        ]
+    },
+    {
+        "id": "city-of-indianapolis",
+        "name": "City of Indianapolis - Marion County",
+        "industry": "Government",
+        "hiringNeeds": [
+            "Police Officer",
+            "Firefighter",
+            "Civil Engineer (DPW)",
+            "Urban Planner",
+            "911 Dispatcher"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Law Enforcement",
+            "Emergency Response",
+            "Infrastructure Design",
+            "Zoning Regulations",
+            "Critical Thinking"
+        ]
+    },
+    {
+        "id": "duke-energy",
+        "name": "Duke Energy Indiana",
+        "industry": "Utilities",
+        "hiringNeeds": [
+            "Distribution Engineer",
+            "Nuclear Technician",
+            "Project Manager",
+            "Energy Trader",
+            "Regulatory Analyst"
+        ],
+        "location": "Plainfield",
+        "requiredSkills": [
+            "Power Systems",
+            "Nuclear Safety",
+            "Project Scheduling",
+            "Energy Markets",
+            "Public Utility Commission (PUC) Filings"
+        ]
+    },
+    {
+        "id": "crowe",
+        "name": "Crowe LLP",
+        "industry": "Professional Services (Accounting)",
+        "hiringNeeds": [
+            "Audit Staff",
+            "Tax Associate",
+            "IT Risk Consultant",
+            "Management Consultant",
+            "Forensic Accountant"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "GAAP/GAAS",
+            "Tax Compliance",
+            "IT Auditing",
+            "Business Process Improvement",
+            "Investigative Analysis"
+        ]
+    },
+    {
+        "id": "goodwill-of-central-southern-indiana",
+        "name": "Goodwill of Central & Southern Indiana",
+        "industry": "Non-Profit / Retail",
+        "hiringNeeds": [
+            "Retail Associate",
+            "Donation Attendant",
+            "Career Coach",
+            "Mission Services Manager",
+            "Truck Driver"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Customer Service",
+            "Material Handling",
+            "Workforce Development",
+            "Program Management",
+            "CDL"
+        ]
+    },
+    {
+        "id": "envista",
+        "name": "Envista (Danaher Corporation)",
+        "industry": "Medical Devices",
+        "hiringNeeds": [
+            "Software Engineer",
+            "Sales Representative (Dental)",
+            "Quality Engineer",
+            "Mechanical Engineer",
+            "Global Product Manager"
+        ],
+        "location": "Fort Wayne",
+        "requiredSkills": [
+            "Embedded Systems",
+            "Medical Sales",
+            "ISO 13485",
+            "CAD",
+            "Product Strategy"
+        ]
+    },
+    {
+        "id": "ice-miller",
+        "name": "Ice Miller LLP",
+        "industry": "Legal Services",
+        "hiringNeeds": [
+            "Attorney (Corporate, Litigation)",
+            "Paralegal",
+            "Legal Assistant",
+            "IT Systems Engineer",
+            "Marketing Coordinator"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Legal Research & Writing",
+            "Litigation Support",
+            "Administrative Support",
+            "Network Infrastructure",
+            "Event Planning"
+        ]
+    },
+    {
+        "id": "toyota-material-handling",
+        "name": "Toyota Material Handling",
+        "industry": "Advanced Manufacturing",
+        "hiringNeeds": [
+            "Design Engineer",
+            "Welder",
+            "IT Analyst",
+            "Marketing Specialist",
+            "Field Service Technician"
+        ],
+        "location": "Columbus",
+        "requiredSkills": [
+            "3D Modeling",
+            "Fabrication",
+            "Systems Support",
+            "Content Creation",
+            "Mechanical Repair"
+        ]
+    },
+    {
+        "id": "herff-jones",
+        "name": "Herff Jones",
+        "industry": "Manufacturing / Retail",
+        "hiringNeeds": [
+            "Sales Professional",
+            "Graphic Designer",
+            "Production Associate",
+            "Customer Service Representative",
+            "Logistics Supervisor"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "B2B Sales",
+            "Adobe Creative Suite",
+            "Manufacturing Operations",
+            "Communication",
+            "Supply Chain Coordination"
+        ]
+    },
+    {
+        "id": "indiana-farm-bureau-insurance",
+        "name": "Indiana Farm Bureau Insurance",
+        "industry": "Insurance",
+        "hiringNeeds": [
+            "Insurance Agent",
+            "Claims Adjuster",
+            "Underwriter",
+            "IT Developer",
+            "Actuarial Analyst"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Sales",
+            "Investigation",
+            "Risk Analysis",
+            "Software Development",
+            "Statistical Modeling"
+        ]
+    },
+    {
+        "id": "exacttarget-salesforce",
+        "name": "ExactTarget (Salesforce Marketing Cloud)",
+        "industry": "Technology",
+        "hiringNeeds": [
+            "Technical Consultant",
+            "Software Engineer",
+            "Solutions Architect",
+            "Email Marketing Specialist",
+            "Account Manager"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Marketing Automation",
+            "SQL/AMPscript",
+            "System Integration",
+            "Digital Marketing",
+            "Client Relationship Management"
+        ]
+    },
+    {
+        "id": "community-howard-regional-health",
+        "name": "Community Howard Regional Health",
+        "industry": "Healthcare",
+        "hiringNeeds": [
+            "Registered Nurse",
+            "Lab Phlebotomist",
+            "Radiology Technologist",
+            "Behavioral Health Clinician",
+            "Patient Registrar"
+        ],
+        "location": "Kokomo",
+        "requiredSkills": [
+            "Med-Surg Nursing",
+            "Phlebotomy",
+            "X-Ray/CT",
+            "Mental Health Therapy",
+            "Customer Service"
+        ]
+    },
+    {
+        "id": "envelop-group",
+        "name": "Envelop Group",
+        "industry": "Construction / Engineering",
+        "hiringNeeds": [
+            "HVAC Technician",
+            "Project Manager",
+            "Controls Engineer",
+            "Electrician",
+            "Accountant"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "HVAC Systems",
+            "Construction Management",
+            "Building Automation",
+            "Electrical Systems",
+            "Job Costing"
+        ]
+    },
+    {
+        "id": "zimmer-inc",
+        "name": "Zimmer, Inc. (Zimmer Biomet)",
+        "industry": "Medical Devices",
+        "hiringNeeds": [
+            "Manufacturing Engineer",
+            "Quality Inspector",
+            "Packaging Engineer",
+            "CNC Machinist",
+            "Clinical Research Associate"
+        ],
+        "location": "Warsaw",
+        "requiredSkills": [
+            "Process Validation",
+            "GD&T",
+            "Medical Device Packaging",
+            "CNC Programming",
+            "Clinical Trials"
+        ]
+    },
+    {
+        "id": "united-technologies-carrier",
+        "name": "Carrier Corporation (formerly UTC)",
+        "industry": "Manufacturing (HVAC)",
+        "hiringNeeds": [
+            "HVAC Engineer",
+            "Production Supervisor",
+            "Assembler",
+            "Quality Technician",
+            "Supply Chain Analyst"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Thermodynamics",
+            "Lean Manufacturing",
+            "Mechanical Assembly",
+            "Quality Control",
+            "MRP/ERP systems"
+        ]
+    },
+    {
+        "id": "south-bend-community-school-corporation",
+        "name": "South Bend Community School Corporation",
+        "industry": "K-12 Education",
+        "hiringNeeds": [
+            "Teacher",
+            "Paraprofessional",
+            "School Social Worker",
+            "Maintenance Staff",
+            "Food Service Worker"
+        ],
+        "location": "South Bend",
+        "requiredSkills": [
+            "Classroom Instruction",
+            "Student Support",
+            "Social-Emotional Learning",
+            "General Maintenance",
+            "Food Safety"
+        ]
+    },
+    {
+        "id": "tcc",
+        "name": "TCC (The Cellular Connection)",
+        "industry": "Retail",
+        "hiringNeeds": [
+            "Sales Representative",
+            "Store Manager",
+            "District Manager",
+            "Operations Specialist",
+            "HR Generalist"
+        ],
+        "location": "Carmel",
+        "requiredSkills": [
+            "Retail Sales",
+            "Team Leadership",
+            "Multi-unit Management",
+            "Inventory Control",
+            "Employee Relations"
+        ]
+    },
+    {
+        "id": "polaris",
+        "name": "Polaris Inc.",
+        "industry": "Manufacturing (Powersports)",
+        "hiringNeeds": [
+            "Welder",
+            "Assembler",
+            "Manufacturing Engineer",
+            "Quality Auditor",
+            "Materials Handler"
+        ],
+        "location": "Madison",
+        "requiredSkills": [
+            "Welding",
+            "Power Tool Operation",
+            "Process Improvement",
+            "Inspection",
+            "Forklift Operation"
+        ]
+    },
+    {
+        "id": "university-of-southern-indiana",
+        "name": "University of Southern Indiana",
+        "industry": "Higher Education",
+        "hiringNeeds": [
+            "Nursing Faculty",
+            "Business Professor",
+            "Web Developer",
+            "Admissions Counselor",
+            "Grounds Crew"
+        ],
+        "location": "Evansville",
+        "requiredSkills": [
+            "Nursing Education",
+            "Business Instruction",
+            "HTML/CSS/JS",
+            "Public Speaking",
+            "Landscaping"
+        ]
+    },
+    {
+        "id": "merchants-bank-of-indiana",
+        "name": "Merchants Bank of Indiana",
+        "industry": "Banking",
+        "hiringNeeds": [
+            "Mortgage Loan Originator",
+            "Credit Analyst",
+            "Treasury Management Officer",
+            "IT Security Analyst",
+            "Bank Teller"
+        ],
+        "location": "Carmel",
+        "requiredSkills": [
+            "Mortgage Lending",
+            "Financial Analysis",
+            "B2B Sales",
+            "Cybersecurity",
+            "Cash Handling"
+        ]
+    },
+    {
+        "id": "finish-line",
+        "name": "Finish Line",
+        "industry": "Retail",
+        "hiringNeeds": [
+            "Store Associate",
+            "Assistant Manager",
+            "Merchandising Analyst",
+            "Digital Content Creator",
+            "IT Support"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Customer Service",
+            "Retail Operations",
+            "Data Analysis",
+            "Social Media Marketing",
+            "Technical Troubleshooting"
+        ]
+    },
+    {
+        "id": "macallister-machinery",
+        "name": "MacAllister Machinery",
+        "industry": "Heavy Equipment",
+        "hiringNeeds": [
+            "Diesel Technician",
+            "Parts Counter Sales",
+            "Field Service Technician",
+            "Sales Representative",
+            "Rental Coordinator"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Heavy Equipment Repair",
+            "Customer Service",
+            "Diagnostics",
+            "B2B Sales",
+            "Logistics"
+        ]
+    },
+    {
+        "id": "bastian-solutions",
+        "name": "Bastian Solutions",
+        "industry": "Engineering / Automation",
+        "hiringNeeds": [
+            "Mechanical Engineer",
+            "Controls Engineer",
+            "Project Manager",
+            "Software Developer",
+            "Field Service Engineer"
+        ],
+        "location": "Carmel",
+        "requiredSkills": [
+            "AutoCAD/SolidWorks",
+            "PLC Programming",
+            "Project Management",
+            "C++/Python",
+            "Robotics Integration"
+        ]
+    },
+    {
+        "id": "anthem-blue-cross-blue-shield",
+        "name": "Anthem Blue Cross Blue Shield (Elevance Health)",
+        "industry": "Health Insurance",
+        "hiringNeeds": [
+            "Claims Processor",
+            "Customer Care Representative",
+            "Provider Relations Consultant",
+            "Health Educator",
+            "Data Scientist"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Medical Coding",
+            "Problem Resolution",
+            "Relationship Management",
+            "Public Health",
+            "Predictive Modeling"
+        ]
+    },
+    {
+        "id": "mursix-corporation",
+        "name": "Mursix Corporation",
+        "industry": "Advanced Manufacturing",
+        "hiringNeeds": [
+            "Tool and Die Maker",
+            "Stamping Press Operator",
+            "Quality Engineer",
+            "Program Manager",
+            "CNC Machinist"
+        ],
+        "location": "Muncie",
+        "requiredSkills": [
+            "Tooling",
+            "Metal Stamping",
+            "APQP/PPAP",
+            "Project Lifecycle Management",
+            "CNC Programming"
+        ]
+    },
+    {
+        "id": "angies-list",
+        "name": "Angi (formerly Angie's List)",
+        "industry": "Technology",
+        "hiringNeeds": [
+            "Inside Sales Representative",
+            "Software Engineer",
+            "Marketing Analyst",
+            "Product Owner",
+            "Customer Success Specialist"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Sales",
+            "Web Development",
+            "Data Analytics",
+            "Agile/Scrum",
+            "Client Onboarding"
+        ]
+    },
+    {
+        "id": "kirby-risk",
+        "name": "Kirby Risk Corporation",
+        "industry": "Electrical Supply & Manufacturing",
+        "hiringNeeds": [
+            "Sales Representative",
+            "Warehouse Associate",
+            "Automation Specialist",
+            "Branch Manager",
+            "Electrical Engineer"
+        ],
+        "location": "Lafayette",
+        "requiredSkills": [
+            "B2B Sales",
+            "Inventory Management",
+            "Industrial Automation",
+            "Operations Management",
+            "Electrical Systems"
+        ]
+    },
+    {
+        "id": "kmc-controls",
+        "name": "KMC Controls",
+        "industry": "Manufacturing (Building Automation)",
+        "hiringNeeds": [
+            "Firmware Engineer",
+            "Hardware Engineer",
+            "Technical Support Specialist",
+            "Product Manager",
+            "Regional Sales Manager"
+        ],
+        "location": "New Paris",
+        "requiredSkills": [
+            "Embedded C/C++",
+            "Circuit Design",
+            "HVAC Controls",
+            "Product Roadmapping",
+            "Channel Sales"
+        ]
+    },
+    {
+        "id": "gm-fort-wayne-assembly",
+        "name": "General Motors Fort Wayne Assembly",
+        "industry": "Automotive Manufacturing",
+        "hiringNeeds": [
+            "Production Worker",
+            "Skilled Trades (Electrician, Millwright)",
+            "Manufacturing Engineer",
+            "Controls Engineer",
+            "Team Leader"
+        ],
+        "location": "Roanoke",
+        "requiredSkills": [
+            "Assembly Line Work",
+            "Industrial Maintenance",
+            "Lean Manufacturing",
+            "PLC/Robotics",
+            "Leadership"
+        ]
+    },
+    {
+        "id": "reiloy-usa",
+        "name": "Reiloy USA",
+        "industry": "Advanced Manufacturing",
+        "hiringNeeds": [
+            "CNC Machine Operator",
+            "Quality Technician",
+            "Mechanical Engineer",
+            "Sales Engineer",
+            "Production Scheduler"
+        ],
+        "location": "Maize",
+        "requiredSkills": [
+            "CNC Machining",
+            "Metrology",
+            "Product Design",
+            "Technical Sales",
+            "Production Planning"
+        ]
+    },
+    {
+        "id": "grote-industries",
+        "name": "Grote Industries",
+        "industry": "Manufacturing (Vehicle Lighting)",
+        "hiringNeeds": [
+            "Electrical Engineer",
+            "Product Manager",
+            "Assembly Operator",
+            "Quality Assurance Engineer",
+            "Marketing Manager"
+        ],
+        "location": "Madison",
+        "requiredSkills": [
+            "LED Technology",
+            "Product Development",
+            "Manufacturing Assembly",
+            "ISO 9001",
+            "Brand Management"
+        ]
+    },
+    {
+        "id": "arcelormittal",
+        "name": "ArcelorMittal (now Cleveland-Cliffs)",
+        "industry": "Advanced Manufacturing (Steel)",
+        "hiringNeeds": [
+            "Mechanical Engineer",
+            "Production Technician",
+            "Crane Operator",
+            "Safety Coordinator",
+            "Logistics Manager"
+        ],
+        "location": "East Chicago",
+        "requiredSkills": [
+            "Heavy Industry",
+            "Manufacturing Operations",
+            "Material Handling",
+            "OSHA Compliance",
+            "Supply Chain"
+        ]
+    },
+    {
+        "id": "schwab-corporation",
+        "name": "Schwab Corporation",
+        "industry": "Financial Services",
+        "hiringNeeds": [
+            "Financial Consultant",
+            "Client Service Representative",
+            "Portfolio Manager",
+            "Software Engineer",
+            "Compliance Officer"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "FINRA Series 7/66",
+            "Customer Support",
+            "Investment Management",
+            "Java/C#",
+            "Regulatory Compliance"
+        ]
+    },
+    {
+        "id": "union-health",
+        "name": "Union Health System",
+        "industry": "Healthcare",
+        "hiringNeeds": [
+            "Registered Nurse (ER)",
+            "Physical Therapist Assistant",
+            "Medical Assistant",
+            "IT Analyst",
+            "Billing Specialist"
+        ],
+        "location": "Terre Haute",
+        "requiredSkills": [
+            "Emergency Medicine",
+            "Rehabilitation",
+            "Clinical Support",
+            "Healthcare IT",
+            "Medical Billing"
+        ]
+    },
+    {
+        "id": "celadon-group",
+        "name": "Celadon Group (historical, major employer)",
+        "industry": "Logistics & Supply Chain",
+        "hiringNeeds": [
+            "Truck Driver (OTR)",
+            "Dispatcher",
+            "Logistics Broker",
+            "Fleet Manager",
+            "Accountant"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "CDL-A",
+            "Dispatching Software",
+            "Freight Brokerage",
+            "Operations Management",
+            "Transportation Accounting"
+        ]
+    },
+    {
+        "id": "university-of-indianapolis",
+        "name": "University of Indianapolis",
+        "industry": "Higher Education",
+        "hiringNeeds": [
+            "Physical Therapy Faculty",
+            "Nursing Instructor",
+            "Athletic Trainer",
+            "Financial Aid Advisor",
+            "Public Safety Officer"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Physical Therapy",
+            "Clinical Nursing",
+            "Sports Medicine",
+            "Student Financial Services",
+            "Security"
+        ]
+    },
+    {
+        "id": "brebeuf-jesuit-preparatory-school",
+        "name": "Brebeuf Jesuit Preparatory School",
+        "industry": "K-12 Education",
+        "hiringNeeds": [
+            "High School Teacher (Math/Science/English)",
+            "College Counselor",
+            "Athletic Coach",
+            "Campus Minister",
+            "IT Director"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Secondary Education",
+            "College Admissions Counseling",
+            "Coaching",
+            "Pastoral Care",
+            "Educational Technology"
+        ]
+    },
+    {
+        "id": "faegre-drinker-biddle-reath",
+        "name": "Faegre Drinker Biddle & Reath LLP",
+        "industry": "Legal Services",
+        "hiringNeeds": [
+            "Associate Attorney",
+            "Paralegal (Intellectual Property)",
+            "Legal Secretary",
+            "Conflicts Analyst",
+            "Marketing & Business Development Manager"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Corporate Law",
+            "Patent & Trademark",
+            "Legal Administration",
+            "Risk Management",
+            "B2B Marketing"
+        ]
+    },
+    {
+        "id": "delaware-machinery",
+        "name": "Delaware Machinery",
+        "industry": "Advanced Manufacturing",
+        "hiringNeeds": [
+            "Toolmaker",
+            "CNC Programmer",
+            "Quality Control Inspector",
+            "Design Engineer",
+            "Project Manager"
+        ],
+        "location": "Muncie",
+        "requiredSkills": [
+            "Tool and Die",
+            "G-Code/M-Code",
+            "CMM Operation",
+            "SolidWorks",
+            "Client Management"
+        ]
+    },
+    {
+        "id": "the-childrens-museum-of-indianapolis",
+        "name": "The Children's Museum of Indianapolis",
+        "industry": "Non-Profit / Arts & Culture",
+        "hiringNeeds": [
+            "Exhibit Designer",
+            "Educator / Interpreter",
+            "Development Officer (Fundraising)",
+            "Visitor Services Associate",
+            "Collections Manager"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Exhibit Design",
+            "Informal Education",
+            "Grant Writing",
+            "Customer Service",
+            "Museum Curation"
+        ]
+    },
+    {
+        "id": "jayco",
+        "name": "Jayco, Inc.",
+        "industry": "Advanced Manufacturing (RV)",
+        "hiringNeeds": [
+            "Assembler",
+            "Electrical Technician",
+            "Product Designer",
+            "Plant Supervisor",
+            "Quality Auditor"
+        ],
+        "location": "Middlebury",
+        "requiredSkills": [
+            "RV Assembly",
+            "Low-Voltage Electrical",
+            "CAD Design",
+            "Production Leadership",
+            "Quality Assurance"
+        ]
+    },
+    {
+        "id": "first-internet-bank",
+        "name": "First Internet Bank",
+        "industry": "Banking",
+        "hiringNeeds": [
+            "SBA Loan Officer",
+            "Software Developer",
+            "Digital Marketing Manager",
+            "Compliance Specialist",
+            "Customer Service Representative"
+        ],
+        "location": "Fishers",
+        "requiredSkills": [
+            "SBA Lending",
+            "Fintech Development",
+            "SEO/PPC",
+            "Banking Regulations (BSA/AML)",
+            "Online Customer Support"
+        ]
+    },
+    {
+        "id": "msd-of-wayne-township",
+        "name": "MSD of Wayne Township",
+        "industry": "K-12 Education",
+        "hiringNeeds": [
+            "Teacher",
+            "Bus Driver",
+            "Instructional Assistant",
+            "School Nurse",
+            "Maintenance Worker"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Teaching Certification",
+            "CDL with S-Endorsement",
+            "Student Support",
+            "Pediatric Care",
+            "Facilities Repair"
+        ]
+    },
+    {
+        "id": "gea-appliances",
+        "name": "GEA, a Haier company",
+        "industry": "Manufacturing (Appliances)",
+        "hiringNeeds": [
+            "Advanced Manufacturing Engineer",
+            "Production Associate",
+            "Reliability Engineer",
+            "Materials Planner",
+            "Team Leader"
+        ],
+        "location": "Lafayette",
+        "requiredSkills": [
+            "Automation & Robotics",
+            "Assembly",
+            "Quality Engineering",
+            "Supply Chain",
+            "Supervision"
+        ]
+    },
+    {
+        "id": "plym-group",
+        "name": "PLYM Group",
+        "industry": "Automotive Manufacturing",
+        "hiringNeeds": [
+            "Production Associate",
+            "Quality Technician",
+            "Process Engineer",
+            "Materials Handler",
+            "Maintenance Technician"
+        ],
+        "location": "Plymouth",
+        "requiredSkills": [
+            "Automotive Assembly",
+            "Quality Inspection",
+            "Manufacturing Processes",
+            "Forklift Operation",
+            "Industrial Repair"
+        ]
+    },
+    {
+        "id": "bowen-center",
+        "name": "Bowen Center",
+        "industry": "Healthcare (Mental Health)",
+        "hiringNeeds": [
+            "Therapist / Counselor",
+            "Case Manager",
+            "Psychiatrist / Nurse Practitioner",
+            "Skills Coach",
+            "Medical Assistant"
+        ],
+        "location": "Warsaw",
+        "requiredSkills": [
+            "Cognitive Behavioral Therapy (CBT)",
+            "Social Work",
+            "Psychiatric Medicine",
+            "Life Skills Training",
+            "Patient Care"
+        ]
+    },
+    {
+        "id": "scale-computing",
+        "name": "Scale Computing",
+        "industry": "Technology",
+        "hiringNeeds": [
+            "Software Development Engineer",
+            "Technical Support Engineer",
+            "Sales Engineer",
+            "Channel Account Manager",
+            "Marketing Programs Manager"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Linux/KVM",
+            "Virtualization",
+            "Pre-sales Technical Support",
+            "Partner Management",
+            "Lead Generation"
+        ]
+    },
+    {
+        "id": "belcan",
+        "name": "Belcan",
+        "industry": "Engineering Services",
+        "hiringNeeds": [
+            "Aerospace Engineer",
+            "Systems Engineer",
+            "Software Developer",
+            "Technical Recruiter",
+            "Project Engineer"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Gas Turbine Engines",
+            "Requirements Management (DOORS)",
+            "Embedded C++",
+            "Technical Sourcing",
+            "Engineering Project Management"
+        ]
+    },
+    {
+        "id": "regal-beloit",
+        "name": "Regal Beloit Corporation",
+        "industry": "Manufacturing (Electric Motors)",
+        "hiringNeeds": [
+            "Electrical Design Engineer",
+            "Manufacturing Engineer",
+            "Sales Application Engineer",
+            "Production Supervisor",
+            "Quality Analyst"
+        ],
+        "location": "Fort Wayne",
+        "requiredSkills": [
+            "Motor Design",
+            "Lean Manufacturing",
+            "Technical Sales",
+            "Leadership",
+            "Statistical Process Control (SPC)"
+        ]
+    },
+    {
+        "id": "enkei",
+        "name": "Enkei America, Inc.",
+        "industry": "Automotive Manufacturing",
+        "hiringNeeds": [
+            "Casting Operator",
+            "CNC Machinist",
+            "Quality Engineer",
+            "Paint Technician",
+            "Maintenance Technician"
+        ],
+        "location": "Columbus",
+        "requiredSkills": [
+            "Aluminum Casting",
+            "CNC Operation",
+            "Automotive Quality Standards (IATF 16949)",
+            "Industrial Painting",
+            "PLC Troubleshooting"
+        ]
+    },
+    {
+        "id": "hamilton-southeastern-schools",
+        "name": "Hamilton Southeastern Schools",
+        "industry": "K-12 Education",
+        "hiringNeeds": [
+            "High School Science Teacher",
+            "Elementary School Teacher",
+            "Special Education Assistant",
+            "School Counselor",
+            "Technology Specialist"
+        ],
+        "location": "Fishers",
+        "requiredSkills": [
+            "Science Curriculum",
+            "Child Development",
+            "Behavior Management",
+            "Student Advising",
+            "EdTech Integration"
+        ]
+    },
+    {
+        "id": "gecom-corporation",
+        "name": "GECOM Corporation",
+        "industry": "Automotive Manufacturing",
+        "hiringNeeds": [
+            "Assembly Associate",
+            "Quality Control Technician",
+            "Maintenance Technician",
+            "Production Supervisor",
+            "Logistics Coordinator"
+        ],
+        "location": "Greensburg",
+        "requiredSkills": [
+            "Manufacturing Assembly",
+            "Quality Inspection",
+            "Mechanical/Electrical Repair",
+            "Supervision",
+            "Inventory Management"
+        ]
+    },
+    {
+        "id": "applied-engineering-services",
+        "name": "Applied Engineering Services",
+        "industry": "Engineering",
+        "hiringNeeds": [
+            "Mechanical Engineer (HVAC)",
+            "Electrical Engineer (Power/Lighting)",
+            "Plumbing Designer",
+            "BIM/Revit Modeler",
+            "Commissioning Agent"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "HVAC Design",
+            "Power Distribution Design",
+            "Plumbing Systems",
+            "Autodesk Revit",
+            "Building Systems Commissioning"
+        ]
+    },
+    {
+        "id": "dot-foods",
+        "name": "Dot Foods",
+        "industry": "Logistics & Supply Chain",
+        "hiringNeeds": [
+            "Warehouse Order Selector",
+            "Truck Driver",
+            "Warehouse Supervisor",
+            "HR Generalist",
+            "Maintenance Technician"
+        ],
+        "location": "Cambridge City",
+        "requiredSkills": [
+            "Material Handling Equipment",
+            "CDL-A",
+            "Warehouse Management",
+            "Human Resources",
+            "Industrial Maintenance"
+        ]
+    },
+    {
+        "id": "polywood",
+        "name": "Polywood",
+        "industry": "Manufacturing",
+        "hiringNeeds": [
+            "Production Team Member",
+            "CNC Router Operator",
+            "Maintenance Mechanic",
+            "Shipping and Receiving Clerk",
+            "Customer Service Rep"
+        ],
+        "location": "Syracuse",
+        "requiredSkills": [
+            "Assembly",
+            "CNC Operation",
+            "Mechanical Repair",
+            "Logistics",
+            "Communication"
+        ]
+    },
+    {
+        "id": "valparaiso-university",
+        "name": "Valparaiso University",
+        "industry": "Higher Education",
+        "hiringNeeds": [
+            "Professor of Engineering",
+            "Admissions Counselor",
+            "Director of Financial Aid",
+            "Network Administrator",
+            "Campus Pastor"
+        ],
+        "location": "Valparaiso",
+        "requiredSkills": [
+            "Engineering Education",
+            "Student Recruitment",
+            "Financial Aid Administration",
+            "IT Infrastructure",
+            "Theology"
+        ]
+    },
+    {
+        "id": "tasus",
+        "name": "Tasus Corporation",
+        "industry": "Plastics Manufacturing",
+        "hiringNeeds": [
+            "Injection Molding Technician",
+            "Process Engineer",
+            "Quality Inspector",
+            "Tooling Engineer",
+            "Production Supervisor"
+        ],
+        "location": "Bloomington",
+        "requiredSkills": [
+            "Injection Molding",
+            "Plastics Engineering",
+            "Quality Control",
+            "Mold Design",
+            "Supervision"
+        ]
+    },
+    {
+        "id": "dlz-corporation",
+        "name": "DLZ Corporation",
+        "industry": "Engineering / Architecture",
+        "hiringNeeds": [
+            "Civil Engineer",
+            "Architect",
+            "Land Surveyor",
+            "Construction Inspector",
+            "Environmental Scientist"
+        ],
+        "location": "South Bend",
+        "requiredSkills": [
+            "AutoCAD Civil 3D",
+            "Architectural Design (Revit)",
+            "Land Surveying",
+            "Construction Materials Testing",
+            "Environmental Permitting"
+        ]
+    },
+    {
+        "id": "trine-university",
+        "name": "Trine University",
+        "industry": "Higher Education",
+        "hiringNeeds": [
+            "Faculty (Engineering, Business)",
+            "Athletic Coach",
+            "Admissions Representative",
+            "IT Support Technician",
+            "Career Services Advisor"
+        ],
+        "location": "Angola",
+        "requiredSkills": [
+            "Higher Education",
+            "Coaching",
+            "Recruitment",
+            "Technical Support",
+            "Career Counseling"
+        ]
+    },
+    {
+        "id": "great-dane-trailers",
+        "name": "Great Dane",
+        "industry": "Advanced Manufacturing (Trailers)",
+        "hiringNeeds": [
+            "Welder",
+            "Assembler",
+            "Manufacturing Engineer",
+            "Production Supervisor",
+            "Materials Coordinator"
+        ],
+        "location": "Terre Haute",
+        "requiredSkills": [
+            "MIG Welding",
+            "Mechanical Assembly",
+            "Process Improvement",
+            "Leadership",
+            "Inventory Control"
+        ]
+    },
+    {
+        "id": "tag-station",
+        "name": "TagStation, LLC (NextRadio)",
+        "industry": "Technology",
+        "hiringNeeds": [
+            "Mobile App Developer (iOS/Android)",
+            "Backend Engineer",
+            "Data Analyst",
+            "QA Engineer",
+            "Product Manager"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Swift/Kotlin",
+            "Node.js/Python",
+            "SQL",
+            "Software Testing",
+            "Agile"
+        ]
+    },
+    {
+        "id": "indianapolis-indians",
+        "name": "Indianapolis Indians",
+        "industry": "Sports & Entertainment",
+        "hiringNeeds": [
+            "Ticket Sales Account Executive",
+            "Marketing Coordinator",
+            "Operations Intern",
+            "Groundskeeper",
+            "Concessions Staff"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Sales",
+            "Social Media Marketing",
+            "Event Management",
+            "Turf Management",
+            "Customer Service"
+        ]
+    },
+    {
+        "id": "newmar-corporation",
+        "name": "Newmar Corporation",
+        "industry": "Advanced Manufacturing (RV)",
+        "hiringNeeds": [
+            "Cabinet Maker",
+            "Production Associate",
+            "Electrical Systems Installer",
+            "Design Engineer",
+            "Service Technician"
+        ],
+        "location": "Nappanee",
+        "requiredSkills": [
+            "Woodworking",
+            "Assembly",
+            "12V Electrical Systems",
+            "CAD",
+            "RV Repair"
+        ]
+    },
+    {
+        "id": "msd-of-lawrence-township",
+        "name": "MSD of Lawrence Township",
+        "industry": "K-12 Education",
+        "hiringNeeds": [
+            "Teacher (Elementary, Secondary)",
+            "Paraprofessional",
+            "Bus Driver",
+            "Food Service Manager",
+            "IT Technician"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Instructional Strategies",
+            "Special Education Support",
+            "Commercial Driving",
+            "Nutrition",
+            "Network Troubleshooting"
+        ]
+    },
+    {
+        "id": "shiel-sexton",
+        "name": "Shiel Sexton Company, Inc.",
+        "industry": "Construction",
+        "hiringNeeds": [
+            "Project Manager",
+            "Superintendent",
+            "Project Engineer",
+            "Safety Manager",
+            "Estimator"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Construction Management",
+            "Field Supervision",
+            "Submittal & RFI processing",
+            "OSHA Regulations",
+            "Construction Estimating"
+        ]
+    },
+    {
+        "id": "b-and-g-foods",
+        "name": "B&G Foods",
+        "industry": "Food Manufacturing",
+        "hiringNeeds": [
+            "Production Operator",
+            "Quality Assurance Technician",
+            "Maintenance Mechanic",
+            "Warehouse Supervisor",
+            "Food Scientist"
+        ],
+        "location": "Portland",
+        "requiredSkills": [
+            "Food Processing",
+            "HACCP/SQF",
+            "Industrial Maintenance",
+            "Logistics",
+            "Product Development"
+        ]
+    },
+    {
+        "id": "clark-memorial-health",
+        "name": "Clark Memorial Health",
+        "industry": "Healthcare",
+        "hiringNeeds": [
+            "Registered Nurse",
+            "Emergency Department Technician",
+            "CT Technologist",
+            "Case Manager",
+            "Dietitian"
+        ],
+        "location": "Jeffersonville",
+        "requiredSkills": [
+            "Patient Care",
+            "Emergency Response",
+            "Medical Imaging",
+            "Discharge Planning",
+            "Nutrition"
+        ]
+    },
+    {
+        "id": "perq",
+        "name": "PERQ",
+        "industry": "Technology / Marketing",
+        "hiringNeeds": [
+            "Software Engineer",
+            "Client Success Manager",
+            "Digital Marketing Specialist",
+            "Business Development Representative",
+            "UI/UX Designer"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Full-Stack Development",
+            "Account Management",
+            "SEO/SEM",
+            "Sales",
+            "User Experience Design"
+        ]
+    },
+    {
+        "id": "patrick-industries",
+        "name": "Patrick Industries, Inc.",
+        "industry": "Manufacturing",
+        "hiringNeeds": [
+            "Plant Manager",
+            "Accountant",
+            "Production Worker",
+            "Human Resources Manager",
+            "Sales Representative"
+        ],
+        "location": "Elkhart",
+        "requiredSkills": [
+            "Operations Management",
+            "Financial Reporting",
+            "Assembly",
+            "Employee Relations",
+            "B2B Sales"
+        ]
+    },
+    {
+        "id": "heritage-group",
+        "name": "The Heritage Group",
+        "industry": "Holding Company (Construction, Chemicals, Energy)",
+        "hiringNeeds": [
+            "Chemical Engineer",
+            "Data Scientist",
+            "Project Manager",
+            "Corporate Counsel",
+            "Environmental Scientist"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Process Engineering",
+            "Data Analytics",
+            "Project Management",
+            "Corporate Law",
+            "Environmental Science"
+        ]
+    },
+    {
+        "id": "franklin-electric",
+        "name": "Franklin Electric",
+        "industry": "Manufacturing",
+        "hiringNeeds": [
+            "Mechanical Engineer",
+            "Firmware Engineer",
+            "Global Sourcing Manager",
+            "Marketing Communications Specialist",
+            "Test Engineer"
+        ],
+        "location": "Fort Wayne",
+        "requiredSkills": [
+            "Pump Design",
+            "Embedded Systems",
+            "Strategic Sourcing",
+            "Digital Marketing",
+            "Product Testing"
+        ]
+    },
+    {
+        "id": "schneck-medical-center",
+        "name": "Schneck Medical Center",
+        "industry": "Healthcare",
+        "hiringNeeds": [
+            "Surgical Technologist",
+            "Registered Nurse (OB)",
+            "Speech Pathologist",
+            "IT Systems Administrator",
+            "Financial Counselor"
+        ],
+        "location": "Seymour",
+        "requiredSkills": [
+            "Operating Room Support",
+            "Labor and Delivery",
+            "Speech Therapy",
+            "Network Management",
+            "Patient Financial Services"
+        ]
+    },
+    {
+        "id": "westminster-village",
+        "name": "Westminster Village",
+        "industry": "Healthcare (Senior Living)",
+        "hiringNeeds": [
+            "Certified Nursing Assistant (CNA)",
+            "Qualified Medication Aide (QMA)",
+            "Registered Nurse (RN)",
+            "Dining Services Staff",
+            "Activities Director"
+        ],
+        "location": "West Lafayette",
+        "requiredSkills": [
+            "Geriatric Care",
+            "Medication Administration",
+            "Nursing",
+            "Food Service",
+            "Event Planning"
+        ]
+    },
+    {
+        "id": "ayrshire-mine",
+        "name": "Peabody Energy - Bear Run Mine",
+        "industry": "Energy / Mining",
+        "hiringNeeds": [
+            "Heavy Equipment Operator",
+            "Electrician",
+            "Mine Engineer",
+            "Safety Specialist",
+            "Blaster"
+        ],
+        "location": "Carlisle",
+        "requiredSkills": [
+            "Heavy Machinery Operation",
+            "Industrial Electrical",
+            "Mine Planning",
+            "MSHA Regulations",
+            "Explosives Handling"
+        ]
+    },
+    {
+        "id": "kittle-s-furniture",
+        "name": "Kittle's Furniture",
+        "industry": "Retail",
+        "hiringNeeds": [
+            "Sales Associate",
+            "Interior Designer",
+            "Warehouse Worker",
+            "Delivery Driver",
+            "Store Manager"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Retail Sales",
+            "Interior Design",
+            "Inventory Management",
+            "Customer Service",
+            "Retail Management"
+        ]
+    },
+    {
+        "id": "ak-steel",
+        "name": "AK Steel (now Cleveland-Cliffs)",
+        "industry": "Advanced Manufacturing (Steel)",
+        "hiringNeeds": [
+            "Production Associate",
+            "Maintenance Technician",
+            "Process Engineer",
+            "Railroad Conductor",
+            "Supervisor"
+        ],
+        "location": "Rockport",
+        "requiredSkills": [
+            "Steel Processing",
+            "Mechanical Maintenance",
+            "Process Optimization",
+            "Rail Operations",
+            "Leadership"
+        ]
+    },
+    {
+        "id": "bright-automotive",
+        "name": "Bright Automotive (historical startup)",
+        "industry": "Automotive Technology",
+        "hiringNeeds": [
+            "Powertrain Engineer",
+            "Battery Systems Engineer",
+            "Vehicle Integration Engineer",
+            "Software Developer",
+            "Mechanical Designer"
+        ],
+        "location": "Anderson",
+        "requiredSkills": [
+            "Hybrid/Electric Vehicles",
+            "Lithium-ion Batteries",
+            "Automotive Systems",
+            "Embedded Systems",
+            "CAD"
+        ]
+    },
+    {
+        "id": "ashlor-staffing",
+        "name": "Ashlor Staffing",
+        "industry": "Staffing & Recruiting",
+        "hiringNeeds": [
+            "Recruiter",
+            "Account Manager",
+            "Payroll Specialist",
+            "HR Coordinator",
+            "Sourcing Specialist"
+        ],
+        "location": "South Bend",
+        "requiredSkills": [
+            "Talent Acquisition",
+            "Client Relations",
+            "Payroll Processing",
+            "Human Resources",
+            "Boolean Search"
+        ]
+    },
+    {
+        "id": "indiana-rail-road-company",
+        "name": "The Indiana Rail Road Company",
+        "industry": "Logistics & Transportation",
+        "hiringNeeds": [
+            "Conductor",
+            "Locomotive Engineer",
+            "Carman (Railcar Mechanic)",
+            "Track Laborer",
+            "Dispatcher"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Railroad Operations",
+            "Mechanical Aptitude",
+            "Safety Compliance",
+            "Physical Labor",
+            "Communication"
+        ]
+    },
+    {
+        "id": "braunability",
+        "name": "BraunAbility",
+        "industry": "Automotive Manufacturing (Mobility)",
+        "hiringNeeds": [
+            "Welder",
+            "Assembly Technician",
+            "Mechanical Engineer",
+            "Customer Service Representative",
+            "Quality Technician"
+        ],
+        "location": "Winamac",
+        "requiredSkills": [
+            "Welding",
+            "Mechanical Assembly",
+            "SolidWorks",
+            "Problem Solving",
+            "Quality Inspection"
+        ]
+    },
+    {
+        "id": "goss-international",
+        "name": "Goss International (historical)",
+        "industry": "Manufacturing",
+        "hiringNeeds": [
+            "Machinist",
+            "Mechanical Assembler",
+            "Field Service Engineer",
+            "Electrical Engineer",
+            "Drafter"
+        ],
+        "location": "Cedar Rapids (multiple IN locations previously)",
+        "requiredSkills": [
+            "CNC Machining",
+            "Mechanical Assembly",
+            "Troubleshooting",
+            "Electrical Schematics",
+            "AutoCAD"
+        ]
+    },
+    {
+        "id": "indianapolis-airport-authority",
+        "name": "Indianapolis Airport Authority",
+        "industry": "Transportation / Government",
+        "hiringNeeds": [
+            "Airport Operations Specialist",
+            "Maintenance Technician",
+            "Public Safety Officer",
+            "IT Systems Analyst",
+            "Project Manager"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Airport Operations",
+            "Facilities Maintenance",
+            "Law Enforcement",
+            "Network Administration",
+            "Construction Management"
+        ]
+    },
+    {
+        "id": "wurth-service-supply",
+        "name": "Wurth Service Supply Inc.",
+        "industry": "Logistics & Distribution",
+        "hiringNeeds": [
+            "Sales Representative",
+            "Warehouse Manager",
+            "Inventory Management Specialist",
+            "Customer Service Rep",
+            "Driver"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Industrial Sales",
+            "Warehouse Operations",
+            "VMI/JIT Programs",
+            "Communication",
+            "Logistics"
+        ]
+    },
+    {
+        "id": "thomson-rca",
+        "name": "Thomson/RCA (historical)",
+        "industry": "Electronics Manufacturing",
+        "hiringNeeds": [
+            "Electronics Technician",
+            "Assembly Line Worker",
+            "Electrical Engineer",
+            "Quality Control Inspector",
+            "Industrial Engineer"
+        ],
+        "location": "Indianapolis/Bloomington",
+        "requiredSkills": [
+            "Circuit Board Assembly",
+            "Soldering",
+            "Analog/Digital Circuits",
+            "Quality Assurance",
+            "Process Improvement"
+        ]
+    },
+    {
+        "id": "north-american-van-lines",
+        "name": "North American Van Lines",
+        "industry": "Logistics & Transportation",
+        "hiringNeeds": [
+            "Long-Haul Truck Driver",
+            "Moving Laborer",
+            "Logistics Coordinator",
+            "Customer Service Specialist",
+            "Claims Analyst"
+        ],
+        "location": "Fort Wayne",
+        "requiredSkills": [
+            "CDL Class A",
+            "Packing and Loading",
+            "Dispatch",
+            "Problem Resolution",
+            "Investigation"
+        ]
+    },
+    {
+        "id": "red-gold",
+        "name": "Red Gold",
+        "industry": "Food Manufacturing",
+        "hiringNeeds": [
+            "Quality Assurance Manager",
+            "Production Supervisor",
+            "Maintenance Mechanic",
+            "Food Technologist",
+            "Warehouse Associate"
+        ],
+        "location": "Elwood",
+        "requiredSkills": [
+            "Food Safety (SQF/HACCP)",
+            "Production Management",
+            "Industrial Maintenance",
+            "Food Science",
+            "Forklift Operation"
+        ]
+    },
+    {
+        "id": "teradata",
+        "name": "Teradata",
+        "industry": "Technology",
+        "hiringNeeds": [
+            "Cloud Engineer",
+            "Data Warehouse Architect",
+            "Solutions Engineer",
+            "Technical Support Analyst",
+            "Account Executive"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "AWS/Azure/GCP",
+            "Data Warehousing",
+            "SQL",
+            "Troubleshooting",
+            "Enterprise Sales"
+        ]
+    },
+    {
+        "id": "shoe-carnival",
+        "name": "Shoe Carnival",
+        "industry": "Retail",
+        "hiringNeeds": [
+            "Store Manager",
+            "Merchandise Planner",
+            "E-commerce Analyst",
+            "IT Business Analyst",
+            "District Manager"
+        ],
+        "location": "Evansville",
+        "requiredSkills": [
+            "Retail Management",
+            "Inventory Planning",
+            "Web Analytics",
+            "Business Analysis",
+            "Multi-Store Leadership"
+        ]
+    },
+    {
+        "id": "batesville",
+        "name": "Batesville Casket Company",
+        "industry": "Manufacturing",
+        "hiringNeeds": [
+            "Production Associate",
+            "Mechanical Engineer",
+            "Welder",
+            "Transportation Driver",
+            "Sales Consultant"
+        ],
+        "location": "Batesville",
+        "requiredSkills": [
+            "Woodworking/Metalworking",
+            "CAD/CAM",
+            "Welding",
+            "Logistics",
+            "Relationship Sales"
+        ]
+    },
+    {
+        "id": "bp-whiting-refinery",
+        "name": "BP Whiting Refinery",
+        "industry": "Energy",
+        "hiringNeeds": [
+            "Process Operator",
+            "Chemical Engineer",
+            "Instrumentation Technician",
+            "Mechanical Engineer",
+            "Safety Inspector"
+        ],
+        "location": "Whiting",
+        "requiredSkills": [
+            "Refinery Operations",
+            "Process Safety Management (PSM)",
+            "Industrial Controls",
+            "Rotating Equipment",
+            "OSHA Regulations"
+        ]
+    },
+    {
+        "id": "alcoa",
+        "name": "Alcoa",
+        "industry": "Advanced Manufacturing (Aluminum)",
+        "hiringNeeds": [
+            "Electrician",
+            "Mechanical Technician",
+            "Process Engineer",
+            "Smelting Operator",
+            "EHS Specialist"
+        ],
+        "location": "Warrick",
+        "requiredSkills": [
+            "Industrial Electrical Systems",
+            "Hydraulics/Pneumatics",
+            "Metallurgy",
+            "Heavy Manufacturing",
+            "Environmental Compliance"
+        ]
+    },
+    {
+        "id": "nexus-rv",
+        "name": "NeXus RV",
+        "industry": "Advanced Manufacturing (RV)",
+        "hiringNeeds": [
+            "Production Line Worker",
+            "Cabinet Builder",
+            "Welder",
+            "Quality Control Inspector",
+            "Service Technician"
+        ],
+        "location": "Elkhart",
+        "requiredSkills": [
+            "Assembly",
+            "Woodworking",
+            "Steel Fabrication",
+            "Attention to Detail",
+            "RV Systems Repair"
+        ]
+    },
+    {
+        "id": "tyson-foods",
+        "name": "Tyson Foods",
+        "industry": "Food Manufacturing",
+        "hiringNeeds": [
+            "Production Worker",
+            "Maintenance Technician",
+            "Quality Assurance Technician",
+            "Production Supervisor",
+            "HR Generalist"
+        ],
+        "location": "Logansport",
+        "requiredSkills": [
+            "Food Processing",
+            "Industrial Maintenance",
+            "Food Safety",
+            "Team Leadership",
+            "Employee Relations"
+        ]
+    },
+    {
+        "id": "raymond-james",
+        "name": "Raymond James",
+        "industry": "Financial Services",
+        "hiringNeeds": [
+            "Financial Advisor",
+            "Client Service Associate",
+            "Operations Specialist",
+            "Branch Manager",
+            "Compliance Officer"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Wealth Management",
+            "Client Support",
+            "Securities Processing",
+            "Leadership",
+            "FINRA regulations"
+        ]
+    },
+    {
+        "id": "bell-flight",
+        "name": "Bell Flight",
+        "industry": "Aerospace & Defense",
+        "hiringNeeds": [
+            "Aircraft Assembler",
+            "Composite Technician",
+            "A&P Mechanic",
+            "Manufacturing Engineer",
+            "Quality Inspector"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Aircraft Assembly",
+            "Composites Fabrication",
+            "Aviation Maintenance",
+            "Aerospace Manufacturing Processes",
+            "AS9100"
+        ]
+    },
+    {
+        "id": "sareptatherapeutics",
+        "name": "Sarepta Therapeutics",
+        "industry": "Biotechnology",
+        "hiringNeeds": [
+            "Manufacturing Associate (Gene Therapy)",
+            "Quality Control Analyst",
+            "Process Engineer",
+            "Supply Chain Specialist",
+            "Validation Scientist"
+        ],
+        "location": "Plainfield",
+        "requiredSkills": [
+            "Aseptic Processing",
+            "Bioassays/HPLC",
+            "Bioprocess Engineering",
+            "Cold Chain Logistics",
+            "GMP Validation"
+        ]
+    },
+    {
+        "id": "milestone-contractors",
+        "name": "Milestone Contractors",
+        "industry": "Construction",
+        "hiringNeeds": [
+            "Heavy Equipment Operator",
+            "Asphalt Plant Operator",
+            "Project Engineer",
+            "Superintendent",
+            "Estimator"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Excavator/Dozer Operation",
+            "Asphalt Production",
+            "Civil Engineering",
+            "Site Management",
+            "Construction Bidding"
+        ]
+    },
+    {
+        "id": "chi-st-vincent",
+        "name": "CHI St. Vincent",
+        "industry": "Healthcare",
+        "hiringNeeds": [
+            "Registered Nurse",
+            "Medical Technologist",
+            "Respiratory Therapist",
+            "Patient Care Technician",
+            "Unit Secretary"
+        ],
+        "location": "Multiple",
+        "requiredSkills": [
+            "Nursing Process",
+            "Laboratory Analysis",
+            "Pulmonary Care",
+            "Patient Support",
+            "Medical Terminology"
+        ]
+    },
+    {
+        "id": "boston-scientific",
+        "name": "Boston Scientific",
+        "industry": "Medical Devices",
+        "hiringNeeds": [
+            "Production Operator",
+            "Manufacturing Engineer",
+            "Quality Engineer",
+            "R&D Engineer",
+            "Clinical Specialist"
+        ],
+        "location": "Spencer",
+        "requiredSkills": [
+            "Cleanroom Manufacturing",
+            "Process Validation",
+            "Medical Device Quality Systems",
+            "Product Development",
+            "Clinical Support"
+        ]
+    },
+    {
+        "id": "plymouth-tube",
+        "name": "Plymouth Tube Company",
+        "industry": "Advanced Manufacturing",
+        "hiringNeeds": [
+            "Machine Operator",
+            "Metallurgist",
+            "Maintenance Technician",
+            "Inside Sales Representative",
+            "Quality Manager"
+        ],
+        "location": "East Troy (multiple IN locations)",
+        "requiredSkills": [
+            "Tube Mill Operation",
+            "Metallurgy",
+            "Industrial Repair",
+            "Customer Service",
+            "ISO 9001"
+        ]
+    },
+    {
+        "id": "vectren",
+        "name": "Vectren (A CenterPoint Energy Company)",
+        "industry": "Utilities",
+        "hiringNeeds": [
+            "Gas Service Technician",
+            "Lineman",
+            "Engineer",
+            "Customer Service Representative",
+            "Accountant"
+        ],
+        "location": "Evansville",
+        "requiredSkills": [
+            "Natural Gas Systems",
+            "Electrical Distribution",
+            "Utility Engineering",
+            "Problem Solving",
+            "Accounting"
+        ]
+    },
+    {
+        "id": "hill-rom",
+        "name": "Hill-Rom (now part of Baxter)",
+        "industry": "Medical Devices",
+        "hiringNeeds": [
+            "Mechanical Engineer",
+            "Electrical Engineer",
+            "Production Assembler",
+            "Global Product Manager",
+            "Field Service Engineer"
+        ],
+        "location": "Batesville",
+        "requiredSkills": [
+            "Mechanical Design (CAD)",
+            "Embedded Systems",
+            "Medical Equipment Assembly",
+            "Marketing Strategy",
+            "Technical Troubleshooting"
+        ]
+    },
+    {
+        "id": "ingersoll-rand",
+        "name": "Ingersoll Rand",
+        "industry": "Industrial Manufacturing",
+        "hiringNeeds": [
+            "Assembler",
+            "Field Service Technician",
+            "Sales Engineer",
+            "CNC Machinist",
+            "Supply Chain Analyst"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Mechanical Assembly",
+            "Equipment Repair",
+            "Technical Sales",
+            "CNC Programming",
+            "Logistics"
+        ]
+    },
+    {
+        "id": "indiana-packer-s-corporation",
+        "name": "Indiana Packers Corporation",
+        "industry": "Food Manufacturing",
+        "hiringNeeds": [
+            "Production Worker",
+            "Maintenance Supervisor",
+            "Food Safety Specialist",
+            "Hog Procurement",
+            "HR Generalist"
+        ],
+        "location": "Delphi",
+        "requiredSkills": [
+            "Meat Processing",
+            "Industrial Maintenance",
+            "HACCP/USDA Regulations",
+            "Livestock Buying",
+            "Human Resources"
+        ]
+    },
+    {
+        "id": "praxair",
+        "name": "Praxair (Linde)",
+        "industry": "Chemical Manufacturing",
+        "hiringNeeds": [
+            "Plant Operator",
+            "Truck Driver (CDL w/ Hazmat)",
+            "Maintenance Technician",
+            "Process Engineer",
+            "Account Manager"
+        ],
+        "location": "East Chicago",
+        "requiredSkills": [
+            "Chemical Plant Operations",
+            "Hazardous Materials Transport",
+            "Industrial Repair",
+            "Process Safety",
+            "B2B Sales"
+        ]
+    },
+    {
+        "id": "defender-direct",
+        "name": "Defender Direct",
+        "industry": "Sales / Home Services",
+        "hiringNeeds": [
+            "Sales Representative",
+            "Installation Technician",
+            "Call Center Agent",
+            "Sales Manager",
+            "Recruiter"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Direct Sales",
+            "Home Security Installation",
+            "Customer Service",
+            "Sales Leadership",
+            "Talent Acquisition"
+        ]
+    },
+    {
+        "id": "hylant",
+        "name": "Hylant",
+        "industry": "Insurance",
+        "hiringNeeds": [
+            "Client Executive (Commercial Insurance)",
+            "Account Manager",
+            "Benefits Consultant",
+            "Claims Specialist",
+            "Risk Control Consultant"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "B2B Sales",
+            "Insurance Account Management",
+            "Employee Benefits",
+            "Claims Adjudication",
+            "Risk Management"
+        ]
+    },
+    {
+        "id": "elkhart-community-schools",
+        "name": "Elkhart Community Schools",
+        "industry": "K-12 Education",
+        "hiringNeeds": [
+            "Teacher",
+            "Instructional Coach",
+            "Social Worker",
+            "Paraprofessional",
+            "Nutrition Services"
+        ],
+        "location": "Elkhart",
+        "requiredSkills": [
+            "Teaching",
+            "Pedagogy",
+            "Student Support",
+            "Special Needs Assistance",
+            "Food Service"
+        ]
+    },
+    {
+        "id": "rolls-royce",
+        "name": "Rolls-Royce",
+        "industry": "Aerospace & Defense",
+        "hiringNeeds": [
+            "Manufacturing Engineer",
+            "Aerospace Engineer",
+            "Test Engineer",
+            "Machinist",
+            "Supply Chain Manager"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Gas Turbine Manufacturing",
+            "Aerodynamics",
+            "Data Acquisition",
+            "CNC Machining",
+            "Aerospace Supply Chain"
+        ]
+    },
+    {
+        "id": "cno-financial-group",
+        "name": "CNO Financial Group",
+        "industry": "Finance & Insurance",
+        "hiringNeeds": [
+            "Actuarial Analyst",
+            "IT Project Manager",
+            "Customer Service Representative",
+            "Underwriter",
+            "Digital Marketing Specialist"
+        ],
+        "location": "Carmel",
+        "requiredSkills": [
+            "Actuarial Modeling",
+            "Agile Project Management",
+            "Insurance Policy Service",
+            "Risk Assessment",
+            "Marketing Automation"
+        ]
+    },
+    {
+        "id": "white-lodging",
+        "name": "White Lodging",
+        "industry": "Hospitality",
+        "hiringNeeds": [
+            "General Manager (Hotel)",
+            "Sales Manager",
+            "Chef / Cook",
+            "Front Desk Associate",
+            "Housekeeping Supervisor"
+        ],
+        "location": "Merrillville",
+        "requiredSkills": [
+            "Hotel Operations",
+            "Hospitality Sales",
+            "Culinary Arts",
+            "Customer Service",
+            "Team Leadership"
+        ]
+    },
+    {
+        "id": "indianapolis-motor-speedway",
+        "name": "Indianapolis Motor Speedway",
+        "industry": "Sports & Entertainment",
+        "hiringNeeds": [
+            "Event Manager",
+            "Partnership Marketing Manager",
+            "Ticket Operations Coordinator",
+            "Public Relations Specialist",
+            "Guest Services Staff"
+        ],
+        "location": "Speedway",
+        "requiredSkills": [
+            "Large-Scale Event Planning",
+            "Sponsorship Activation",
+            "Ticketing Systems",
+            "Media Relations",
+            "Customer Experience"
+        ]
+    },
+    {
+        "id": "stanley-black-decker",
+        "name": "Stanley Black & Decker",
+        "industry": "Security Services",
+        "hiringNeeds": [
+            "Security Installation Technician",
+            "Sales Representative",
+            "Service Technician",
+            "System Designer",
+            "Operations Manager"
+        ],
+        "location": "Fishers",
+        "requiredSkills": [
+            "Access Control/CCTV Installation",
+            "B2B Sales",
+            "Technical Troubleshooting",
+            "Security System Design",
+            "Project Management"
+        ]
+    },
+    {
+        "id": "midwest-eye-consultants",
+        "name": "Midwest Eye Consultants",
+        "industry": "Healthcare",
+        "hiringNeeds": [
+            "Ophthalmic Technician",
+            "Optician",
+            "Patient Service Representative",
+            "Surgical Coordinator",
+            "Optometrist"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Ophthalmology",
+            "Optical Dispensing",
+            "Medical Office Administration",
+            "Surgical Scheduling",
+            "Optometry"
+        ]
+    },
+    {
+        "id": "aesculap",
+        "name": "Aesculap",
+        "industry": "Medical Devices",
+        "hiringNeeds": [
+            "Instrument Repair Technician",
+            "Sales Associate",
+            "Operations Supervisor",
+            "Quality Inspector",
+            "Customer Service"
+        ],
+        "location": "Terre Haute",
+        "requiredSkills": [
+            "Surgical Instrument Repair",
+            "Medical Sales",
+            "Logistics",
+            "Quality Control",
+            "Client Communication"
+        ]
+    },
+    {
+        "id": "reid-health",
+        "name": "Reid Health",
+        "industry": "Healthcare",
+        "hiringNeeds": [
+            "Registered Nurse",
+            "Medical Lab Scientist",
+            "Cardiovascular Sonographer",
+            "Emergency Medical Technician (EMT)",
+            "Physician Practice Manager"
+        ],
+        "location": "Richmond",
+        "requiredSkills": [
+            "Acute Care",
+            "Clinical Laboratory Science",
+            "Echocardiography",
+            "Emergency Medical Services",
+            "Healthcare Administration"
+        ]
+    },
+    {
+        "id": "kroger",
+        "name": "The Kroger Co.",
+        "industry": "Retail (Grocery)",
+        "hiringNeeds": [
+            "Store Clerk",
+            "Pharmacist",
+            "Department Manager",
+            "Store Manager",
+            "Distribution Center Associate"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Customer Service",
+            "Pharmacy Operations",
+            "Retail Management",
+            "Leadership",
+            "Warehouse Logistics"
+        ]
+    },
+    {
+        "id": "meijer",
+        "name": "Meijer",
+        "industry": "Retail (Grocery & Merchandise)",
+        "hiringNeeds": [
+            "Cashier",
+            "Team Leader",
+            "Pharmacy Technician",
+            "Asset Protection Officer",
+            "Logistics Team Member"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Point of Sale (POS)",
+            "Supervision",
+            "Pharmacy Support",
+            "Loss Prevention",
+            "Supply Chain"
+        ]
+    },
+    {
+        "id": "sabic-innovative-plastics",
+        "name": "SABIC Innovative Plastics",
+        "industry": "Chemical Manufacturing",
+        "hiringNeeds": [
+            "Chemical Operator",
+            "Process Engineer",
+            "Lab Technician",
+            "Maintenance Mechanic",
+            "EHS Engineer"
+        ],
+        "location": "Mount Vernon",
+        "requiredSkills": [
+            "Chemical Processing",
+            "Process Optimization",
+            "Quality Control Testing",
+            "Industrial Maintenance",
+            "Environmental Health & Safety"
+        ]
+    },
+    {
+        "id": "depuy-synthes",
+        "name": "DePuy Synthes (Johnson & Johnson)",
+        "industry": "Medical Devices",
+        "hiringNeeds": [
+            "Associate Quality Engineer",
+            "Senior Manufacturing Engineer",
+            "CNC Machinist",
+            "Regulatory Affairs Specialist",
+            "R&D Engineer"
+        ],
+        "location": "Warsaw",
+        "requiredSkills": [
+            "Quality Management Systems (QMS)",
+            "Lean Manufacturing",
+            "CNC Programming",
+            "FDA/CE Mark Submissions",
+            "Orthopedic Design"
+        ]
+    },
+    {
+        "id": "allegion",
+        "name": "Allegion",
+        "industry": "Manufacturing (Security Products)",
+        "hiringNeeds": [
+            "Mechanical Engineer",
+            "Firmware Engineer",
+            "Marketing Manager",
+            "Operations Supervisor",
+            "Global Sourcing Specialist"
+        ],
+        "location": "Carmel",
+        "requiredSkills": [
+            "Product Design",
+            "Embedded C",
+            "Brand Strategy",
+            "Production Management",
+            "Strategic Procurement"
+        ]
+    },
+    {
+        "id": "arlon",
+        "name": "Arlon (formerly a part of Rogers Corporation)",
+        "industry": "Manufacturing",
+        "hiringNeeds": [
+            "Process Engineer",
+            "Production Associate",
+            "Chemical Lab Technician",
+            "Quality Engineer",
+            "Maintenance Technician"
+        ],
+        "location": "Shelbyville",
+        "requiredSkills": [
+            "Polymer Science",
+            "Manufacturing Operations",
+            "Lab Testing",
+            "Quality Systems",
+            "Industrial Repair"
+        ]
+    },
+    {
+        "id": "aerotek",
+        "name": "Aerotek",
+        "industry": "Staffing & Recruiting",
+        "hiringNeeds": [
+            "Recruiter",
+            "Account Manager",
+            "On-Premise Manager",
+            "Director of Business Operations",
+            "National Recruiter"
+        ],
+        "location": "Indianapolis",
+        "requiredSkills": [
+            "Sourcing",
+            "Sales",
+            "Client Management",
+            "Leadership",
+            "High-Volume Recruiting"
+        ]
+    },
+    {
+        "id": "consortium-of-metropolitan-school-districts",
+        "name": "Consortium of Metropolitan School Districts (CMSD)",
+        "industry": "K-12 Education",
+        "hiringNeeds": [
+            "Teacher",
+            "Administrator",
+            "Special Education Staff",
+            "Support Staff",
+            "Bus Driver"
+        ],
+        "location": "Indianapolis Area",
+        "requiredSkills": [
+            "Teaching",
+            "Leadership",
+            "Special Needs",
+            "Collaboration",
+            "Safety"
+        ]
+    },
+    {
+        "id": "indiana-wesleyan-university",
+        "name": "Indiana Wesleyan University",
+        "industry": "Higher Education",
+        "hiringNeeds": [
+            "Faculty (Nursing, Education, Business)",
+            "Online Enrollment Counselor",
+            "Financial Aid Advisor",
+            "IT Systems Administrator",
+            "Instructional Designer"
+        ],
+        "location": "Marion",
+        "requiredSkills": [
+            "Adult Education",
+            "Student Recruitment",
+            "Financial Aid Processing",
+            "Server Management",
+            "Online Course Development"
+        ]
+    }
+]
