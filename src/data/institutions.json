@@ -1,1 +1,484 @@
-[]
+[
+    {
+        "id": "anderson-university",
+        "name": "Anderson University",
+        "region": "Anderson",
+        "topMajors": [],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Other"
+    },
+    {
+        "id": "ball-state-university",
+        "name": "Ball State University",
+        "region": "Muncie",
+        "topMajors": [
+            "Computer Science",
+            "Counseling",
+            "Respiratory Therapy",
+            "Economics"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Other"
+    },
+    {
+        "id": "bethel-university",
+        "name": "Bethel University",
+        "region": "Mishawaka",
+        "topMajors": [
+            "Nursing",
+            "Biology",
+            "Business Management",
+            "Sign Language Interpreting",
+            "Science Education"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Other"
+    },
+    {
+        "id": "butler-university",
+        "name": "Butler University",
+        "region": "Indianapolis",
+        "topMajors": [
+            "Biology",
+            "Psychology",
+            "Biochemistry"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Other"
+    },
+    {
+        "id": "calumet-college-of-st-joseph",
+        "name": "Calumet College of St. Joseph",
+        "region": "Whiting, Indiana",
+        "topMajors": [
+            "Digital and Studio Arts",
+            "Medical Laboratory Science",
+            "Business Management",
+            "Criminal Justice",
+            "Public Administration"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Other"
+    },
+    {
+        "id": "depauw-university",
+        "name": "DePauw University",
+        "region": "Greencastle, Indiana",
+        "topMajors": [
+            "Liberal Arts and Sciences",
+            "Creative School Programs",
+            "Business and Leadership",
+            "Music"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Liberal Arts"
+    },
+    {
+        "id": "franklin-college",
+        "name": "Franklin College",
+        "region": "Franklin",
+        "topMajors": [
+            "Multimedia Journalism",
+            "Business",
+            "Elementary Education",
+            "Accounting"
+        ],
+        "studentDemographics": {
+            "totalStudents": 985
+        },
+        "type": "Liberal Arts"
+    },
+    {
+        "id": "goshen-college",
+        "name": "Goshen College",
+        "region": "Goshen",
+        "topMajors": [
+            "Film Production",
+            "Communication"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Liberal Arts"
+    },
+    {
+        "id": "holy-cross-college",
+        "name": "Holy Cross College",
+        "region": "Notre Dame",
+        "topMajors": [
+            "Art",
+            "Athletics",
+            "Chemistry",
+            "Theology"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Liberal Arts"
+    },
+    {
+        "id": "huntington-university",
+        "name": "Huntington University",
+        "region": "Huntington, IN",
+        "topMajors": [
+            "Animation, Film, and TV",
+            "Agriculture",
+            "Nursing",
+            "Occupational Therapy",
+            "Counseling"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Other"
+    },
+    {
+        "id": "indiana-state-university",
+        "name": "Indiana State University",
+        "region": "Indiana",
+        "topMajors": [],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Other"
+    },
+    {
+        "id": "indiana-tech",
+        "name": "Indiana Tech",
+        "region": "Fort Wayne",
+        "topMajors": [
+            "Business",
+            "Engineering",
+            "Computer Sciences",
+            "Arts and Sciences"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Other"
+    },
+    {
+        "id": "indiana-university",
+        "name": "Indiana University",
+        "region": "Indiana",
+        "topMajors": [
+            "Nursing",
+            "Criminal Justice",
+            "Epidemiology",
+            "Environmental Science",
+            "Cybersecurity"
+        ],
+        "studentDemographics": {
+            "totalStudents": 90000
+        },
+        "type": "R1"
+    },
+    {
+        "id": "iu-indianapolis",
+        "name": "Indiana University Indianapolis",
+        "region": "Indianapolis",
+        "topMajors": [
+            "healthcare",
+            "artificial intelligence",
+            "data science",
+            "STEM",
+            "arts and humanities"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "R1"
+    },
+    {
+        "id": "indiana-wesleyan-university",
+        "name": "Indiana Wesleyan University",
+        "region": "Marion",
+        "topMajors": [
+            "Engineering",
+            "Seminary Studies",
+            "Education"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Liberal Arts"
+    },
+    {
+        "id": "ivy-tech-community-college",
+        "name": "Ivy Tech Community College",
+        "region": "Indianapolis",
+        "topMajors": [
+            "Nursing",
+            "Business Administration",
+            "Information Technology",
+            "Automotive Technology",
+            "Education – Early Childhood"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Community College"
+    },
+    {
+        "id": "manchester-university",
+        "name": "Manchester University",
+        "region": "North Manchester",
+        "topMajors": [
+            "Doctor of Pharmacy",
+            "Master of Business Administration",
+            "Business Management",
+            "Athletic Training",
+            "Peace Studies"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Liberal Arts"
+    },
+    {
+        "id": "marian-university",
+        "name": "Marian University",
+        "region": "Indianapolis",
+        "topMajors": [
+            "Arts & Sciences",
+            "Business",
+            "Engineering",
+            "Nursing",
+            "Osteopathic Medicine"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "R1"
+    },
+    {
+        "id": "purdue-university",
+        "name": "Purdue University",
+        "region": "West Lafayette",
+        "topMajors": [
+            "AI",
+            "biomedical engineering",
+            "data science",
+            "cybersecurity",
+            "sports technology"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "R1"
+    },
+    {
+        "id": "rose-hulman-institute-of-technology",
+        "name": "Rose-Hulman Institute of Technology",
+        "region": "Terre Haute",
+        "topMajors": [
+            "Computer Science",
+            "Mechanical Engineering",
+            "Electrical & Computer Engineering",
+            "Chemical Engineering",
+            "Civil & Environmental Engineering"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Other"
+    },
+    {
+        "id": "saint-mary-of-the-woods-college",
+        "name": "St. Mary of the Woods College",
+        "region": "Saint Mary of the Woods",
+        "topMajors": [
+            "Equine Studies",
+            "Nursing",
+            "Education",
+            "Business and Leadership",
+            "Arts, Letters & Music"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Liberal Arts"
+    },
+    {
+        "id": "taylor-university",
+        "name": "Taylor University",
+        "region": "Upland",
+        "topMajors": [
+            "Pre-Med",
+            "Data Science",
+            "Art",
+            "Religious Studies"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Liberal Arts"
+    },
+    {
+        "id": "trine-university",
+        "name": "Trine University",
+        "region": "Angola",
+        "topMajors": [
+            "Exercise Science",
+            "Biology",
+            "Chemical Engineering",
+            "Orthotics and Prosthetics",
+            "Chemistry"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Other"
+    },
+    {
+        "id": "university-of-evansville",
+        "name": "University of Evansville",
+        "region": "Evansville",
+        "topMajors": [
+            "Physician Assistant Science",
+            "Mental Health Education"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0,
+            "firstGenerationPercentage": 0,
+            "underrepresentedMinorityPercentage": 0
+        },
+        "type": "Other"
+    },
+    {
+        "id": "university-of-indianapolis",
+        "name": "University of Indianapolis",
+        "region": "Indianapolis",
+        "topMajors": [
+            "Nursing",
+            "Business",
+            "Education",
+            "Engineering",
+            "Physical Therapy"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0,
+            "firstGenerationPercentage": 0,
+            "underrepresentedMinorityPercentage": 0
+        },
+        "type": "Other"
+    },
+    {
+        "id": "university-of-notre-dame",
+        "name": "University of Notre Dame",
+        "region": "Notre Dame",
+        "topMajors": [
+            "Architecture",
+            "Global Health",
+            "Arts and Humanities",
+            "Science and Technology",
+            "Faith and Service"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "R1"
+    },
+    {
+        "id": "university-of-saint-francis",
+        "name": "University of Saint Francis",
+        "region": "Fort Wayne",
+        "topMajors": [
+            "Nursing",
+            "Business Administration",
+            "Biology",
+            "Physician Assistant Studies",
+            "Game and Application Development"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Other"
+    },
+    {
+        "id": "university-of-southern-indiana",
+        "name": "University of Southern Indiana",
+        "region": "Evansville",
+        "topMajors": [
+            "Liberal Arts",
+            "Science",
+            "Engineering",
+            "Business",
+            "Nursing and Health Professions"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Other"
+    },
+    {
+        "id": "valparaiso-university",
+        "name": "Valparaiso University",
+        "region": "Valparaiso",
+        "topMajors": [
+            "Exercise Science",
+            "Environmental Engineering",
+            "Master of Business Administration",
+            "Physician Assistant Studies",
+            "Chemistry"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Other"
+    },
+    {
+        "id": "vincennes-university",
+        "name": "Vincennes University",
+        "region": "Vincennes",
+        "topMajors": [
+            "Homeland Security and Public Safety",
+            "Nursing",
+            "John Deere Technology",
+            "Agribusiness",
+            "Collaborative Robotics Training"
+        ],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Community College"
+    },
+    {
+        "id": "wabash-college",
+        "name": "Wabash College",
+        "region": "Crawfordsville",
+        "topMajors": [],
+        "studentDemographics": {
+            "totalStudents": 0
+        },
+        "type": "Liberal Arts"
+    },
+    {
+        "id": "western-governors-university",
+        "name": "Western Governors University (WGU)",
+        "region": "Online",
+        "topMajors": [
+            "Nursing (RN-to-BSN online)",
+            "Business Management",
+            "Computer Science",
+            "Elementary Education",
+            "Cybersecurity and Information Assurance"
+        ],
+        "studentDemographics": {
+            "totalStudents": 300000
+        },
+        "type": "Other"
+    }
+]

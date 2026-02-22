@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
+const puppeteer = require('puppeteer');
 const { GoogleGenAI, Type } = require('@google/genai');
 
 const TARGET_INSTITUTIONS = {
@@ -63,21 +64,26 @@ const responseSchema = {
     required: ["id", "name", "region", "topMajors", "studentDemographics", "type"]
 };
 
-async function scrapeHomepage(url) {
-    const response = await fetch(url, {
-        headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' }
-    });
+async function scrapeHomepage(url, browser) {
+    const page = await browser.newPage();
 
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    // Set a realistic User-Agent to bypass basic blocks
+    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36');
 
-    const html = await response.text();
+    // Wait until network is idle to capture client-side rendered text
+    await page.goto(url, { waitUntil: 'networkidle2', timeout: 30000 });
+
+    const html = await page.content();
     const $ = cheerio.load(html);
 
     // Remove scripts and styles
     $('script, style, noscript').remove();
 
     let text = $('body').text().replace(/\s+/g, ' ').trim();
-    // Truncate to avoid massive payloads
+
+    await page.close();
+
+    // Truncate to avoid massive payloads for Gemini
     if (text.length > 20000) text = text.substring(0, 20000);
     return text;
 }
@@ -104,12 +110,16 @@ async function main() {
     const ai = new GoogleGenAI({ apiKey: apiKey });
 
     const extractedData = [];
+
     console.log(`Starting Node.js Gemini Custom Extraction for ${Object.keys(TARGET_INSTITUTIONS).length} Institutions...`);
+
+    // Launch a single headless browser instance to reuse for speed
+    const browser = await puppeteer.launch({ headless: "new" });
 
     for (const [name, url] of Object.entries(TARGET_INSTITUTIONS)) {
         console.log(`Crawling ${name}: ${url}...`);
         try {
-            const homepageText = await scrapeHomepage(url);
+            const homepageText = await scrapeHomepage(url, browser);
 
             const prompt = `
             You are a data extraction research assistant. Review the following text scraped from ${name}'s homepage:
@@ -145,6 +155,8 @@ async function main() {
         // Anti-rate-limit sleep for GenAI API and target servers
         await new Promise(r => setTimeout(r, 2000));
     }
+
+    await browser.close();
 
     const targetDir = path.dirname(OUTPUT_FILE);
     if (!fs.existsSync(targetDir)) {
