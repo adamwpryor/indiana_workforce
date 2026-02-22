@@ -1,8 +1,13 @@
 import os
+import sys
 import json
 from typing import List, Optional
 from pydantic import BaseModel, Field
 from firecrawl import FirecrawlApp
+
+# Add the src structure to the python path so we can import the zero trust module
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from src.utils.security import load_secure_key
 
 # Define the precise schema to match the TypeScript interface `InstitutionSchema`
 class StudentDemographics(BaseModel):
@@ -59,10 +64,11 @@ TARGET_INSTITUTIONS = {
 OUTPUT_FILE = os.path.join(os.path.dirname(__file__), '..', 'src', 'data', 'institutions.json')
 
 def main():
-    api_key = os.getenv("FIRECRAWL_API_KEY")
-    if not api_key:
-        print("ERROR: FIRECRAWL_API_KEY environment variable not set.")
-        print("Please set it before running this Zero-Trust script.")
+    try:
+        api_key = load_secure_key("FIRECRAWL_API_KEY")
+    except ValueError as e:
+        print(f"ERROR: {e}")
+        print("Please set your API key in your OS environment variables before running this Zero-Trust script.")
         return
 
     # Initialize Firecrawl SDK
