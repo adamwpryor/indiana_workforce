@@ -42,6 +42,7 @@ export interface NetworkGraphData {
     name: string;
     group: 'institution' | 'employer' | 'intermediary';
     val: number; // For node sizing
+    subType?: string;
   }>;
   links: Array<{
     source: string;

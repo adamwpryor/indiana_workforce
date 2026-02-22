@@ -16,6 +16,7 @@ interface NetworkGraphProps {
 export default function NetworkGraph({ data, onNodeClick, selectedNodeId }: NetworkGraphProps) {
     const fgRef = useRef<any>(null);
     const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
+    const [hoverNode, setHoverNode] = useState<string | null>(null);
     const containerRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -90,9 +91,63 @@ export default function NetworkGraph({ data, onNodeClick, selectedNodeId }: Netw
                 nodeColor={getNodeColor}
                 nodeRelSize={6}
                 nodeVal={(node: any) => node.val || 1}
-                nodeLabel="name"
+                nodeLabel={() => ''} // Disabled default tooltip in favor of canvas text
                 onNodeClick={onNodeClick}
-                linkColor={() => 'rgba(255,255,255,0.2)'}
+                onNodeHover={(node) => setHoverNode(node && node.id ? String(node.id) : null)}
+                nodeCanvasObject={(node: any, ctx: CanvasRenderingContext2D, globalScale: number) => {
+                    const label = node.name;
+                    const fontSize = 14 / globalScale;
+                    ctx.font = `${fontSize}px Sans-Serif`;
+
+                    // Draw outer background/fill
+                    ctx.beginPath();
+                    ctx.arc(node.x, node.y, node.val, 0, 2 * Math.PI, false);
+                    ctx.fillStyle = getNodeColor(node);
+                    ctx.fill();
+
+                    // Shading/Badge for subTypes
+                    if (node.subType) {
+                        ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
+                        if (node.group === 'institution' && node.subType === 'R1') {
+                            ctx.beginPath();
+                            ctx.arc(node.x, node.y, node.val * 0.4, 0, 2 * Math.PI, false);
+                            ctx.fill();
+                        } else if (node.group === 'institution' && node.subType === 'Community College') {
+                            ctx.lineWidth = 1.5 / globalScale;
+                            ctx.strokeStyle = '#FFFFFF';
+                            ctx.stroke();
+                        } else if (node.group === 'employer') {
+                            ctx.fillRect(node.x - node.val / 4, node.y - node.val / 4, node.val / 2, node.val / 2);
+                        }
+                    }
+
+                    // Hover layer text and highlight
+                    if (hoverNode === node.id || selectedNodeId === node.id) {
+                        const textWidth = ctx.measureText(label).width;
+                        const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.2);
+
+                        ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+                        ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2 - node.val - fontSize, bckgDimensions[0], bckgDimensions[1]);
+
+                        ctx.textAlign = 'center';
+                        ctx.textBaseline = 'middle';
+                        ctx.fillStyle = '#0F2C52';
+                        ctx.fillText(label, node.x, node.y - node.val - fontSize / 2);
+
+                        ctx.beginPath();
+                        ctx.arc(node.x, node.y, node.val + 2, 0, 2 * Math.PI, false);
+                        ctx.strokeStyle = '#FFFFFF';
+                        ctx.lineWidth = 2 / globalScale;
+                        ctx.stroke();
+                    }
+                }}
+                nodePointerAreaPaint={(node: any, color: string, ctx: CanvasRenderingContext2D) => {
+                    ctx.fillStyle = color;
+                    ctx.beginPath();
+                    ctx.arc(node.x, node.y, node.val + 3, 0, 2 * Math.PI, false);
+                    ctx.fill();
+                }}
+                linkColor={() => 'rgba(249, 217, 170, 0.4)'} /* Peach for links */
                 linkWidth={(link: any) => Math.max(1, (link.value - 60) / 10)}
                 linkDirectionalParticles={2}
                 linkDirectionalParticleSpeed={(d: any) => d.value * 0.0001}

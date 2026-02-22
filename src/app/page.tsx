@@ -19,9 +19,9 @@ export default function Dashboard() {
   // Assemble Graph Data from the schemas and matches
   const graphData = useMemo<NetworkGraphData>(() => {
     const nodes = [
-      ...mockInstitutions.map(i => ({ id: i.id, name: i.name, group: 'institution' as const, val: 5 })),
-      ...mockEmployers.map(e => ({ id: e.id, name: e.name, group: 'employer' as const, val: 4 })),
-      ...mockIntermediaries.map(i => ({ id: i.id, name: i.name, group: 'intermediary' as const, val: 3 }))
+      ...mockInstitutions.map(i => ({ id: i.id, name: i.name, group: 'institution' as const, val: 5, subType: i.type })),
+      ...mockEmployers.map(e => ({ id: e.id, name: e.name, group: 'employer' as const, val: 4, subType: e.industry })),
+      ...mockIntermediaries.map(i => ({ id: i.id, name: i.name, group: 'intermediary' as const, val: 3, subType: i.focusArea }))
     ];
 
     const links = matches.map(m => ({

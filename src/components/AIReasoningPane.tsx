@@ -1,5 +1,5 @@
 import { MatchSchema, InstitutionSchema, EmployerSchema } from '@/types';
-import { BrainCircuit, Sparkles, MapPin, Target } from 'lucide-react';
+import { BrainCircuit, Sparkles, MapPin, Target, Search } from 'lucide-react';
 
 interface AIReasoningPaneProps {
     selectedNode: any | null;
@@ -45,7 +45,15 @@ export default function AIReasoningPane({ selectedNode, matches, institutions, e
             </h3>
 
             {nodeMatches.length === 0 ? (
-                <p className="text-sm text-slate-500 italic">No significant pathways detected for this entity currently.</p>
+                <div className="bg-slate-50 border border-slate-200 rounded-xl p-5 shadow-sm">
+                    <p className="text-sm text-slate-600 italic mb-4">No AI pathways detected for this entity currently. This indicates a gap in the local opportunity network.</p>
+                    <button
+                        onClick={() => alert("This feature will prompt the data crawler to research alignment for a specified entity.")}
+                        className="w-full py-2.5 px-4 bg-[#1A5F7A] hover:bg-[#0F2C52] text-white rounded-lg text-sm font-medium transition-colors flex justify-center items-center gap-2 shadow-sm">
+                        <Search className="h-4 w-4" />
+                        Propose New Connection
+                    </button>
+                </div>
             ) : (
                 <div className="space-y-6">
                     {nodeMatches.map(match => {
@@ -80,6 +88,24 @@ export default function AIReasoningPane({ selectedNode, matches, institutions, e
                             </div>
                         );
                     })}
+                </div>
+            )}
+
+            {nodeMatches.length > 0 && (
+                <div className="mt-8 pt-6 border-t border-slate-100">
+                    <h3 className="text-sm font-semibold text-slate-800 mb-3 flex items-center gap-2">
+                        <Target className="h-4 w-4 text-[#1A5F7A]" />
+                        Identify Missing Connections
+                    </h3>
+                    <p className="text-xs text-slate-500 mb-4 leading-relaxed">
+                        If an expected partnership between <span className="font-semibold">{selectedNode.name}</span> and another entity isn't shown, you can initiate a discovery scan to research alignment.
+                    </p>
+                    <button
+                        onClick={() => alert("This feature will prompt the data crawler to research alignment for a specified entity.")}
+                        className="w-full py-2.5 px-4 bg-white border-2 border-[#1A5F7A] text-[#1A5F7A] hover:bg-slate-50 rounded-lg text-sm font-bold transition-colors flex justify-center items-center gap-2 shadow-sm">
+                        <Search className="h-4 w-4" />
+                        Propose New Connection
+                    </button>
                 </div>
             )}
         </div>
