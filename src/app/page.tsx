@@ -44,22 +44,26 @@ export default function Dashboard() {
 
     const validNodeIds = new Set(nodes.map(n => n.id));
 
-    const links = matches
-      .filter(m => validNodeIds.has(m.sourceId) && validNodeIds.has(m.targetId))
-      .map(m => ({
-        source: m.sourceId,
-        target: m.targetId,
-        value: m.matchStrengthScore
-      }));
+    const generatedLinks = matches.map(m => ({
+      source: m.sourceId,
+      target: m.targetId,
+      value: m.matchStrengthScore
+    }));
 
     // Add some random static intermediary links for initial visual depth
     if (matches.length > 0) {
-      links.push({ source: mockInstitutions[0].id, target: mockIntermediaries[0].id, value: 50 });
-      links.push({ source: mockEmployers[1].id, target: mockIntermediaries[1].id, value: 60 });
-      links.push({ source: mockInstitutions[1].id, target: mockIntermediaries[0].id, value: 70 });
+      generatedLinks.push({ source: mockInstitutions[0].id, target: mockIntermediaries[0].id, value: 50 });
+      generatedLinks.push({ source: mockEmployers[1].id, target: mockIntermediaries[1].id, value: 60 });
+      generatedLinks.push({ source: mockInstitutions[1].id, target: mockIntermediaries[0].id, value: 70 });
     }
 
-    return { nodes, links };
+    // Filter ALL links to ensure they only connect existing valid nodes
+    const validLinks = generatedLinks.filter(l =>
+      validNodeIds.has(typeof l.source === 'object' ? (l.source as any).id : l.source as string) &&
+      validNodeIds.has(typeof l.target === 'object' ? (l.target as any).id : l.target as string)
+    );
+
+    return { nodes, links: validLinks };
   }, [matches, activeFilters]);
 
   return (
