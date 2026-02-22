@@ -6,9 +6,10 @@ interface DataPanelProps {
     employers: EmployerSchema[];
     activeFilters: Set<string>;
     onFilterToggle: (filter: string) => void;
+    onClearFilters: () => void;
 }
 
-export default function DataPanel({ institutions, employers, activeFilters, onFilterToggle }: DataPanelProps) {
+export default function DataPanel({ institutions, employers, activeFilters, onFilterToggle, onClearFilters }: DataPanelProps) {
     const totalStudents = institutions.reduce((acc, inst) => acc + inst.studentDemographics.totalStudents, 0);
 
     return (
@@ -34,7 +35,16 @@ export default function DataPanel({ institutions, employers, activeFilters, onFi
             <div className="mt-4">
                 <div className="flex justify-between items-center mb-3">
                     <h3 className="text-sm font-semibold text-slate-800 uppercase tracking-wider">Key Hiring Sectors</h3>
-                    <Filter className="h-3 w-3 text-slate-400" />
+                    {activeFilters.size > 0 ? (
+                        <button
+                            onClick={onClearFilters}
+                            className="text-xs font-semibold text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-2 py-1 rounded transition-colors"
+                        >
+                            Clear Filters
+                        </button>
+                    ) : (
+                        <Filter className="h-3 w-3 text-slate-400" />
+                    )}
                 </div>
                 <div className="space-y-3">
                     {[

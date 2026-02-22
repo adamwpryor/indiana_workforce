@@ -73,8 +73,21 @@ export default function AIReasoningPane({ selectedNode, matches, institutions, e
                                     </div>
                                 </div>
 
-                                <div className="mb-4">
-                                    <p className="text-sm text-slate-600 leading-relaxed italic border-l-2 border-slate-300 pl-3">
+                                <div className="mb-4 text-sm">
+                                    {match.scoreBreakdown && match.scoreBreakdown.length > 0 && (
+                                        <div className="mb-3 p-3 bg-white rounded border border-slate-100 shadow-sm">
+                                            <div className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2 border-b border-slate-100 pb-1">Score Calculation</div>
+                                            <ul className="space-y-1">
+                                                {match.scoreBreakdown.map((item, idx) => (
+                                                    <li key={idx} className="flex justify-between items-center text-xs">
+                                                        <span className="text-slate-600">{item.category}</span>
+                                                        <span className="font-mono font-medium text-[#1A5F7A]">+{item.score}</span>
+                                                    </li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    )}
+                                    <p className="text-slate-600 leading-relaxed italic border-l-2 border-slate-300 pl-3">
                                         "{match.aiReasoning}"
                                     </p>
                                 </div>

@@ -23,6 +23,11 @@ export default function Dashboard() {
     setSelectedNode(null);
   };
 
+  const clearFilters = () => {
+    setActiveFilters(new Set());
+    setSelectedNode(null);
+  };
+
   // Generate matches using our AI logic
   const matches = useMemo(() => {
     return generateMatches(mockInstitutions, mockEmployers, mockIntermediaries);
@@ -75,6 +80,7 @@ export default function Dashboard() {
           employers={mockEmployers}
           activeFilters={activeFilters}
           onFilterToggle={toggleFilter}
+          onClearFilters={clearFilters}
         />
       </div>
 

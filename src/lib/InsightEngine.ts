@@ -25,7 +25,14 @@ export function generateMatches(
             // If there is any overlap, generate a match
             if (overlap.length > 0) {
                 // Base score plus bonus for more overlap
-                const score = Math.min(98, 65 + overlap.length * 15);
+                const baseScore = 65;
+                const keywordBonus = Math.min(30, overlap.length * 15);
+                const score = Math.min(98, baseScore + keywordBonus);
+
+                const scoreBreakdown = [
+                    { category: 'Baseline Regional Alignment', score: baseScore },
+                    { category: `Keyword Overlap (${overlap.length} matched)`, score: keywordBonus }
+                ];
 
                 // Find a relevant intermediary if one exists
                 const bestIntermediary = intermediaries.find((int) =>
@@ -36,13 +43,25 @@ export function generateMatches(
 
                 const aiReasoning = `The Insight Engine detected strong alignment between ${inst.name}'s robust talent pool in ${overlap.map(v => v.toUpperCase()).join(', ')} and ${emp.name}'s critical hiring needs. The geographical proximity and shared strategic focus make this a high-yield opportunity.`;
 
+                // Generate varied recommended pathways
+                let pathway = 'Direct Hiring Pipeline';
+                if (bestIntermediary) {
+                    pathway = `Leverage ${bestIntermediary.name} programs`;
+                    scoreBreakdown.push({ category: 'Intermediary Bridge Available', score: 3 });
+                } else if (score < 80) {
+                    pathway = 'Develop Joint Upskilling Curriculum';
+                } else if (overlap.includes('data') || overlap.includes('technology')) {
+                    pathway = 'Establish Specialized Tech Apprenticeship';
+                }
+
                 matches.push({
                     id: `match-${inst.id}-${emp.id}`,
                     sourceId: inst.id,
                     targetId: emp.id,
-                    matchStrengthScore: score,
+                    matchStrengthScore: score + (bestIntermediary ? 3 : 0),
+                    scoreBreakdown,
                     aiReasoning: aiReasoning,
-                    recommendedPathway: bestIntermediary ? `Leverage ${bestIntermediary.name} programs` : 'Direct Hiring Pipeline',
+                    recommendedPathway: pathway,
                 });
             }
         }

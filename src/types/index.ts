@@ -32,6 +32,7 @@ export interface MatchSchema {
   sourceId: string; // ID of the Institution
   targetId: string; // ID of Employer or Intermediary
   matchStrengthScore: number; // 0 to 100
+  scoreBreakdown?: { category: string; score: number }[];
   aiReasoning: string;
   recommendedPathway?: string;
 }
