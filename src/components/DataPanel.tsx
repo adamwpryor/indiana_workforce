@@ -32,13 +32,18 @@ export default function DataPanel({ institutions, employers }: DataPanelProps) {
             <div className="mt-4">
                 <h3 className="text-sm font-semibold text-slate-800 uppercase tracking-wider mb-3">Key Hiring Sectors</h3>
                 <div className="space-y-3">
-                    {['Manufacturing', 'Technology', 'Pharmaceuticals', 'Healthcare'].map(sector => (
-                        <div key={sector} className="flex items-center justify-between">
-                            <span className="text-sm text-slate-600 font-medium">{sector}</span>
+                    {[
+                        { name: 'Manufacturing', width: '72%' },
+                        { name: 'Technology', width: '68%' },
+                        { name: 'Pharmaceuticals', width: '55%' },
+                        { name: 'Healthcare', width: '60%' }
+                    ].map(sector => (
+                        <div key={sector.name} className="flex items-center justify-between">
+                            <span className="text-sm text-slate-600 font-medium">{sector.name}</span>
                             <div className="h-2 flex-grow mx-4 bg-slate-100 rounded-full overflow-hidden">
                                 <div
                                     className="h-full bg-slate-300 rounded-full"
-                                    style={{ width: `${Math.floor(Math.random() * 60) + 20}%` }}
+                                    style={{ width: sector.width }}
                                 />
                             </div>
                         </div>
