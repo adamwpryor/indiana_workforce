@@ -1,21 +1,38 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  /* Brand Colors from Knoster */
+  --color-brand-navy: var(--color-navy);
+  --color-brand-sky: var(--color-sky);
+  --color-brand-teal: var(--color-teal);
+  --color-brand-sage: var(--color-sage);
+  --color-brand-gold: var(--color-gold);
+  --color-brand-peach: var(--color-peach);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
+:root {
+  /* Brand Palette */
+  --color-navy: #0F2C52;
+  --color-sky: #92B4EC;
+  --color-teal: #1A5F7A;
+  --color-sage: #78A083;
+  --color-gold: #E48F45;
+  --color-peach: #F9D9AA;
+
+  --background: #f8fafc;
+  --foreground: var(--color-navy);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #0F2C52;     /* Navry for Dark Mode Background */
+    --foreground: #f8fafc;
   }
 }
 

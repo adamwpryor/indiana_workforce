@@ -10,9 +10,10 @@ const ForceGraph2D = dynamic(() => import('react-force-graph-2d'), { ssr: false 
 interface NetworkGraphProps {
     data: NetworkGraphData;
     onNodeClick?: (node: any) => void;
+    selectedNodeId?: string | null;
 }
 
-export default function NetworkGraph({ data, onNodeClick }: NetworkGraphProps) {
+export default function NetworkGraph({ data, onNodeClick, selectedNodeId }: NetworkGraphProps) {
     const fgRef = useRef<any>(null);
     const [dimensions, setDimensions] = useState({ width: 800, height: 600 });
     const containerRef = useRef<HTMLDivElement>(null);
@@ -47,11 +48,26 @@ export default function NetworkGraph({ data, onNodeClick }: NetworkGraphProps) {
         }
     }, [data]);
 
+    // Zoom to selected node if selected from outside
+    useEffect(() => {
+        if (selectedNodeId && fgRef.current) {
+            // Need setTimeout to allow internal d3 state to stabilize if data just loaded
+            setTimeout(() => {
+                const GraphData = fgRef.current.graphData();
+                const targetNode = GraphData.nodes.find((n: any) => n.id === selectedNodeId);
+                if (targetNode && targetNode.x !== undefined && targetNode.y !== undefined) {
+                    fgRef.current.centerAt(targetNode.x, targetNode.y, 1000);
+                    fgRef.current.zoom(3, 1000);
+                }
+            }, 100);
+        }
+    }, [selectedNodeId]);
+
     const getNodeColor = (node: any) => {
         switch (node.group) {
-            case 'institution': return '#3b82f6'; // blue-500
-            case 'employer': return '#10b981'; // emerald-500
-            case 'intermediary': return '#f59e0b'; // amber-500
+            case 'institution': return '#0F2C52'; /* Brand Navy */
+            case 'employer': return '#1A5F7A'; /* Brand Teal */
+            case 'intermediary': return '#E48F45'; /* Brand Gold */
             default: return '#9ca3af'; // gray-400
         }
     };
@@ -60,9 +76,9 @@ export default function NetworkGraph({ data, onNodeClick }: NetworkGraphProps) {
         <div ref={containerRef} className="w-full h-full bg-slate-50 border border-slate-200 rounded-lg overflow-hidden relative shadow-inner">
             {/* Legend overlays */}
             <div className="absolute top-4 left-4 inline-flex flex-col gap-2 p-3 bg-white/90 backdrop-blur-sm border border-slate-200 rounded-md shadow-sm z-10 text-sm font-medium">
-                <div className="flex items-center gap-2"><span className="w-3 h-3 rounded-full bg-blue-500"></span> Institutions</div>
-                <div className="flex items-center gap-2"><span className="w-3 h-3 rounded-full bg-emerald-500"></span> Employers</div>
-                <div className="flex items-center gap-2"><span className="w-3 h-3 rounded-full bg-amber-500"></span> Intermediaries</div>
+                <div className="flex items-center gap-2"><span className="w-3 h-3 rounded-full bg-[#0F2C52]"></span> Institutions</div>
+                <div className="flex items-center gap-2"><span className="w-3 h-3 rounded-full bg-[#1A5F7A]"></span> Employers</div>
+                <div className="flex items-center gap-2"><span className="w-3 h-3 rounded-full bg-[#E48F45]"></span> Intermediaries</div>
             </div>
 
             {/* @ts-ignore */}

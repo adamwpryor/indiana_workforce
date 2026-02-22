@@ -49,14 +49,46 @@ export default function Dashboard() {
 
       {/* Center Stage - Visualization */}
       <div className="w-1/2 h-full p-6 relative z-0 flex flex-col border-x border-slate-200 bg-slate-100/50">
-        <div className="mb-4">
-          <h1 className="text-3xl font-extrabold text-slate-800 tracking-tight">AI Partner-Matching Engine</h1>
-          <p className="text-slate-500 mt-1 font-medium">Demonstrating AI Discernment for Workforce Readiness</p>
+        <div className="mb-4 flex justify-between items-end">
+          <div>
+            <h1 className="text-3xl font-extrabold text-[#0F2C52] tracking-tight">AI Partner-Matching Engine</h1>
+            <p className="text-slate-500 mt-1 font-medium">Demonstrating AI Discernment for Workforce Readiness</p>
+          </div>
+          <div className="w-64">
+            <label htmlFor="nodeSearch" className="block text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1">Find Entity in Graph</label>
+            <select
+              id="nodeSearch"
+              className="block w-full rounded-md border-slate-300 shadow-sm focus:border-[#1A5F7A] focus:ring-[#1A5F7A] text-slate-700 sm:text-sm p-2.5 border bg-white"
+              value={selectedNode?.id || ''}
+              onChange={(e) => {
+                const id = e.target.value;
+                if (!id) {
+                  setSelectedNode(null);
+                  return;
+                }
+                const node = graphData.nodes.find(n => n.id === id);
+                if (node) setSelectedNode(node);
+              }}
+            >
+              <option value="">-- Select to Navigate --</option>
+              <optgroup label="Institutions">
+                {graphData.nodes.filter(n => n.group === 'institution').map(n => (
+                  <option key={n.id} value={n.id}>{n.name}</option>
+                ))}
+              </optgroup>
+              <optgroup label="Employers & Intermediaries">
+                {graphData.nodes.filter(n => n.group !== 'institution').map(n => (
+                  <option key={n.id} value={n.id}>{n.name}</option>
+                ))}
+              </optgroup>
+            </select>
+          </div>
         </div>
         <div className="flex-grow shadow-md rounded-lg overflow-hidden border border-slate-300">
           <NetworkGraph
             data={graphData}
             onNodeClick={(node) => setSelectedNode(node)}
+            selectedNodeId={selectedNode?.id}
           />
         </div>
       </div>
