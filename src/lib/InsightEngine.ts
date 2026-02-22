@@ -1,4 +1,4 @@
-import { InstitutionSchema, EmployerSchema, IntermediarySchema, MatchSchema } from '@/types';
+import { InstitutionSchema, EmployerSchema, MatchSchema } from '@/types';
 
 /**
  * Simulates an AI-driven matching algorithm that connects Institutions
@@ -6,8 +6,7 @@ import { InstitutionSchema, EmployerSchema, IntermediarySchema, MatchSchema } fr
  */
 export function generateMatches(
     institutions: InstitutionSchema[],
-    employers: EmployerSchema[],
-    intermediaries: IntermediarySchema[]
+    employers: EmployerSchema[]
 ): MatchSchema[] {
     const matches: MatchSchema[] = [];
 
@@ -34,21 +33,11 @@ export function generateMatches(
                     { category: `Keyword Overlap (${overlap.length} matched)`, score: keywordBonus }
                 ];
 
-                // Find a relevant intermediary if one exists
-                const bestIntermediary = intermediaries.find((int) =>
-                    int.availablePrograms.some((prog) =>
-                        overlap.some((ov) => prog.toLowerCase().includes(ov))
-                    )
-                );
-
                 const aiReasoning = `The Insight Engine detected strong alignment between ${inst.name}'s robust talent pool in ${overlap.map(v => v.toUpperCase()).join(', ')} and ${emp.name}'s critical hiring needs. The geographical proximity and shared strategic focus make this a high-yield opportunity.`;
 
                 // Generate varied recommended pathways
                 let pathway = 'Direct Hiring Pipeline';
-                if (bestIntermediary) {
-                    pathway = `Leverage ${bestIntermediary.name} programs`;
-                    scoreBreakdown.push({ category: 'Intermediary Bridge Available', score: 3 });
-                } else if (score < 80) {
+                if (score < 80) {
                     pathway = 'Develop Joint Upskilling Curriculum';
                 } else if (overlap.includes('data') || overlap.includes('technology')) {
                     pathway = 'Establish Specialized Tech Apprenticeship';
@@ -58,7 +47,7 @@ export function generateMatches(
                     id: `match-${inst.id}-${emp.id}`,
                     sourceId: inst.id,
                     targetId: emp.id,
-                    matchStrengthScore: score + (bestIntermediary ? 3 : 0),
+                    matchStrengthScore: score,
                     scoreBreakdown,
                     aiReasoning: aiReasoning,
                     recommendedPathway: pathway,

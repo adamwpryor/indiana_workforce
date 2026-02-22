@@ -78,23 +78,11 @@ export default function NetworkGraph({ data, onNodeClick, selectedNodeId }: Netw
     }, [selectedNodeId, data]);
 
     const getNodeColor = (node: any) => {
-        switch (node.group) {
-            case 'institution': return '#92B4EC'; /* Brand Sky */
-            case 'employer': return '#F9D9AA'; /* Brand Peach */
-            case 'intermediary': return '#E48F45'; /* Brand Gold */
-            default: return '#9ca3af'; // gray-400
-        }
+        return node.color || '#9ca3af'; // Fallback to gray if no color is provided
     };
 
     return (
         <div ref={containerRef} className="w-full h-full bg-[#0F2C52] border border-slate-200 rounded-lg overflow-hidden relative shadow-inner">
-            {/* Legend overlays */}
-            <div className="absolute top-4 left-4 inline-flex flex-col gap-2 p-3 bg-[#0F2C52]/90 backdrop-blur-sm border border-[#1A5F7A] rounded-md shadow-lg z-10 text-sm font-medium text-slate-200">
-                <div className="flex items-center gap-2"><span className="w-3 h-3 rounded-full bg-[#92B4EC]"></span> Institutions</div>
-                <div className="flex items-center gap-2"><span className="w-3 h-3 rounded-full bg-[#F9D9AA]"></span> Employers</div>
-                <div className="flex items-center gap-2"><span className="w-3 h-3 rounded-full bg-[#E48F45]"></span> Intermediaries</div>
-            </div>
-
             {/* @ts-ignore */}
             <ForceGraph2D
                 ref={fgRef}
