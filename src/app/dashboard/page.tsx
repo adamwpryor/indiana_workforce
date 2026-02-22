@@ -92,9 +92,9 @@ export default function Dashboard() {
   }, [matches, activeFilters]);
 
   return (
-    <div className="flex h-screen w-full bg-slate-50 overflow-hidden font-sans">
+    <div className="flex flex-col lg:flex-row h-screen w-full bg-slate-50 overflow-y-auto lg:overflow-hidden font-sans">
       {/* Left Panel - Data Summary */}
-      <div className="w-1/4 h-full relative z-10 shadow-lg">
+      <div className="w-full lg:w-1/4 lg:h-full shrink-0 relative z-10 shadow-lg border-b lg:border-b-0">
         <DataPanel
           institutions={mockInstitutions}
           employers={mockEmployers}
@@ -110,11 +110,11 @@ export default function Dashboard() {
       </div>
 
       {/* Center Stage - Visualization */}
-      <div className="w-1/2 h-full p-6 relative z-0 flex flex-col border-x border-slate-200 bg-slate-100/50">
+      <div className="w-full lg:w-1/2 h-[60vh] lg:h-full p-4 lg:p-6 relative z-0 flex flex-col border-y lg:border-x lg:border-y-0 border-slate-200 bg-slate-100/50 shrink-0">
         <div className="mb-4 flex justify-between items-end">
           <div>
-            <h1 className="text-3xl font-extrabold text-[#0F2C52] tracking-tight">AI Partner-Matching Engine</h1>
-            <p className="text-slate-500 mt-1 font-medium">Demonstrating AI Discernment for Workforce Readiness</p>
+            <h1 className="text-2xl lg:text-3xl font-extrabold text-[#0F2C52] tracking-tight">AI Partner-Matching Engine</h1>
+            <p className="text-slate-500 mt-1 font-medium text-sm lg:text-base">Demonstrating AI Discernment for Workforce Readiness</p>
           </div>
         </div>
         <div className="flex-grow shadow-md rounded-lg overflow-hidden border border-slate-300">
@@ -127,7 +127,7 @@ export default function Dashboard() {
       </div>
 
       {/* Right Panel - AI Reasoning */}
-      <div className="w-1/4 h-full relative z-10 shadow-lg">
+      <div className="w-full lg:w-1/4 lg:h-full relative z-10 shadow-lg shrink-0">
         <AIReasoningPane
           selectedNode={selectedNode}
           matches={matches}

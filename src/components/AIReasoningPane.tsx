@@ -11,7 +11,7 @@ interface AIReasoningPaneProps {
 export default function AIReasoningPane({ selectedNode, matches, institutions, employers }: AIReasoningPaneProps) {
     if (!selectedNode) {
         return (
-            <div className="h-full flex flex-col items-center justify-center p-6 text-center text-slate-500 bg-white border-l border-slate-200">
+            <div className="h-full min-h-[300px] flex flex-col items-center justify-center p-6 text-center text-slate-500 bg-white lg:border-l border-t lg:border-t-0 border-slate-200">
                 <BrainCircuit className="h-12 w-12 text-slate-300 mb-4" />
                 <p className="text-sm">Select an institution or employer node on the network graph to view AI match reasoning.</p>
             </div>
@@ -30,7 +30,7 @@ export default function AIReasoningPane({ selectedNode, matches, institutions, e
     };
 
     return (
-        <div className="h-full overflow-y-auto p-6 bg-slate-100 border-l border-slate-200">
+        <div className="h-full lg:overflow-y-auto p-6 bg-slate-100 lg:border-l border-t lg:border-t-0 border-slate-200">
             <div className="mb-6 pb-4 border-b border-slate-100">
                 <div className="flex items-center gap-2 mb-1">
                     <span className={`w-3 h-3 rounded-full ${selectedNode.group === 'institution' ? 'bg-[#92B4EC]' : selectedNode.group === 'employer' ? 'bg-[#F9D9AA]' : 'bg-[#E48F45]'}`}></span>

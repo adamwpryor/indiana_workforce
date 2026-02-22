@@ -24,7 +24,7 @@ export default function DataPanel({ institutions, employers, activeFilters, onFi
     const institutionTypes = Array.from(new Set(institutions.map(i => i.type))).sort();
 
     return (
-        <div className="flex flex-col gap-6 h-full overflow-y-auto p-5 bg-slate-100 border-r border-slate-200">
+        <div className="flex flex-col gap-6 h-full lg:overflow-y-auto p-5 bg-slate-100 lg:border-r border-b lg:border-b-0 border-slate-200">
             <div className="flex flex-col gap-2 pb-4 border-b border-slate-200">
                 <Link href="/" className="inline-flex items-center gap-2 text-[#0F2C52] hover:text-blue-700 font-bold text-sm transition-colors uppercase tracking-wider">
                     <ArrowLeft className="w-4 h-4" /> Intro page
