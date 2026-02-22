@@ -19,6 +19,19 @@ export default function NetworkGraph({ data, onNodeClick, selectedNodeId }: Netw
     const [hoverNode, setHoverNode] = useState<string | null>(null);
     const containerRef = useRef<HTMLDivElement>(null);
 
+    // Compute direct neighbors for isolating un-connected nodes 
+    const linkedNodes = React.useMemo(() => {
+        if (!selectedNodeId) return new Set<string>();
+        const connected = new Set<string>([selectedNodeId]);
+        data.links.forEach((l: any) => {
+            const sourceId = typeof l.source === 'object' ? l.source.id : l.source;
+            const targetId = typeof l.target === 'object' ? l.target.id : l.target;
+            if (sourceId === selectedNodeId) connected.add(targetId);
+            if (targetId === selectedNodeId) connected.add(sourceId);
+        });
+        return connected;
+    }, [data.links, selectedNodeId]);
+
     useEffect(() => {
         if (containerRef.current) {
             setDimensions({
@@ -76,7 +89,7 @@ export default function NetworkGraph({ data, onNodeClick, selectedNodeId }: Netw
     return (
         <div ref={containerRef} className="w-full h-full bg-[#0F2C52] border border-slate-200 rounded-lg overflow-hidden relative shadow-inner">
             {/* Legend overlays */}
-            <div className="absolute top-4 left-4 inline-flex flex-col gap-2 p-3 bg-white/90 backdrop-blur-sm border border-slate-200 rounded-md shadow-sm z-10 text-sm font-medium">
+            <div className="absolute top-4 left-4 inline-flex flex-col gap-2 p-3 bg-[#0F2C52]/90 backdrop-blur-sm border border-[#1A5F7A] rounded-md shadow-lg z-10 text-sm font-medium text-slate-200">
                 <div className="flex items-center gap-2"><span className="w-3 h-3 rounded-full bg-[#92B4EC]"></span> Institutions</div>
                 <div className="flex items-center gap-2"><span className="w-3 h-3 rounded-full bg-[#F9D9AA]"></span> Employers</div>
                 <div className="flex items-center gap-2"><span className="w-3 h-3 rounded-full bg-[#E48F45]"></span> Intermediaries</div>
@@ -124,15 +137,18 @@ export default function NetworkGraph({ data, onNodeClick, selectedNodeId }: Netw
                     // Hover layer text and highlight
                     if (hoverNode === node.id || selectedNodeId === node.id) {
                         const textWidth = ctx.measureText(label).width;
-                        const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.2);
+                        const bckgDimensions = [textWidth + fontSize, fontSize + fontSize * 1.5]; // Expanded height and width
 
-                        ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
-                        ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2 - node.val - fontSize, bckgDimensions[0], bckgDimensions[1]);
+                        // Move text down slightly to fit exactly inside the expanded box
+                        const boxY = node.y - node.val - fontSize * 1.5;
+
+                        ctx.fillStyle = 'rgba(255, 255, 255, 0.95)';
+                        ctx.fillRect(node.x - bckgDimensions[0] / 2, boxY - bckgDimensions[1] / 2, bckgDimensions[0], bckgDimensions[1]);
 
                         ctx.textAlign = 'center';
                         ctx.textBaseline = 'middle';
                         ctx.fillStyle = '#0F2C52';
-                        ctx.fillText(label, node.x, node.y - node.val - fontSize / 2);
+                        ctx.fillText(label, node.x, boxY);
 
                         ctx.beginPath();
                         ctx.arc(node.x, node.y, node.val + 2, 0, 2 * Math.PI, false);
@@ -147,7 +163,13 @@ export default function NetworkGraph({ data, onNodeClick, selectedNodeId }: Netw
                     ctx.arc(node.x, node.y, node.val + 3, 0, 2 * Math.PI, false);
                     ctx.fill();
                 }}
-                linkColor={() => 'rgba(249, 217, 170, 0.4)'} /* Peach for links */
+                linkColor={(link: any) => {
+                    if (!selectedNodeId) return 'rgba(249, 217, 170, 0.4)'; /* Peach for links */
+                    const sourceId = typeof link.source === 'object' ? link.source.id : link.source;
+                    const targetId = typeof link.target === 'object' ? link.target.id : link.target;
+                    const isConnected = sourceId === selectedNodeId || targetId === selectedNodeId;
+                    return isConnected ? 'rgba(249, 217, 170, 0.9)' : 'rgba(249, 217, 170, 0.05)';
+                }}
                 linkWidth={(link: any) => Math.max(1, (link.value - 60) / 10)}
                 linkDirectionalParticles={2}
                 linkDirectionalParticleSpeed={(d: any) => d.value * 0.0001}

@@ -1,16 +1,18 @@
 import { InstitutionSchema, EmployerSchema } from '@/types';
-import { Building2, GraduationCap } from 'lucide-react';
+import { Building2, GraduationCap, Filter } from 'lucide-react';
 
 interface DataPanelProps {
     institutions: InstitutionSchema[];
     employers: EmployerSchema[];
+    activeFilters: Set<string>;
+    onFilterToggle: (filter: string) => void;
 }
 
-export default function DataPanel({ institutions, employers }: DataPanelProps) {
+export default function DataPanel({ institutions, employers, activeFilters, onFilterToggle }: DataPanelProps) {
     const totalStudents = institutions.reduce((acc, inst) => acc + inst.studentDemographics.totalStudents, 0);
 
     return (
-        <div className="flex flex-col gap-6 h-full overflow-y-auto p-4 bg-white border-r border-slate-200">
+        <div className="flex flex-col gap-6 h-full overflow-y-auto p-5 bg-slate-100 border-r border-slate-200">
             <div>
                 <h2 className="text-xl font-bold text-slate-800 mb-1">Statewide Overview</h2>
                 <p className="text-sm text-slate-500">Indiana Labor & Education Metrics</p>
@@ -30,36 +32,57 @@ export default function DataPanel({ institutions, employers }: DataPanelProps) {
             </div>
 
             <div className="mt-4">
-                <h3 className="text-sm font-semibold text-slate-800 uppercase tracking-wider mb-3">Key Hiring Sectors</h3>
+                <div className="flex justify-between items-center mb-3">
+                    <h3 className="text-sm font-semibold text-slate-800 uppercase tracking-wider">Key Hiring Sectors</h3>
+                    <Filter className="h-3 w-3 text-slate-400" />
+                </div>
                 <div className="space-y-3">
                     {[
                         { name: 'Manufacturing', width: '72%' },
                         { name: 'Technology', width: '68%' },
                         { name: 'Pharmaceuticals', width: '55%' },
                         { name: 'Healthcare', width: '60%' }
-                    ].map(sector => (
-                        <div key={sector.name} className="flex items-center justify-between">
-                            <span className="text-sm text-slate-600 font-medium">{sector.name}</span>
-                            <div className="h-2 flex-grow mx-4 bg-slate-100 rounded-full overflow-hidden">
-                                <div
-                                    className="h-full bg-slate-300 rounded-full"
-                                    style={{ width: sector.width }}
-                                />
-                            </div>
-                        </div>
-                    ))}
+                    ].map(sector => {
+                        const isActive = activeFilters.has(sector.name);
+                        return (
+                            <button
+                                key={sector.name}
+                                onClick={() => onFilterToggle(sector.name)}
+                                className={`w-full flex items-center justify-between p-1.5 -mx-1.5 rounded-md hover:bg-slate-200 transition-colors ${isActive ? 'bg-blue-100/50 ring-1 ring-blue-300' : ''}`}>
+                                <span className={`text-sm font-medium ${isActive ? 'text-blue-700' : 'text-slate-600'}`}>{sector.name}</span>
+                                <div className="h-2 flex-grow mx-4 bg-slate-200 rounded-full overflow-hidden">
+                                    <div
+                                        className={`h-full rounded-full transition-colors ${isActive ? 'bg-blue-500' : 'bg-slate-400'}`}
+                                        style={{ width: sector.width }}
+                                    />
+                                </div>
+                            </button>
+                        )
+                    })}
                 </div>
             </div>
 
             <div className="mt-4">
-                <h3 className="text-sm font-semibold text-slate-800 uppercase tracking-wider mb-3">Institution Nodes</h3>
-                <ul className="space-y-2">
-                    {institutions.map(inst => (
-                        <li key={inst.id} className="text-sm text-slate-600 flex justify-between border-b border-slate-100 pb-2">
-                            <span className="font-medium">{inst.name}</span>
-                            <span className="text-slate-400">{inst.type}</span>
-                        </li>
-                    ))}
+                <div className="flex justify-between items-center mb-3">
+                    <h3 className="text-sm font-semibold text-slate-800 uppercase tracking-wider">Institution Nodes</h3>
+                    <Filter className="h-3 w-3 text-slate-400" />
+                </div>
+                <ul className="space-y-1">
+                    {/* Add unique types as active filters */}
+                    {Array.from(new Set(institutions.map(i => i.type))).map(type => {
+                        const isActive = activeFilters.has(type);
+                        const count = institutions.filter(i => i.type === type).length;
+                        return (
+                            <li key={type}>
+                                <button
+                                    onClick={() => onFilterToggle(type)}
+                                    className={`w-full text-left text-sm flex justify-between px-2 py-1.5 rounded border ${isActive ? 'bg-emerald-50 border-emerald-200 text-emerald-800 font-semibold' : 'bg-white border-slate-200 text-slate-600 hover:border-slate-300'}`}>
+                                    <span>{type}</span>
+                                    <span className="text-slate-400 text-xs px-1.5 py-0.5 bg-slate-100 rounded-full">{count}</span>
+                                </button>
+                            </li>
+                        )
+                    })}
                 </ul>
             </div>
         </div>

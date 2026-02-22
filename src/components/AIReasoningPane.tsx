@@ -30,7 +30,7 @@ export default function AIReasoningPane({ selectedNode, matches, institutions, e
     };
 
     return (
-        <div className="h-full overflow-y-auto p-6 bg-white border-l border-slate-200">
+        <div className="h-full overflow-y-auto p-6 bg-slate-100 border-l border-slate-200">
             <div className="mb-6 pb-4 border-b border-slate-100">
                 <div className="flex items-center gap-2 mb-1">
                     <span className={`w-3 h-3 rounded-full ${selectedNode.group === 'institution' ? 'bg-[#92B4EC]' : selectedNode.group === 'employer' ? 'bg-[#F9D9AA]' : 'bg-[#E48F45]'}`}></span>
