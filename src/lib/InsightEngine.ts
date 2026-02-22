@@ -194,6 +194,11 @@ export function generateMatches(
             });
         }
 
+        if (isDeepDive) {
+            matches.push(...potentialMatches);
+            continue;
+        }
+
         // Sort potential matches by score descending
         potentialMatches.sort((a, b) => b.matchStrengthScore - a.matchStrengthScore);
 
