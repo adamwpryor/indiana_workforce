@@ -53,9 +53,14 @@ export default function NetworkGraph({ data, onNodeClick, selectedNodeId }: Netw
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-    // Zoom to fit nodes once loaded
+    // Configure forces and zoom to fit nodes once loaded
     useEffect(() => {
         if (fgRef.current && data.nodes.length > 0) {
+            // Increase repulsion (default is usually -30) to spread nodes apart
+            fgRef.current.d3Force('charge').strength(-350);
+            // Increase preferred link distance (default is 30)
+            fgRef.current.d3Force('link').distance(75);
+
             setTimeout(() => {
                 fgRef.current.zoomToFit(400, 50);
             }, 500);

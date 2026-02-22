@@ -9,7 +9,51 @@ export function generateMatches(
     employers: EmployerSchema[]
 ): MatchSchema[] {
     const matches: MatchSchema[] = [];
-    const MIN_CONNECTIONS_PER_INSTITUTION = 3;
+    const MIN_CONNECTIONS_PER_INSTITUTION = 6;
+
+    const liberalArtsKeywords = ['english', 'history', 'philosophy', 'sociology', 'psychology', 'political', 'anthropology', 'communications', 'liberal arts', 'humanities', 'theology', 'fine arts', 'music', 'literature', 'design'];
+
+    const getPathway = (score: number, overlap: string[], isStem: boolean, isLiberalArts: boolean, industry: string) => {
+        const highIntensity = [
+            "Direct Hiring Pipeline Formulation: Immediate integration via dedicated campus recruiting and fast-track interviews.",
+            "Establish Specialized Cooperative Education: Multi-semester co-op blocks embedding students in core business units.",
+            "Joint Innovation Lab Co-development: Shared regional R&D space where students and employees tackle emerging industry problems.",
+            "Executive Leadership Fellows Program: Fast-tracking top graduates directly into management via rigorous mentorship."
+        ];
+        const techApprenticeship = [
+            "Specialized Technical Apprenticeship: Earn-and-learn models specifically designed for emerging tech and data stacks.",
+            "AI & Systems Integration Co-op: Focused pipeline for deploying advanced algorithmic systems and digital infrastructure.",
+            "Data Architecture Fellowship: A specialized track converting capstone projects directly into enterprise data models."
+        ];
+        const liberalArtsFocus = [
+            "Human-in-the-Loop Operations Residency: Utilizing critical thinking and ethics to manage complex automated or scaled systems.",
+            "Corporate Communications & Policy Externship: Applying humanities frameworks to external relations and internal corporate strategy.",
+            "Ethical AI Frameworks Fellowship: Bridging philosophy and sociology with product development to ensure responsible scaling.",
+            "Cross-Disciplinary Capstone Integration: Bringing diverse analytical perspectives to solve multifaceted corporate challenges."
+        ];
+        const moderateDevelopment = [
+            "Develop Joint Upskilling Curriculum: Employer and faculty collaborate to align degree tracks with immediate workforce tools.",
+            "Remote Digital Transformation Internship: Scalable, off-site project work modernizing legacy systems and processes.",
+            "Industry-Sponsored Capstone Sprints: Semester-long projects where students solve specific, low-risk corporate problems.",
+            "Micro-Credential & Certificate Boot-camp: Short, intense skill sprints bridging the gap between general degrees and specific roles."
+        ];
+        const exploratory = [
+            "Strategic Exploratory Partnership: Initial cross-pollination to discover hidden alignments between academic theory and practice.",
+            "Regional Economic Integration Taskforce: Joint committee to map out long-term mutual investments in the local workforce ecosystem.",
+            "Campus-to-Corporate Shadowing Pilot: Short-term observation periods to help faculty and students understand emerging industry contexts.",
+            "Non-Traditional Talent Pathway Design: Reimagining hiring criteria to value cognitive flexibility over direct technical translation."
+        ];
+
+        if (score >= 82) {
+            if (isStem && (industry.includes('Tech') || industry.includes('Engineering') || industry.includes('Manufacturing'))) return techApprenticeship[Math.floor(Math.random() * techApprenticeship.length)];
+            return highIntensity[Math.floor(Math.random() * highIntensity.length)];
+        } else if (score >= 65) {
+            if (isLiberalArts && !isStem) return liberalArtsFocus[Math.floor(Math.random() * liberalArtsFocus.length)];
+            return moderateDevelopment[Math.floor(Math.random() * moderateDevelopment.length)];
+        } else {
+            return exploratory[Math.floor(Math.random() * exploratory.length)];
+        }
+    };
 
     for (const inst of institutions) {
         const potentialMatches: MatchSchema[] = [];
@@ -24,9 +68,10 @@ export function generateMatches(
                 empKeywords.some((ek) => ek.includes(k) || k.includes(ek))
             );
 
-            const baseScore = 60; // Significantly higher base score
+            const baseScore = 45; // Lowered baseline to compensate for remote/digital trends
             const keywordBonus = Math.min(25, overlap.length * 8);
             let ipedsBonus = 0;
+            let liberalArtsBonus = 0;
 
             const scoreBreakdown = [
                 { category: 'Baseline Regional Alignment', score: baseScore }
@@ -35,6 +80,9 @@ export function generateMatches(
             if (overlap.length > 0) {
                 scoreBreakdown.push({ category: `Skill/Major Overlap (${overlap.length} matched)`, score: keywordBonus });
             }
+
+            const hasLiberalArts = instKeywords.some(m => liberalArtsKeywords.some(kw => m.includes(kw))) || inst.type.toLowerCase().includes('baccalaureate');
+            let isStemHeavy = false;
 
             // IPEDS Data Integration
             let ipedsNarrative = '';
@@ -47,11 +95,14 @@ export function generateMatches(
                 }
 
                 const isTechOrMfg = emp.industry.toLowerCase().includes('tech') || emp.industry.toLowerCase().includes('manufacturing') || emp.industry.toLowerCase().includes('engineering');
-                if (isTechOrMfg && inst.ipedsMetrics.stemDegreePercentage > 15) {
-                    const stemBonus = Math.min(10, (inst.ipedsMetrics.stemDegreePercentage - 15) / 2);
-                    ipedsBonus += stemBonus;
-                    scoreBreakdown.push({ category: 'STEM Alignment Focus', score: Math.round(stemBonus) });
-                    ipedsNarrative += `With a strong ${inst.ipedsMetrics.stemDegreePercentage.toFixed(1)}% concentration in STEM degrees, the institution is uniquely positioned to fulfill ${emp.name}'s technical demands. `;
+                if (inst.ipedsMetrics.stemDegreePercentage > 15) {
+                    isStemHeavy = true;
+                    if (isTechOrMfg) {
+                        const stemBonus = Math.min(10, (inst.ipedsMetrics.stemDegreePercentage - 15) / 2);
+                        ipedsBonus += stemBonus;
+                        scoreBreakdown.push({ category: 'STEM Alignment Focus', score: Math.round(stemBonus) });
+                        ipedsNarrative += `With a strong ${inst.ipedsMetrics.stemDegreePercentage.toFixed(1)}% concentration in STEM degrees, the institution is uniquely positioned to fulfill ${emp.name}'s technical demands. `;
+                    }
                 }
 
                 if (inst.ipedsMetrics.institutionalEndowmentMillion > 200) {
@@ -61,31 +112,38 @@ export function generateMatches(
                 }
             }
 
-            const variance = Math.floor(Math.random() * 4);
-            const totalScore = Math.min(99, Math.round(baseScore + keywordBonus + ipedsBonus + variance));
+            // Liberal Arts Counterweight Bonus
+            let liberalArtsNarrative = '';
+            if (hasLiberalArts) {
+                const employerValuesHumanities = empKeywords.some(s => s.includes('communication') || s.includes('writing') || s.includes('critical thinking') || s.includes('analysis') || s.includes('management') || s.includes('design') || s.includes('strategy'));
+                if (employerValuesHumanities) {
+                    liberalArtsBonus = 12;
+                    scoreBreakdown.push({ category: 'Human Analytics & Ethics Alignment', score: 12 });
+                    liberalArtsNarrative = `The institution's robust liberal arts framework provides the crucial critical thinking and communication skills explicitly required for ${emp.name}'s strategic roles. `;
+                } else {
+                    liberalArtsBonus = 5;
+                    scoreBreakdown.push({ category: 'Cross-Disciplinary Versatility', score: 5 });
+                    liberalArtsNarrative = `Furthermore, the institution's liberal arts core ensures cognitive flexibility, an essential trait for navigating the unmapped challenges in modern ${emp.industry} environments. `;
+                }
+            }
 
-            // Generate Bespoke, Creative AI Reasoning connecting O*NET to IPEDS
+            const variance = Math.floor(Math.random() * 4);
+            const totalScore = Math.min(99, Math.round(baseScore + keywordBonus + ipedsBonus + liberalArtsBonus + variance));
+
+            // Generate Bespoke, Creative AI Reasoning connecting O*NET to IPEDS and Curriculum
             const topSkills = emp.requiredSkills.slice(0, 3).join(', ');
             let aiReasoning = `Strategic Partnership Analysis: ${inst.name} & ${emp.name}.\n`;
 
             if (overlap.length > 0) {
                 aiReasoning += `This connection is driven by direct alignment between the university's academic output in [${overlap.join(', ').toUpperCase()}] and the employer's need for O*NET-validated skills such as ${topSkills}. `;
                 aiReasoning += ipedsNarrative;
-                aiReasoning += `Creatively, this partnership could evolve into a specialized cooperative education program where students apply these exact skills in real-world ${emp.industry} environments before graduation.`;
+                aiReasoning += liberalArtsNarrative;
+                aiReasoning += `Creatively, this partnership could evolve into a specialized cooperative education program where students apply these exact foundational elements in real-world ${emp.industry} environments before graduation.`;
             } else {
                 aiReasoning += `While direct program overlap is not immediately obvious, the critical workforce need for O*NET skills like ${topSkills} presents an opportunity for cross-disciplinary training. `;
                 aiReasoning += ipedsNarrative;
+                aiReasoning += liberalArtsNarrative;
                 aiReasoning += `A creative approach would involve ${inst.name} developing a micro-credential or boot-camp tailored specifically to upskill the local workforce for ${emp.name}'s emerging roles in ${emp.industry}.`;
-            }
-
-            // Generate varied recommended pathways
-            let pathway = 'Direct Hiring Pipeline & Career Fairs';
-            if (totalScore < 75) {
-                pathway = 'Strategic Exploratory Partnership';
-            } else if (totalScore < 85) {
-                pathway = 'Develop Joint Upskilling Curriculum';
-            } else if (overlap.includes('data') || overlap.includes('technology') || overlap.includes('engineering')) {
-                pathway = 'Establish Specialized Technical Apprenticeship';
             }
 
             potentialMatches.push({
@@ -95,32 +153,30 @@ export function generateMatches(
                 matchStrengthScore: totalScore,
                 scoreBreakdown,
                 aiReasoning: aiReasoning.trim(),
-                recommendedPathway: pathway,
+                recommendedPathway: getPathway(totalScore, overlap, isStemHeavy, hasLiberalArts, emp.industry),
             });
         }
 
         // Sort potential matches by score descending
         potentialMatches.sort((a, b) => b.matchStrengthScore - a.matchStrengthScore);
 
-        // Filter for "natural" matches meeting a threshold (lowered to visually show more graph connections)
-        let acceptedMatches = potentialMatches.filter(m => m.matchStrengthScore >= 75);
+        // Filter for "natural" matches meeting a threshold (lowered to allow more connections naturally with the new baseline)
+        let acceptedMatches = potentialMatches.filter(m => m.matchStrengthScore >= 65);
 
         // GUARANTEE BASELINE CONNECTIONS:
-        // If the institution has too few natural connections, explicitly pull in the top N
         if (acceptedMatches.length < MIN_CONNECTIONS_PER_INSTITUTION) {
             acceptedMatches = potentialMatches.slice(0, MIN_CONNECTIONS_PER_INSTITUTION);
 
-            // Retroactively adjust reasoning to sound like a creative exploration rather than an algorithmic failure
+            // Adjust reasoning for stretch assignments
             acceptedMatches.forEach(m => {
-                if (m.matchStrengthScore < 75) {
+                if (m.matchStrengthScore < 65) {
                     m.aiReasoning = `Strategic Exploratory Focus: Although traditional academic alignment might be developing, the Insight Engine identifies ${employers.find(e => e.id === m.targetId)?.name} as a vital regional partner for ${inst.name}. By bridging the employer's need for skills like ${employers.find(e => e.id === m.targetId)?.requiredSkills.slice(0, 2).join(' and ')} with the institution's distinct student demographic, a high-impact, non-traditional workforce pipeline can be forged.`;
-                    m.scoreBreakdown?.push({ category: 'Strategic Exploratory Partnership', score: 5 });
-                    m.matchStrengthScore = Math.min(99, m.matchStrengthScore + 5); // Visually boost the forced connection slightly so it's not a tiny thread
+                    m.scoreBreakdown?.push({ category: 'Strategic Exploratory Partnership', score: 65 - m.matchStrengthScore });
+                    m.matchStrengthScore = 65; // Visually boost the forced connection slightly so it's not invisible
                 }
             });
         }
 
-        // Add to global match array
         matches.push(...acceptedMatches);
     }
 
