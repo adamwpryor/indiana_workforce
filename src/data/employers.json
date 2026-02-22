@@ -12,11 +12,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Biochemistry",
-            "Statistical Analysis (R/SAS)",
-            "Good Manufacturing Practices (GMP)",
-            "Project Management",
-            "Data Visualization"
+            "Scientific Research and Experimentation",
+            "Chemical Process Engineering",
+            "Statistical Analysis and Data Mining",
+            "Clinical Trial Administration",
+            "Good Laboratory/Manufacturing Practices (GLP/GMP)",
+            "Market Research and Analysis"
         ]
     },
     {
@@ -32,11 +33,12 @@
         ],
         "location": "Columbus",
         "requiredSkills": [
-            "CAD (Creo/SolidWorks)",
-            "Engine Systems",
-            "Lean Six Sigma",
-            "Data Analytics",
-            "Financial Reporting"
+            "Mechanical Systems Design and Analysis",
+            "Electrical Circuit and Control Systems Design",
+            "Logistics and Supply Chain Management",
+            "Object-Oriented Programming",
+            "Financial and Accounting Principles",
+            "Systems Analysis and Evaluation"
         ]
     },
     {
@@ -52,11 +54,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Patient Care",
-            "Electronic Medical Records (EMR)",
-            "Clinical Assessment",
-            "Medical Terminology",
-            "Problem Solving"
+            "Patient Care and Assessment",
+            "Clinical Laboratory Procedures",
+            "Therapeutic Treatment Planning",
+            "Healthcare Operations Management",
+            "Electronic Health Record (EHR) Systems Management",
+            "Systems Analysis"
         ]
     },
     {
@@ -72,11 +75,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Java/Python",
-            "Cloud Computing (AWS/Azure)",
-            "Agile Methodologies",
-            "CRM Software",
-            "Communication"
+            "Software Development Lifecycle Management",
+            "Cloud Computing Architecture",
+            "Technical Sales and Solutioning",
+            "Product Roadmapping and Strategy",
+            "Customer Relationship Management (CRM) Systems",
+            "Agile Development Methodologies"
         ]
     },
     {
@@ -92,11 +96,12 @@
         ],
         "location": "West Lafayette",
         "requiredSkills": [
-            "Academic Research",
-            "Curriculum Development",
-            "Network Administration",
-            "Public Speaking",
-            "Grant Writing"
+            "Instruction and Curriculum Development",
+            "Scientific and Academic Research",
+            "Network and Systems Administration",
+            "Student Advising and Counseling",
+            "Facilities Planning and Management",
+            "Grant Writing and Administration"
         ]
     },
     {
@@ -112,11 +117,12 @@
         ],
         "location": "Bloomington",
         "requiredSkills": [
-            "Medical Device Design",
-            "FDA Regulations (21 CFR 820)",
-            "Quality Assurance",
-            "Technical Writing",
-            "Clinical Research"
+            "Medical Device Design and Development",
+            "Quality Management Systems (ISO 13485)",
+            "Regulatory Compliance (FDA/MDR)",
+            "Computer-Aided Design and Manufacturing (CAD/CAM)",
+            "Clinical Study Coordination",
+            "Technical Documentation"
         ]
     },
     {
@@ -132,11 +138,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "SQL",
-            "Healthcare Economics",
-            "Risk Assessment",
-            "Microsoft Excel",
-            "Business Analysis"
+            "Statistical Analysis and Data Visualization",
+            "Risk Assessment and Underwriting",
+            "Actuarial Science and Modeling",
+            "Patient Case Management",
+            "Business Requirements Analysis",
+            "Database Querying Languages (e.g., SQL)"
         ]
     },
     {
@@ -152,11 +159,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Assay Development",
-            "Systems Integration",
-            "Medical Diagnostics",
-            "GMP/GLP",
-            "SAP"
+            "Assay Development and Validation",
+            "Systems Integration and Engineering",
+            "Product and Brand Management",
+            "Quality Control and Assurance",
+            "Supply and Demand Planning",
+            "Good Laboratory Practices (GLP)"
         ]
     },
     {
@@ -172,11 +180,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "PLC Programming",
-            "Powertrain Systems",
-            "Data Acquisition",
-            "Geometric Dimensioning & Tolerancing (GD&T)",
-            "Financial Modeling"
+            "Control Systems Design",
+            "Manufacturing Process Improvement",
+            "Mechanical and Electrical System Testing",
+            "Powertrain and Drivetrain Engineering",
+            "Programmable Logic Controller (PLC) Programming",
+            "Financial Modeling and Analysis"
         ]
     },
     {
@@ -192,11 +201,12 @@
         ],
         "location": "Fort Wayne",
         "requiredSkills": [
-            "Metallurgy",
-            "Industrial Automation",
-            "Process Optimization",
-            "OSHA Regulations",
-            "Leadership"
+            "Metallurgical and Materials Science",
+            "Industrial Electrical Systems Maintenance",
+            "Statistical Process Control (SPC)",
+            "Occupational Health and Safety Administration (OSHA)",
+            "Production and Processing Supervision",
+            "Process Optimization"
         ]
     },
     {
@@ -212,11 +222,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Logistics Planning",
+            "Transportation and Logistics Planning",
             "Warehouse Management Systems (WMS)",
-            "Time Management",
-            "Aviation Maintenance",
-            "Customer Service"
+            "Operations Analysis and Management",
+            "Aircraft Maintenance and Repair",
+            "Coordination",
+            "Active Listening"
         ]
     },
     {
@@ -232,11 +243,12 @@
         ],
         "location": "Warsaw",
         "requiredSkills": [
-            "Orthopedics",
-            "ISO 13485",
-            "CAD/CAM",
-            "Digital Marketing",
-            "Project Management"
+            "Orthopedic Device Engineering",
+            "Quality System Auditing (ISO 13485)",
+            "Computer Numerical Control (CNC) Programming",
+            "Digital Marketing and Communication",
+            "Clinical Research and Data Management",
+            "Computer-Aided Design (CAD)"
         ]
     },
     {
@@ -252,11 +264,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Patient Advocacy",
-            "Mental Health Counseling",
-            "EMR (Epic)",
-            "Diagnostic Imaging",
-            "Teamwork"
+            "Patient Advocacy and Care",
+            "Mental Health Counseling and Therapy",
+            "Administering Patient Assistance",
+            "Medical Imaging and Radiography",
+            "Clinical Procedures and Documentation",
+            "Electronic Medical Record (EMR) Operation"
         ]
     },
     {
@@ -272,11 +285,12 @@
         ],
         "location": "Lafayette",
         "requiredSkills": [
-            "Robotics (Fanuc/Yaskawa)",
-            "PLC Troubleshooting",
+            "Robotics and Automation Systems",
+            "Industrial Machinery Maintenance",
+            "Quality Control Analysis",
             "Statistical Process Control (SPC)",
-            "Assembly Line Operations",
-            "Kaizen"
+            "Lean Manufacturing Principles",
+            "Logistics Coordination"
         ]
     },
     {
@@ -292,11 +306,12 @@
         ],
         "location": "Notre Dame",
         "requiredSkills": [
-            "Higher Education Teaching",
-            "Scientific Research",
-            "Cybersecurity",
-            "Donor Relations",
-            "Collaboration"
+            "Higher Education Teaching and Instruction",
+            "Scientific Research Design and Execution",
+            "Information Security Analysis",
+            "Fundraising and Donor Relations",
+            "Service Orientation",
+            "Complex Problem Solving"
         ]
     },
     {
@@ -312,11 +327,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Actuarial Science",
-            "Financial Planning",
-            "Business Requirements Gathering",
-            "Insurance Policies",
-            "Client Relationship Management"
+            "Actuarial Analysis and Risk Modeling",
+            "Financial Planning and Advisory",
+            "Business Systems and Requirements Analysis",
+            "Insurance Claim Investigation and Adjustment",
+            "Client Relationship Management",
+            "Persuasion and Negotiation"
         ]
     },
     {
@@ -333,10 +349,11 @@
         "location": "Elkhart",
         "requiredSkills": [
             "Product Lifecycle Management",
-            "Lean Manufacturing",
-            "Market Research",
-            "AutoCAD/SolidWorks",
-            "Financial Analysis"
+            "Lean Manufacturing and Process Improvement",
+            "Market and Brand Strategy",
+            "Financial Analysis and Reporting",
+            "Mechanical and Structural Design",
+            "Computer-Aided Design (CAD) Software"
         ]
     },
     {
@@ -352,11 +369,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Java/.NET",
-            "Database Management (SQL)",
-            "Cloud Platforms (AWS/Azure/GCP)",
-            "Agile/Scrum",
-            "Client Communication"
+            "Systems Analysis and Design",
+            "Programming and Software Development",
+            "Cloud Infrastructure and Architecture",
+            "Data Warehousing and ETL Processes",
+            "Project Management Methodologies",
+            "Client Consultation and Communication"
         ]
     },
     {
@@ -372,11 +390,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Classroom Management",
-            "Instructional Design",
-            "Individualized Education Program (IEP)",
-            "Student Health",
-            "Interpersonal Skills"
+            "Instructional Design and Classroom Management",
+            "Educational Leadership and Administration",
+            "Individualized Education Program (IEP) Implementation",
+            "Student Health Assessment and Care",
+            "Learning Strategies",
+            "Social Perceptiveness"
         ]
     },
     {
@@ -392,11 +411,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Cardiac Care",
-            "Sterile Processing",
-            "Pharmacology",
-            "Ventilator Management",
-            "Clinical Diagnosis"
+            "Cardiovascular Monitoring and Testing",
+            "Surgical Procedures and Sterile Technique",
+            "Pharmacology and Medication Dispensing",
+            "Respiratory Therapy and Ventilator Management",
+            "Medical Diagnosis and Treatment Planning",
+            "Critical Thinking"
         ]
     },
     {
@@ -412,11 +432,12 @@
         ],
         "location": "Princeton",
         "requiredSkills": [
-            "Toyota Production System (TPS)",
-            "Robotics Maintenance",
-            "Process Improvement",
-            "Just-In-Time (JIT) Logistics",
-            "Problem Solving"
+            "Production and Processing",
+            "Equipment Maintenance and Repair",
+            "Process Improvement and Quality Control",
+            "Just-In-Time (JIT) Logistics Analysis",
+            "Operations Analysis",
+            "Troubleshooting"
         ]
     },
     {
@@ -432,11 +453,12 @@
         ],
         "location": "Greenfield",
         "requiredSkills": [
-            "Animal Science",
-            "Molecular Biology",
-            "GMP",
-            "Sales & Negotiation",
-            "Global Regulatory Submissions"
+            "Veterinary Medicine and Animal Science",
+            "Molecular Biology and Chemistry",
+            "Good Manufacturing Practices (GMP)",
+            "Sales and Negotiation",
+            "Regulatory Affairs and Compliance",
+            "Scientific Method"
         ]
     },
     {
@@ -452,11 +474,12 @@
         ],
         "location": "Fort Wayne",
         "requiredSkills": [
-            "Advanced Practice Nursing",
-            "Laboratory Testing",
-            "Sonography",
-            "Technical Support",
-            "Medical Billing"
+            "Advanced Practice Nursing and Diagnosis",
+            "Medical Laboratory Science",
+            "Diagnostic Medical Sonography",
+            "Information Technology Troubleshooting",
+            "Medical Billing and Coding",
+            "Customer and Personal Service"
         ]
     },
     {
@@ -472,11 +495,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Commercial Real Estate",
-            "Contract Negotiation",
-            "Digital Marketing",
-            "Financial Modeling",
-            "Legal Research"
+            "Commercial Lease Negotiation",
+            "Property Operations Management",
+            "Marketing Strategy and Campaign Management",
+            "Real Estate Financial Modeling",
+            "Legal Document Preparation and Research",
+            "Persuasion"
         ]
     },
     {
@@ -492,11 +516,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Microservices Architecture",
-            "CI/CD Pipelines",
-            "Customer-facing Technical Support",
-            "UI/UX Design Principles",
-            "SaaS"
+            "Cloud-Native Application Development",
+            "Continuous Integration/Continuous Deployment (CI/CD)",
+            "Technical Troubleshooting and Support",
+            "User Interface and Experience Design",
+            "Solution Architecture",
+            "Systems Analysis"
         ]
     },
     {
@@ -512,11 +537,12 @@
         ],
         "location": "Bloomington",
         "requiredSkills": [
-            "Student Advising",
-            "Statistical Software (SPSS/Stata)",
-            "Network Security",
-            "Information Literacy",
-            "Event Planning"
+            "Academic and Career Advising",
+            "Institutional Data Analysis and Reporting",
+            "Network Engineering and Security",
+            "Information Science and Library Management",
+            "Event Planning and Coordination",
+            "Critical Thinking"
         ]
     },
     {
@@ -532,11 +558,12 @@
         ],
         "location": "Carmel",
         "requiredSkills": [
-            "Machine Learning",
-            "Operations Management",
-            "Full-Stack Development",
-            "Transportation Logistics",
-            "Customer Relationship Management"
+            "Machine Learning and Predictive Modeling",
+            "Operations and Personnel Management",
+            "Full-Stack Web Development",
+            "Transportation and Logistics Management",
+            "Customer and Personal Service",
+            "Data Analysis"
         ]
     },
     {
@@ -552,11 +579,12 @@
         ],
         "location": "Merrillville",
         "requiredSkills": [
-            "High-Voltage Systems",
-            "Natural Gas Distribution",
+            "Electrical Power-Line Installation and Repair",
+            "Gas Appliance and Distribution Maintenance",
             "Power Systems Engineering",
-            "De-escalation",
-            "Construction Management"
+            "Customer Needs Assessment",
+            "Construction Project Management",
+            "Public Safety and Security"
         ]
     },
     {
@@ -572,11 +600,12 @@
         ],
         "location": "Evansville",
         "requiredSkills": [
-            "Injection Molding/Extrusion",
-            "Quality Control",
-            "Product Design",
-            "Inventory Management",
-            "Environmental Health & Safety (EHS)"
+            "Plastics Manufacturing Processes",
+            "Operation and Control of Machinery",
+            "Industrial and Product Design",
+            "Supply Chain and Inventory Management",
+            "Environmental Health and Safety (EHS) Compliance",
+            "Quality Control Analysis"
         ]
     },
     {
@@ -592,11 +621,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Adult Education",
-            "Student Success Planning",
-            "Admissions Processes",
-            "Career Counseling",
-            "Help Desk Support"
+            "Postsecondary Teaching and Instruction",
+            "Student Academic and Career Advising",
+            "Admissions and Enrollment Management",
+            "Career Counseling and Development",
+            "Technical Support and Troubleshooting",
+            "Active Listening"
         ]
     },
     {
@@ -612,11 +642,12 @@
         ],
         "location": "Elkhart",
         "requiredSkills": [
-            "MIG/TIG Welding",
-            "Leadership",
-            "SolidWorks",
-            "PLC/Robotics",
-            "B2B Sales"
+            "Welding and Fabrication",
+            "Production Supervision and Leadership",
+            "Mechanical Engineering Design",
+            "Robotics and Automation Maintenance",
+            "Business-to-Business (B2B) Sales",
+            "Operations Analysis"
         ]
     },
     {
@@ -632,11 +663,12 @@
         ],
         "location": "Fort Wayne",
         "requiredSkills": [
-            "Audio Engineering",
-            "Customer Service",
-            "E-commerce Platforms",
-            "Content Creation",
-            "Musical Instrument Repair"
+            "Audio Equipment Technical Sales",
+            "Warehouse Operations and Inventory Control",
+            "E-commerce Web Development",
+            "Marketing and Advertising Copywriting",
+            "Musical Instrument Repair and Maintenance",
+            "Customer Service"
         ]
     },
     {
@@ -652,11 +684,12 @@
         ],
         "location": "Evansville",
         "requiredSkills": [
-            "Financial Product Sales",
-            "Loan Origination",
-            "Credit Analysis",
-            "Team Leadership",
-            "Banking Regulations"
+            "Financial Services Sales",
+            "Loan Origination and Processing",
+            "Commercial Credit Analysis",
+            "Operations and Personnel Management",
+            "Regulatory and Compliance Monitoring",
+            "Customer Relationship Management"
         ]
     },
     {
@@ -672,11 +705,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Public Administration",
-            "Data Analysis",
-            "Government Accounting",
-            "Social Work",
-            "Organizational Skills"
+            "Public Administration and Management",
+            "Policy Analysis and Evaluation",
+            "Governmental Accounting and Auditing",
+            "Social and Human Services Case Management",
+            "Information and Records Administration",
+            "Judgment and Decision Making"
         ]
     },
     {
@@ -692,11 +726,12 @@
         ],
         "location": "Lafayette",
         "requiredSkills": [
-            "Welding Fabrication",
-            "Finite Element Analysis (FEA)",
-            "Production Scheduling",
+            "Welding and Metal Fabrication",
+            "Mechanical Design and Finite Element Analysis (FEA)",
+            "Production and Operations Supervision",
             "Material Requirements Planning (MRP)",
-            "Negotiation"
+            "Sales Management and Negotiation",
+            "Quality Control Analysis"
         ]
     },
     {
@@ -712,11 +747,12 @@
         ],
         "location": "Mishawaka",
         "requiredSkills": [
-            "Clinical Procedures",
-            "Rehabilitation Therapy",
-            "Medical Imaging",
-            "Medication Dispensing",
-            "Patient Registration"
+            "Patient Care and Clinical Procedures",
+            "Occupational Therapy and Rehabilitation",
+            "Diagnostic Medical Imaging",
+            "Pharmaceutical Dispensing and Compounding",
+            "Patient Registration and Administration",
+            "Service Orientation"
         ]
     },
     {
@@ -732,11 +768,12 @@
         ],
         "location": "Bloomington",
         "requiredSkills": [
-            "cGMP",
-            "Aseptic Technique",
-            "Pharmaceutical Development",
-            "Client Relations",
-            "Equipment Validation (IQ/OQ/PQ)"
+            "Quality Assurance and cGMP Compliance",
+            "Aseptic Manufacturing Techniques",
+            "Pharmaceutical Formulation Development",
+            "Project Management and Coordination",
+            "Equipment and Process Validation (IQ/OQ/PQ)",
+            "Scientific Method"
         ]
     },
     {
@@ -752,11 +789,12 @@
         ],
         "location": "Whitestown",
         "requiredSkills": [
-            "Inventory Control",
-            "Team Leadership",
-            "Human Resources",
-            "Hardware Troubleshooting",
-            "Process Flow"
+            "Inventory and Materials Management",
+            "Personnel Supervision and Leadership",
+            "Human Resources Administration",
+            "Information Technology Support",
+            "Operations and Systems Monitoring",
+            "Process Improvement"
         ]
     },
     {
@@ -772,11 +810,12 @@
         ],
         "location": "Terre Haute",
         "requiredSkills": [
-            "STEM Education",
-            "Laboratory Management",
-            "E-Learning Technologies",
-            "Career Counseling",
-            "Server Administration"
+            "STEM Education and Instruction",
+            "Laboratory Management and Safety",
+            "Curriculum and E-Learning Design",
+            "Career Counseling and Advising",
+            "Network and Server Administration",
+            "Technology Design"
         ]
     },
     {
@@ -791,10 +830,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Diesel Engine Repair",
-            "Customer Service",
-            "Inventory Management",
-            "Technical Instruction"
+            "Diesel Engine Repair and Maintenance",
+            "Customer Service and Vehicle Intake",
+            "Parts Inventory Management",
+            "Technical Instruction and Training Delivery",
+            "Troubleshooting",
+            "Equipment Selection"
         ]
     },
     {
@@ -810,11 +851,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Power Distribution Systems",
-            "Electrical Safety",
-            "Grid Operations",
-            "Data Analysis",
-            "Problem Solving"
+            "Engineering and Technology",
+            "Operation Monitoring",
+            "Systems Analysis",
+            "Critical Thinking",
+            "Troubleshooting",
+            "Customer and Personal Service"
         ]
     },
     {
@@ -830,11 +872,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "FAA Certification",
-            "Customer Service",
-            "Aircraft Systems",
-            "Logistics",
-            "Decision Making"
+            "Transportation Principles and Methods",
+            "Public Safety and Security",
+            "Equipment Maintenance",
+            "Judgment and Decision Making",
+            "Coordination",
+            "Service Orientation"
         ]
     },
     {
@@ -850,11 +893,12 @@
         ],
         "location": "Fort Wayne",
         "requiredSkills": [
-            "Curriculum Planning",
-            "Differentiated Instruction",
-            "Communication Disorders",
-            "Student Counseling",
-            "Safe Driving Record"
+            "Education and Training",
+            "Therapy and Counseling",
+            "Instructing",
+            "Social Perceptiveness",
+            "Learning Strategies",
+            "Active Listening"
         ]
     },
     {
@@ -870,11 +914,12 @@
         ],
         "location": "Carmel",
         "requiredSkills": [
-            "Pedagogy",
-            "Special Needs Support",
-            "EdTech Tools",
-            "Flexibility",
-            "Teamwork"
+            "Education and Training",
+            "Instructional Design",
+            "Learning Strategies",
+            "Technology Design",
+            "Systems Evaluation",
+            "Service Orientation"
         ]
     },
     {
@@ -890,11 +935,12 @@
         ],
         "location": "Fort Wayne",
         "requiredSkills": [
-            "Merchandising",
-            "Warehouse Operations",
-            "C#/.NET",
-            "Content Marketing",
-            "Financial Analysis"
+            "Administration and Management",
+            "Economics and Accounting",
+            "Programming",
+            "Operations Analysis",
+            "Management of Financial Resources",
+            "Judgment and Decision Making"
         ]
     },
     {
@@ -910,11 +956,12 @@
         ],
         "location": "Crane",
         "requiredSkills": [
-            "RF Engineering",
-            "Systems Engineering",
-            "Cybersecurity",
-            "Scientific Research",
-            "Defense Acquisition"
+            "Engineering and Technology",
+            "Physics",
+            "Systems Analysis",
+            "Technology Design",
+            "Scientific Principles and Methods",
+            "Complex Problem Solving"
         ]
     },
     {
@@ -930,11 +977,12 @@
         ],
         "location": "Greensburg",
         "requiredSkills": [
-            "Assembly",
-            "Root Cause Analysis",
-            "Hydraulics/Pneumatics",
-            "Supply Chain Management",
-            "Employee Relations"
+            "Production and Processing",
+            "Quality Control Analysis",
+            "Equipment Maintenance",
+            "Operations Analysis",
+            "Management of Personnel Resources",
+            "Troubleshooting"
         ]
     },
     {
@@ -950,11 +998,12 @@
         ],
         "location": "Evansville",
         "requiredSkills": [
-            "Critical Care",
-            "Patient Assistance",
-            "Clinical Laboratory Science",
-            "Medication Management",
-            "HIPAA Compliance"
+            "Medicine and Dentistry",
+            "Customer and Personal Service",
+            "Monitoring",
+            "Critical Thinking",
+            "Service Orientation",
+            "Social Perceptiveness"
         ]
     },
     {
@@ -970,11 +1019,12 @@
         ],
         "location": "Lafayette",
         "requiredSkills": [
-            "Blueprint Reading",
-            "Mechanical Assembly",
-            "Process Improvement",
-            "Logistics Planning",
-            "Safety Regulations"
+            "Production and Processing",
+            "Mechanical Knowledge",
+            "Operations Analysis",
+            "Quality Control Analysis",
+            "Troubleshooting",
+            "Public Safety and Security"
         ]
     },
     {
@@ -990,11 +1040,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Genetics",
-            "Machine Learning",
-            "Agronomy",
-            "Chemical Engineering",
-            "Agile Project Management"
+            "Biology",
+            "Chemistry",
+            "Scientific Principles and Methods",
+            "Data Analysis",
+            "Complex Problem Solving",
+            "Technology Design"
         ]
     },
     {
@@ -1010,11 +1061,12 @@
         ],
         "location": "Gary",
         "requiredSkills": [
-            "Industrial Maintenance",
-            "Heavy Machinery Operation",
-            "Production Management",
-            "Safety Procedures",
-            "Quality Management Systems"
+            "Production and Processing",
+            "Mechanical Principles",
+            "Equipment Maintenance",
+            "Operation and Control",
+            "Quality Control Analysis",
+            "Troubleshooting"
         ]
     },
     {
@@ -1030,11 +1082,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "SaaS Product Management",
-            "Ruby on Rails/React",
-            "User-Centered Design",
-            "Lead Generation",
-            "Growth Marketing"
+            "Computers and Electronics",
+            "Sales and Marketing",
+            "Design Principles and Techniques",
+            "Programming",
+            "Systems Analysis",
+            "Persuasion"
         ]
     },
     {
@@ -1050,11 +1103,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Clinical Nursing Education",
-            "Student Recruitment",
-            "Technical Support",
-            "Lab Safety",
-            "Business Acumen"
+            "Education and Training",
+            "Customer and Personal Service",
+            "Instructing",
+            "Troubleshooting",
+            "Science",
+            "Complex Problem Solving"
         ]
     },
     {
@@ -1070,11 +1124,12 @@
         ],
         "location": "Evansville",
         "requiredSkills": [
-            "IEP Development",
-            "Early Childhood Education",
-            "Psychological Assessment",
-            "Facilities Maintenance",
-            "Network Support"
+            "Education and Training",
+            "Psychology",
+            "Therapy and Counseling",
+            "Instructing",
+            "Social Perceptiveness",
+            "Systems Analysis"
         ]
     },
     {
@@ -1090,11 +1145,12 @@
         ],
         "location": "Muncie",
         "requiredSkills": [
-            "University Teaching",
-            "Student Development Theory",
-            "Enterprise Systems (Banner)",
-            "Conflict Resolution",
-            "Digital Communication"
+            "Education and Training",
+            "Therapy and Counseling",
+            "Systems Analysis",
+            "Management of Personnel Resources",
+            "Instructing",
+            "Service Orientation"
         ]
     },
     {
@@ -1110,11 +1166,12 @@
         ],
         "location": "Roanoke",
         "requiredSkills": [
-            "Textile Design",
-            "Retail Management",
-            "SEO/SEM",
-            "Demand Forecasting",
-            "Corporate Finance"
+            "Design Principles and Techniques",
+            "Sales and Marketing",
+            "Administration and Management",
+            "Operations Analysis",
+            "Management of Financial Resources",
+            "Judgment and Decision Making"
         ]
     },
     {
@@ -1130,11 +1187,12 @@
         ],
         "location": "Terre Haute",
         "requiredSkills": [
-            "Aviation Technology",
-            "Student Recruitment",
-            "Financial Aid Regulations",
-            "Customer Service",
-            "Fundraising"
+            "Education and Training",
+            "Sales and Marketing",
+            "Customer and Personal Service",
+            "Instructing",
+            "Troubleshooting",
+            "Persuasion"
         ]
     },
     {
@@ -1150,11 +1208,12 @@
         ],
         "location": "South Bend",
         "requiredSkills": [
-            "Mechanical Assembly",
-            "Welding Processes",
-            "Defense Contracting",
-            "Vehicle Dynamics",
-            "Supplier Audits"
+            "Engineering and Technology",
+            "Production and Processing",
+            "Quality Control Analysis",
+            "Operations Analysis",
+            "Management of Material Resources",
+            "Complex Problem Solving"
         ]
     },
     {
@@ -1170,11 +1229,12 @@
         ],
         "location": "Elkhart",
         "requiredSkills": [
-            "Hand Tool Proficiency",
-            "Operations Management",
-            "AutoCAD",
-            "Quality Control",
-            "Relationship Building"
+            "Production and Processing",
+            "Design",
+            "Quality Control Analysis",
+            "Operation and Control",
+            "Management of Personnel Resources",
+            "Persuasion"
         ]
     },
     {
@@ -1190,11 +1250,12 @@
         ],
         "location": "Lafayette",
         "requiredSkills": [
-            "Jet Engine Assembly",
-            "Process Engineering",
-            "Metallurgy",
-            "Environmental Compliance",
-            "Value Stream Mapping"
+            "Engineering and Technology",
+            "Production and Processing",
+            "Physics",
+            "Quality Control Analysis",
+            "Operations Analysis",
+            "Science"
         ]
     },
     {
@@ -1210,11 +1271,12 @@
         ],
         "location": "Atlanta",
         "requiredSkills": [
-            "Agronomy",
-            "Crop Scouting",
-            "Customer Relations",
-            "Agricultural Research",
-            "Data Management"
+            "Food Production",
+            "Biology",
+            "Sales and Marketing",
+            "Science",
+            "Critical Thinking",
+            "Complex Problem Solving"
         ]
     },
     {
@@ -1230,11 +1292,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "AWS Services",
-            "Technical Documentation",
-            "Client Relationship Management",
-            "Test Automation Frameworks",
-            "Sales"
+            "Computers and Electronics",
+            "Customer and Personal Service",
+            "Systems Analysis",
+            "Programming",
+            "Technology Design",
+            "Service Orientation"
         ]
     },
     {
@@ -1250,11 +1313,12 @@
         ],
         "location": "Grabill",
         "requiredSkills": [
-            "Process Optimization",
-            "Woodworking",
-            "Mechanical Maintenance",
-            "Furniture Design",
-            "Shipping and Receiving"
+            "Production and Processing",
+            "Design Principles and Techniques",
+            "Engineering and Technology",
+            "Operations Analysis",
+            "Equipment Maintenance",
+            "Troubleshooting"
         ]
     },
     {
@@ -1270,11 +1334,12 @@
         ],
         "location": "Burns Harbor",
         "requiredSkills": [
-            "Steelmaking Processes",
-            "Power Distribution",
-            "Supervision",
-            "Predictive Maintenance",
-            "Regulatory Compliance"
+            "Engineering and Technology",
+            "Production and Processing",
+            "Operation Monitoring",
+            "Quality Control Analysis",
+            "Management of Personnel Resources",
+            "Complex Problem Solving"
         ]
     },
     {
@@ -1290,11 +1355,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Post-secondary Instruction",
-            "Help Desk Support",
-            "University Accounting",
-            "Student Engagement",
-            "Coaching"
+            "Education and Training",
+            "Therapy and Counseling",
+            "Economics and Accounting",
+            "Instructing",
+            "Social Perceptiveness",
+            "Service Orientation"
         ]
     },
     {
@@ -1310,11 +1376,12 @@
         ],
         "location": "Greenwood",
         "requiredSkills": [
-            "Technical Sales",
-            "Instrumentation & Control",
-            "Manufacturing Processes",
-            "B2B Marketing",
-            "Metrology"
+            "Engineering and Technology",
+            "Sales and Marketing",
+            "Quality Control Analysis",
+            "Troubleshooting",
+            "Persuasion",
+            "Technology Design"
         ]
     },
     {
@@ -1330,11 +1397,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Law Enforcement",
-            "Emergency Response",
-            "Infrastructure Design",
-            "Zoning Regulations",
-            "Critical Thinking"
+            "Public Safety and Security",
+            "Law and Government",
+            "Engineering and Technology",
+            "Judgment and Decision Making",
+            "Social Perceptiveness",
+            "Active Listening"
         ]
     },
     {
@@ -1350,11 +1418,12 @@
         ],
         "location": "Plainfield",
         "requiredSkills": [
-            "Power Systems",
-            "Nuclear Safety",
-            "Project Scheduling",
-            "Energy Markets",
-            "Public Utility Commission (PUC) Filings"
+            "Engineering and Technology",
+            "Physics",
+            "Economics and Accounting",
+            "Operations Analysis",
+            "Systems Evaluation",
+            "Judgment and Decision Making"
         ]
     },
     {
@@ -1370,11 +1439,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "GAAP/GAAS",
-            "Tax Compliance",
-            "IT Auditing",
-            "Business Process Improvement",
-            "Investigative Analysis"
+            "Economics and Accounting",
+            "Law and Government",
+            "Systems Analysis",
+            "Critical Thinking",
+            "Judgment and Decision Making",
+            "Complex Problem Solving"
         ]
     },
     {
@@ -1390,11 +1460,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Customer Service",
-            "Material Handling",
-            "Workforce Development",
-            "Program Management",
-            "CDL"
+            "Customer and Personal Service",
+            "Therapy and Counseling",
+            "Administration and Management",
+            "Social Perceptiveness",
+            "Service Orientation",
+            "Coordination"
         ]
     },
     {
@@ -1410,11 +1481,12 @@
         ],
         "location": "Fort Wayne",
         "requiredSkills": [
-            "Embedded Systems",
-            "Medical Sales",
-            "ISO 13485",
-            "CAD",
-            "Product Strategy"
+            "Engineering and Technology",
+            "Computers and Electronics",
+            "Quality Control Analysis",
+            "Technology Design",
+            "Sales and Marketing",
+            "Complex Problem Solving"
         ]
     },
     {
@@ -1430,11 +1502,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Legal Research & Writing",
-            "Litigation Support",
-            "Administrative Support",
-            "Network Infrastructure",
-            "Event Planning"
+            "Law and Government",
+            "English Language",
+            "Persuasion",
+            "Critical Thinking",
+            "Active Listening",
+            "Writing"
         ]
     },
     {
@@ -1450,11 +1523,12 @@
         ],
         "location": "Columbus",
         "requiredSkills": [
-            "3D Modeling",
-            "Fabrication",
-            "Systems Support",
-            "Content Creation",
-            "Mechanical Repair"
+            "Engineering and Technology",
+            "Mechanical Principles",
+            "Design",
+            "Troubleshooting",
+            "Systems Analysis",
+            "Repairing"
         ]
     },
     {
@@ -1470,11 +1544,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "B2B Sales",
-            "Adobe Creative Suite",
-            "Manufacturing Operations",
-            "Communication",
-            "Supply Chain Coordination"
+            "Sales and Marketing",
+            "Production and Processing",
+            "Customer and Personal Service",
+            "Design Principles and Techniques",
+            "Persuasion",
+            "Coordination"
         ]
     },
     {
@@ -1490,11 +1565,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Sales",
-            "Investigation",
-            "Risk Analysis",
-            "Software Development",
-            "Statistical Modeling"
+            "Economics and Accounting",
+            "Sales and Marketing",
+            "Mathematics",
+            "Judgment and Decision Making",
+            "Negotiation",
+            "Critical Thinking"
         ]
     },
     {
@@ -1510,11 +1586,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Marketing Automation",
-            "SQL/AMPscript",
-            "System Integration",
-            "Digital Marketing",
-            "Client Relationship Management"
+            "Computers and Electronics",
+            "Sales and Marketing",
+            "Systems Analysis",
+            "Programming",
+            "Technology Design",
+            "Customer and Personal Service"
         ]
     },
     {
@@ -1530,11 +1607,12 @@
         ],
         "location": "Kokomo",
         "requiredSkills": [
-            "Med-Surg Nursing",
-            "Phlebotomy",
-            "X-Ray/CT",
-            "Mental Health Therapy",
-            "Customer Service"
+            "Medicine and Dentistry",
+            "Therapy and Counseling",
+            "Customer and Personal Service",
+            "Social Perceptiveness",
+            "Monitoring",
+            "Service Orientation"
         ]
     },
     {
@@ -1550,11 +1628,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "HVAC Systems",
-            "Construction Management",
-            "Building Automation",
-            "Electrical Systems",
-            "Job Costing"
+            "Building and Construction",
+            "Engineering and Technology",
+            "Installation",
+            "Troubleshooting",
+            "Management of Financial Resources",
+            "Coordination"
         ]
     },
     {
@@ -1570,11 +1649,12 @@
         ],
         "location": "Warsaw",
         "requiredSkills": [
-            "Process Validation",
-            "GD&T",
-            "Medical Device Packaging",
-            "CNC Programming",
-            "Clinical Trials"
+            "Production and Processing",
+            "Engineering and Technology",
+            "Quality Control Analysis",
+            "Operation and Control",
+            "Science",
+            "Critical Thinking"
         ]
     },
     {
@@ -1590,11 +1670,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Thermodynamics",
-            "Lean Manufacturing",
-            "Mechanical Assembly",
-            "Quality Control",
-            "MRP/ERP systems"
+            "Engineering and Technology",
+            "Production and Processing",
+            "Mechanical Principles",
+            "Operations Analysis",
+            "Quality Control Analysis",
+            "Management of Personnel Resources"
         ]
     },
     {
@@ -1610,11 +1691,12 @@
         ],
         "location": "South Bend",
         "requiredSkills": [
-            "Classroom Instruction",
-            "Student Support",
-            "Social-Emotional Learning",
-            "General Maintenance",
-            "Food Safety"
+            "Instructing",
+            "Knowledge of principles and methods for curriculum and training design",
+            "Social Perceptiveness",
+            "Equipment Maintenance",
+            "Assisting and Caring for Others",
+            "Knowledge of food production"
         ]
     },
     {
@@ -1630,11 +1712,12 @@
         ],
         "location": "Carmel",
         "requiredSkills": [
-            "Retail Sales",
-            "Team Leadership",
-            "Multi-unit Management",
-            "Inventory Control",
-            "Employee Relations"
+            "Persuasion",
+            "Management of Personnel Resources",
+            "Knowledge of sales and marketing principles",
+            "Administration and Management",
+            "Operations Analysis",
+            "Knowledge of personnel and human resources"
         ]
     },
     {
@@ -1650,11 +1733,12 @@
         ],
         "location": "Madison",
         "requiredSkills": [
-            "Welding",
-            "Power Tool Operation",
-            "Process Improvement",
-            "Inspection",
-            "Forklift Operation"
+            "Knowledge of production and processing",
+            "Operation and Control",
+            "Quality Control Analysis",
+            "Knowledge of engineering and technology",
+            "Operation Monitoring",
+            "Repairing"
         ]
     },
     {
@@ -1670,11 +1754,12 @@
         ],
         "location": "Evansville",
         "requiredSkills": [
-            "Nursing Education",
-            "Business Instruction",
-            "HTML/CSS/JS",
-            "Public Speaking",
-            "Landscaping"
+            "Instructing",
+            "Knowledge of principles and methods for curriculum and training design",
+            "Programming",
+            "Social Perceptiveness",
+            "Service Orientation",
+            "Equipment Maintenance"
         ]
     },
     {
@@ -1690,11 +1775,12 @@
         ],
         "location": "Carmel",
         "requiredSkills": [
-            "Mortgage Lending",
-            "Financial Analysis",
-            "B2B Sales",
-            "Cybersecurity",
-            "Cash Handling"
+            "Knowledge of economic and accounting principles",
+            "Customer and Personal Service",
+            "Judgment and Decision Making",
+            "Complex Problem Solving",
+            "Knowledge of computer and network security",
+            "Systems Analysis"
         ]
     },
     {
@@ -1710,11 +1796,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Customer Service",
-            "Retail Operations",
-            "Data Analysis",
-            "Social Media Marketing",
-            "Technical Troubleshooting"
+            "Customer and Personal Service",
+            "Management of Personnel Resources",
+            "Knowledge of sales and marketing principles",
+            "Critical Thinking",
+            "Troubleshooting",
+            "Knowledge of communications and media"
         ]
     },
     {
@@ -1730,11 +1817,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Heavy Equipment Repair",
-            "Customer Service",
-            "Diagnostics",
-            "B2B Sales",
-            "Logistics"
+            "Repairing",
+            "Troubleshooting",
+            "Equipment Maintenance",
+            "Knowledge of mechanical tools and procedures",
+            "Persuasion",
+            "Customer and Personal Service"
         ]
     },
     {
@@ -1750,11 +1838,12 @@
         ],
         "location": "Carmel",
         "requiredSkills": [
-            "AutoCAD/SolidWorks",
-            "PLC Programming",
-            "Project Management",
-            "C++/Python",
-            "Robotics Integration"
+            "Knowledge of engineering and technology",
+            "Design",
+            "Programming",
+            "Systems Analysis",
+            "Coordination",
+            "Troubleshooting"
         ]
     },
     {
@@ -1770,11 +1859,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Medical Coding",
-            "Problem Resolution",
-            "Relationship Management",
-            "Public Health",
-            "Predictive Modeling"
+            "Customer and Personal Service",
+            "Knowledge of principles for providing customer services",
+            "Knowledge of medical terminology",
+            "Complex Problem Solving",
+            "Active Listening",
+            "Data Analysis"
         ]
     },
     {
@@ -1790,11 +1880,12 @@
         ],
         "location": "Muncie",
         "requiredSkills": [
-            "Tooling",
-            "Metal Stamping",
-            "APQP/PPAP",
-            "Project Lifecycle Management",
-            "CNC Programming"
+            "Knowledge of production and processing",
+            "Operation and Control",
+            "Quality Control Analysis",
+            "Design",
+            "Knowledge of engineering and technology",
+            "Programming"
         ]
     },
     {
@@ -1810,11 +1901,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Sales",
-            "Web Development",
-            "Data Analytics",
-            "Agile/Scrum",
-            "Client Onboarding"
+            "Persuasion",
+            "Programming",
+            "Complex Problem Solving",
+            "Knowledge of sales and marketing principles",
+            "Customer and Personal Service",
+            "Systems Analysis"
         ]
     },
     {
@@ -1830,11 +1922,12 @@
         ],
         "location": "Lafayette",
         "requiredSkills": [
-            "B2B Sales",
-            "Inventory Management",
-            "Industrial Automation",
-            "Operations Management",
-            "Electrical Systems"
+            "Knowledge of sales and marketing principles",
+            "Administration and Management",
+            "Knowledge of engineering and technology",
+            "Systems Analysis",
+            "Coordination",
+            "Operation of material handling equipment"
         ]
     },
     {
@@ -1850,11 +1943,12 @@
         ],
         "location": "New Paris",
         "requiredSkills": [
-            "Embedded C/C++",
-            "Circuit Design",
-            "HVAC Controls",
-            "Product Roadmapping",
-            "Channel Sales"
+            "Programming",
+            "Design",
+            "Troubleshooting",
+            "Knowledge of sales and marketing principles",
+            "Knowledge of computers and electronics",
+            "Systems Analysis"
         ]
     },
     {
@@ -1870,11 +1964,12 @@
         ],
         "location": "Roanoke",
         "requiredSkills": [
-            "Assembly Line Work",
-            "Industrial Maintenance",
-            "Lean Manufacturing",
-            "PLC/Robotics",
-            "Leadership"
+            "Knowledge of production and processing",
+            "Equipment Maintenance",
+            "Repairing",
+            "Management of Personnel Resources",
+            "Knowledge of engineering and technology",
+            "Operation Monitoring"
         ]
     },
     {
@@ -1890,11 +1985,12 @@
         ],
         "location": "Maize",
         "requiredSkills": [
-            "CNC Machining",
-            "Metrology",
-            "Product Design",
-            "Technical Sales",
-            "Production Planning"
+            "Operation and Control",
+            "Quality Control Analysis",
+            "Design",
+            "Knowledge of engineering and technology",
+            "Coordination",
+            "Persuasion"
         ]
     },
     {
@@ -1910,11 +2006,12 @@
         ],
         "location": "Madison",
         "requiredSkills": [
-            "LED Technology",
-            "Product Development",
-            "Manufacturing Assembly",
-            "ISO 9001",
-            "Brand Management"
+            "Knowledge of engineering and technology",
+            "Design",
+            "Quality Control Analysis",
+            "Knowledge of sales and marketing principles",
+            "Knowledge of production and processing",
+            "Administration and Management"
         ]
     },
     {
@@ -1930,11 +2027,12 @@
         ],
         "location": "East Chicago",
         "requiredSkills": [
-            "Heavy Industry",
-            "Manufacturing Operations",
-            "Material Handling",
-            "OSHA Compliance",
-            "Supply Chain"
+            "Knowledge of production and processing",
+            "Operation and Control",
+            "Knowledge of public safety and security",
+            "Coordination",
+            "Knowledge of transportation principles",
+            "Equipment Maintenance"
         ]
     },
     {
@@ -1950,11 +2048,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "FINRA Series 7/66",
-            "Customer Support",
-            "Investment Management",
-            "Java/C#",
-            "Regulatory Compliance"
+            "Knowledge of economic and accounting principles",
+            "Customer and Personal Service",
+            "Judgment and Decision Making",
+            "Programming",
+            "Knowledge of law, government and legal regulations",
+            "Complex Problem Solving"
         ]
     },
     {
@@ -1970,11 +2069,12 @@
         ],
         "location": "Terre Haute",
         "requiredSkills": [
-            "Emergency Medicine",
-            "Rehabilitation",
-            "Clinical Support",
-            "Healthcare IT",
-            "Medical Billing"
+            "Knowledge of medicine and dentistry",
+            "Assisting and Caring for Others",
+            "Knowledge of therapy and counseling",
+            "Troubleshooting",
+            "Knowledge of administrative and clerical procedures",
+            "Monitoring"
         ]
     },
     {
@@ -1990,11 +2090,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "CDL-A",
-            "Dispatching Software",
-            "Freight Brokerage",
-            "Operations Management",
-            "Transportation Accounting"
+            "Knowledge of transportation principles and methods",
+            "Coordination",
+            "Negotiation",
+            "Administration and Management",
+            "Knowledge of economic and accounting principles",
+            "Operation and Control"
         ]
     },
     {
@@ -2010,11 +2111,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Physical Therapy",
-            "Clinical Nursing",
-            "Sports Medicine",
-            "Student Financial Services",
-            "Security"
+            "Instructing",
+            "Knowledge of therapy and counseling",
+            "Assisting and Caring for Others",
+            "Knowledge of public safety and security",
+            "Customer and Personal Service",
+            "Education and Training"
         ]
     },
     {
@@ -2030,11 +2132,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Secondary Education",
-            "College Admissions Counseling",
-            "Coaching",
-            "Pastoral Care",
-            "Educational Technology"
+            "Instructing",
+            "Knowledge of principles and methods for curriculum and training design",
+            "Social Perceptiveness",
+            "Service Orientation",
+            "Systems Analysis",
+            "Knowledge of philosophy and theology"
         ]
     },
     {
@@ -2050,11 +2153,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Corporate Law",
-            "Patent & Trademark",
-            "Legal Administration",
-            "Risk Management",
-            "B2B Marketing"
+            "Knowledge of law and government",
+            "Critical Thinking",
+            "Persuasion",
+            "Knowledge of administrative and clerical procedures",
+            "Judgment and Decision Making",
+            "Complex Problem Solving"
         ]
     },
     {
@@ -2070,11 +2174,12 @@
         ],
         "location": "Muncie",
         "requiredSkills": [
-            "Tool and Die",
-            "G-Code/M-Code",
-            "CMM Operation",
-            "SolidWorks",
-            "Client Management"
+            "Design",
+            "Knowledge of production and processing",
+            "Quality Control Analysis",
+            "Programming",
+            "Administration and Management",
+            "Operation and Control"
         ]
     },
     {
@@ -2090,11 +2195,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Exhibit Design",
-            "Informal Education",
-            "Grant Writing",
-            "Customer Service",
-            "Museum Curation"
+            "Knowledge of design techniques and principles",
+            "Instructing",
+            "Persuasion",
+            "Customer and Personal Service",
+            "Knowledge of history and archeology",
+            "Management of Material Resources"
         ]
     },
     {
@@ -2110,11 +2216,12 @@
         ],
         "location": "Middlebury",
         "requiredSkills": [
-            "RV Assembly",
-            "Low-Voltage Electrical",
-            "CAD Design",
-            "Production Leadership",
-            "Quality Assurance"
+            "Knowledge of production and processing",
+            "Repairing",
+            "Design",
+            "Management of Personnel Resources",
+            "Quality Control Analysis",
+            "Troubleshooting"
         ]
     },
     {
@@ -2130,11 +2237,12 @@
         ],
         "location": "Fishers",
         "requiredSkills": [
-            "SBA Lending",
-            "Fintech Development",
-            "SEO/PPC",
-            "Banking Regulations (BSA/AML)",
-            "Online Customer Support"
+            "Knowledge of economic and accounting principles",
+            "Programming",
+            "Knowledge of sales and marketing principles",
+            "Knowledge of laws, legal codes, and government regulations",
+            "Customer and Personal Service",
+            "Systems Analysis"
         ]
     },
     {
@@ -2150,11 +2258,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Teaching Certification",
-            "CDL with S-Endorsement",
-            "Student Support",
-            "Pediatric Care",
-            "Facilities Repair"
+            "Instructing",
+            "Knowledge of transportation principles",
+            "Assisting and Caring for Others",
+            "Knowledge of medicine",
+            "Equipment Maintenance",
+            "Repairing"
         ]
     },
     {
@@ -2170,11 +2279,12 @@
         ],
         "location": "Lafayette",
         "requiredSkills": [
-            "Automation & Robotics",
-            "Assembly",
-            "Quality Engineering",
-            "Supply Chain",
-            "Supervision"
+            "Knowledge of engineering and technology",
+            "Knowledge of production and processing",
+            "Quality Control Analysis",
+            "Coordination",
+            "Management of Personnel Resources",
+            "Systems Analysis"
         ]
     },
     {
@@ -2190,11 +2300,12 @@
         ],
         "location": "Plymouth",
         "requiredSkills": [
-            "Automotive Assembly",
-            "Quality Inspection",
-            "Manufacturing Processes",
-            "Forklift Operation",
-            "Industrial Repair"
+            "Knowledge of production and processing",
+            "Quality Control Analysis",
+            "Operations Analysis",
+            "Repairing",
+            "Equipment Maintenance",
+            "Operation Monitoring"
         ]
     },
     {
@@ -2210,11 +2321,12 @@
         ],
         "location": "Warsaw",
         "requiredSkills": [
-            "Cognitive Behavioral Therapy (CBT)",
-            "Social Work",
-            "Psychiatric Medicine",
-            "Life Skills Training",
-            "Patient Care"
+            "Knowledge of therapy and counseling principles",
+            "Psychology",
+            "Social Perceptiveness",
+            "Service Orientation",
+            "Knowledge of medicine",
+            "Coordination"
         ]
     },
     {
@@ -2230,11 +2342,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Linux/KVM",
-            "Virtualization",
-            "Pre-sales Technical Support",
-            "Partner Management",
-            "Lead Generation"
+            "Programming",
+            "Troubleshooting",
+            "Knowledge of sales and marketing principles",
+            "Persuasion",
+            "Systems Analysis",
+            "Complex Problem Solving"
         ]
     },
     {
@@ -2250,11 +2363,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Gas Turbine Engines",
-            "Requirements Management (DOORS)",
-            "Embedded C++",
-            "Technical Sourcing",
-            "Engineering Project Management"
+            "Knowledge of engineering and technology",
+            "Systems Analysis",
+            "Programming",
+            "Knowledge of personnel and human resources",
+            "Coordination",
+            "Design"
         ]
     },
     {
@@ -2270,11 +2384,12 @@
         ],
         "location": "Fort Wayne",
         "requiredSkills": [
-            "Motor Design",
-            "Lean Manufacturing",
-            "Technical Sales",
-            "Leadership",
-            "Statistical Process Control (SPC)"
+            "Design",
+            "Knowledge of engineering and technology",
+            "Knowledge of production and processing",
+            "Management of Personnel Resources",
+            "Quality Control Analysis",
+            "Persuasion"
         ]
     },
     {
@@ -2290,11 +2405,12 @@
         ],
         "location": "Columbus",
         "requiredSkills": [
-            "Aluminum Casting",
-            "CNC Operation",
-            "Automotive Quality Standards (IATF 16949)",
-            "Industrial Painting",
-            "PLC Troubleshooting"
+            "Knowledge of production and processing",
+            "Operation and Control",
+            "Quality Control Analysis",
+            "Repairing",
+            "Equipment Maintenance",
+            "Operation Monitoring"
         ]
     },
     {
@@ -2310,11 +2426,12 @@
         ],
         "location": "Fishers",
         "requiredSkills": [
-            "Science Curriculum",
-            "Child Development",
-            "Behavior Management",
-            "Student Advising",
-            "EdTech Integration"
+            "Instructing",
+            "Knowledge of principles and methods for curriculum and training design",
+            "Assisting and Caring for Others",
+            "Social Perceptiveness",
+            "Learning Strategies",
+            "Knowledge of computers and electronics"
         ]
     },
     {
@@ -2330,11 +2447,12 @@
         ],
         "location": "Greensburg",
         "requiredSkills": [
-            "Manufacturing Assembly",
-            "Quality Inspection",
-            "Mechanical/Electrical Repair",
-            "Supervision",
-            "Inventory Management"
+            "Knowledge of production and processing",
+            "Quality Control Analysis",
+            "Repairing",
+            "Management of Personnel Resources",
+            "Coordination",
+            "Operation Monitoring"
         ]
     },
     {
@@ -2350,11 +2468,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "HVAC Design",
-            "Power Distribution Design",
-            "Plumbing Systems",
-            "Autodesk Revit",
-            "Building Systems Commissioning"
+            "Knowledge of design techniques, tools, and principles",
+            "Knowledge of engineering and technology",
+            "Knowledge of building and construction",
+            "Systems Evaluation",
+            "Troubleshooting",
+            "Complex Problem Solving"
         ]
     },
     {
@@ -2370,11 +2489,12 @@
         ],
         "location": "Cambridge City",
         "requiredSkills": [
-            "Material Handling Equipment",
-            "CDL-A",
-            "Warehouse Management",
-            "Human Resources",
-            "Industrial Maintenance"
+            "Operation of vehicles, mechanized devices, or equipment",
+            "Knowledge of transportation principles",
+            "Management of Personnel Resources",
+            "Knowledge of personnel and human resources",
+            "Equipment Maintenance",
+            "Coordination"
         ]
     },
     {
@@ -2390,11 +2510,12 @@
         ],
         "location": "Syracuse",
         "requiredSkills": [
-            "Assembly",
-            "CNC Operation",
-            "Mechanical Repair",
-            "Logistics",
-            "Communication"
+            "Knowledge of production and processing",
+            "Operation and Control",
+            "Repairing",
+            "Knowledge of administrative and clerical procedures",
+            "Customer and Personal Service",
+            "Equipment Maintenance"
         ]
     },
     {
@@ -2410,11 +2531,12 @@
         ],
         "location": "Valparaiso",
         "requiredSkills": [
-            "Engineering Education",
-            "Student Recruitment",
-            "Financial Aid Administration",
-            "IT Infrastructure",
-            "Theology"
+            "Education and Training",
+            "Engineering and Technology",
+            "Financial Aid Packaging and Counseling",
+            "Network Management",
+            "Systems Analysis",
+            "Philosophy and Theology"
         ]
     },
     {
@@ -2430,11 +2552,12 @@
         ],
         "location": "Bloomington",
         "requiredSkills": [
-            "Injection Molding",
-            "Plastics Engineering",
-            "Quality Control",
-            "Mold Design",
-            "Supervision"
+            "Production and Processing",
+            "Mechanical Knowledge",
+            "Quality Control Analysis",
+            "Operation Monitoring",
+            "Tooling Design and Fabrication",
+            "Administration and Management"
         ]
     },
     {
@@ -2450,11 +2573,12 @@
         ],
         "location": "South Bend",
         "requiredSkills": [
-            "AutoCAD Civil 3D",
-            "Architectural Design (Revit)",
-            "Land Surveying",
-            "Construction Materials Testing",
-            "Environmental Permitting"
+            "Design",
+            "Building and Construction",
+            "Physics",
+            "Geography",
+            "Environmental Regulations",
+            "Engineering and Technology"
         ]
     },
     {
@@ -2470,11 +2594,11 @@
         ],
         "location": "Angola",
         "requiredSkills": [
-            "Higher Education",
-            "Coaching",
-            "Recruitment",
+            "Instruction",
+            "Coaching and Mentoring",
+            "Student Recruitment and Admissions",
             "Technical Support",
-            "Career Counseling"
+            "Career Development and Counseling"
         ]
     },
     {
@@ -2490,11 +2614,11 @@
         ],
         "location": "Terre Haute",
         "requiredSkills": [
-            "MIG Welding",
+            "Welding and Soldering",
             "Mechanical Assembly",
-            "Process Improvement",
-            "Leadership",
-            "Inventory Control"
+            "Production and Processing",
+            "Lean Manufacturing Principles",
+            "Materials Requirements Planning (MRP)"
         ]
     },
     {
@@ -2510,11 +2634,11 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Swift/Kotlin",
-            "Node.js/Python",
-            "SQL",
-            "Software Testing",
-            "Agile"
+            "Programming",
+            "Systems Analysis",
+            "Technology Design",
+            "Quality Control Analysis",
+            "Data Modeling and Analysis"
         ]
     },
     {
@@ -2530,11 +2654,11 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Sales",
-            "Social Media Marketing",
-            "Event Management",
-            "Turf Management",
-            "Customer Service"
+            "Sales and Marketing",
+            "Customer and Personal Service",
+            "Event Coordination",
+            "Turf and Grounds Management",
+            "Food Production"
         ]
     },
     {
@@ -2550,11 +2674,12 @@
         ],
         "location": "Nappanee",
         "requiredSkills": [
-            "Woodworking",
-            "Assembly",
-            "12V Electrical Systems",
-            "CAD",
-            "RV Repair"
+            "Building and Construction",
+            "Production and Processing",
+            "Installation",
+            "Design",
+            "Repairing",
+            "Low-Voltage Electrical Systems"
         ]
     },
     {
@@ -2570,11 +2695,11 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Instructional Strategies",
-            "Special Education Support",
-            "Commercial Driving",
-            "Nutrition",
-            "Network Troubleshooting"
+            "Education and Training",
+            "Instructional Design",
+            "Public Safety and Security",
+            "Food Production",
+            "Computers and Electronics"
         ]
     },
     {
@@ -2590,11 +2715,11 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Construction Management",
-            "Field Supervision",
-            "Submittal & RFI processing",
-            "OSHA Regulations",
-            "Construction Estimating"
+            "Building and Construction",
+            "Administration and Management",
+            "Project Cost Estimation",
+            "Public Safety and Security",
+            "Engineering and Technology"
         ]
     },
     {
@@ -2610,11 +2735,11 @@
         ],
         "location": "Portland",
         "requiredSkills": [
-            "Food Processing",
-            "HACCP/SQF",
-            "Industrial Maintenance",
-            "Logistics",
-            "Product Development"
+            "Food Production",
+            "Quality Control Analysis",
+            "Mechanical Knowledge",
+            "Production and Processing",
+            "Chemistry"
         ]
     },
     {
@@ -2630,11 +2755,11 @@
         ],
         "location": "Jeffersonville",
         "requiredSkills": [
-            "Patient Care",
-            "Emergency Response",
-            "Medical Imaging",
-            "Discharge Planning",
-            "Nutrition"
+            "Medicine and Dentistry",
+            "Patient Care and Assistance",
+            "Medical Software Operation",
+            "Radiologic Technology",
+            "Therapy and Counseling"
         ]
     },
     {
@@ -2650,11 +2775,11 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Full-Stack Development",
-            "Account Management",
-            "SEO/SEM",
-            "Sales",
-            "User Experience Design"
+            "Programming",
+            "Customer and Personal Service",
+            "Sales and Marketing",
+            "Communications and Media",
+            "Design Principles and Methods"
         ]
     },
     {
@@ -2670,11 +2795,11 @@
         ],
         "location": "Elkhart",
         "requiredSkills": [
-            "Operations Management",
-            "Financial Reporting",
-            "Assembly",
-            "Employee Relations",
-            "B2B Sales"
+            "Production and Processing",
+            "Administration and Management",
+            "Economics and Accounting",
+            "Personnel and Human Resources",
+            "Sales and Marketing"
         ]
     },
     {
@@ -2690,11 +2815,11 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Process Engineering",
-            "Data Analytics",
+            "Chemistry",
+            "Engineering and Technology",
+            "Mathematics",
             "Project Management",
-            "Corporate Law",
-            "Environmental Science"
+            "Law and Government"
         ]
     },
     {
@@ -2710,11 +2835,11 @@
         ],
         "location": "Fort Wayne",
         "requiredSkills": [
-            "Pump Design",
-            "Embedded Systems",
-            "Strategic Sourcing",
-            "Digital Marketing",
-            "Product Testing"
+            "Engineering and Technology",
+            "Design",
+            "Computers and Electronics",
+            "Supply Chain and Logistics",
+            "Quality Control Analysis"
         ]
     },
     {
@@ -2730,10 +2855,10 @@
         ],
         "location": "Seymour",
         "requiredSkills": [
-            "Operating Room Support",
-            "Labor and Delivery",
-            "Speech Therapy",
-            "Network Management",
+            "Surgical Instrumentation and Procedures",
+            "Obstetrics and Gynecology Nursing",
+            "Therapy and Counseling",
+            "Systems Analysis",
             "Patient Financial Services"
         ]
     },
@@ -2750,11 +2875,11 @@
         ],
         "location": "West Lafayette",
         "requiredSkills": [
-            "Geriatric Care",
+            "Geriatrics",
+            "Patient Care and Assistance",
             "Medication Administration",
-            "Nursing",
-            "Food Service",
-            "Event Planning"
+            "Food Production",
+            "Recreation and Leisure Program Design"
         ]
     },
     {
@@ -2770,11 +2895,11 @@
         ],
         "location": "Carlisle",
         "requiredSkills": [
-            "Heavy Machinery Operation",
-            "Industrial Electrical",
-            "Mine Planning",
-            "MSHA Regulations",
-            "Explosives Handling"
+            "Operation of Heavy Equipment",
+            "Repairing",
+            "Geology and Mining",
+            "Public Safety and Security",
+            "Explosives Handling and Safety"
         ]
     },
     {
@@ -2790,10 +2915,10 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Retail Sales",
-            "Interior Design",
-            "Inventory Management",
-            "Customer Service",
+            "Sales and Marketing",
+            "Design",
+            "Warehouse Operations",
+            "Transportation",
             "Retail Management"
         ]
     },
@@ -2810,11 +2935,11 @@
         ],
         "location": "Rockport",
         "requiredSkills": [
-            "Steel Processing",
-            "Mechanical Maintenance",
-            "Process Optimization",
-            "Rail Operations",
-            "Leadership"
+            "Production and Processing",
+            "Mechanical Knowledge",
+            "Metallurgical Process Control",
+            "Transportation",
+            "Repairing"
         ]
     },
     {
@@ -2830,11 +2955,11 @@
         ],
         "location": "Anderson",
         "requiredSkills": [
-            "Hybrid/Electric Vehicles",
-            "Lithium-ion Batteries",
-            "Automotive Systems",
-            "Embedded Systems",
-            "CAD"
+            "Engineering and Technology",
+            "Physics",
+            "Chemistry",
+            "Systems Analysis",
+            "Design Principles and Methods"
         ]
     },
     {
@@ -2850,11 +2975,11 @@
         ],
         "location": "South Bend",
         "requiredSkills": [
-            "Talent Acquisition",
-            "Client Relations",
-            "Payroll Processing",
-            "Human Resources",
-            "Boolean Search"
+            "Personnel and Human Resources",
+            "Sales and Marketing",
+            "Customer and Personal Service",
+            "Economics and Accounting",
+            "Talent Sourcing and Identification"
         ]
     },
     {
@@ -2870,11 +2995,11 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Railroad Operations",
-            "Mechanical Aptitude",
-            "Safety Compliance",
-            "Physical Labor",
-            "Communication"
+            "Transportation",
+            "Public Safety and Security",
+            "Mechanical Knowledge",
+            "Operation Monitoring",
+            "Repairing"
         ]
     },
     {
@@ -2890,11 +3015,11 @@
         ],
         "location": "Winamac",
         "requiredSkills": [
-            "Welding",
-            "Mechanical Assembly",
-            "SolidWorks",
-            "Problem Solving",
-            "Quality Inspection"
+            "Production and Processing",
+            "Mechanical Knowledge",
+            "Engineering and Technology",
+            "Customer and Personal Service",
+            "Quality Control Analysis"
         ]
     },
     {
@@ -2910,11 +3035,11 @@
         ],
         "location": "Cedar Rapids (multiple IN locations previously)",
         "requiredSkills": [
-            "CNC Machining",
-            "Mechanical Assembly",
-            "Troubleshooting",
-            "Electrical Schematics",
-            "AutoCAD"
+            "Production and Processing",
+            "Mechanical Knowledge",
+            "Repairing",
+            "Engineering and Technology",
+            "Design"
         ]
     },
     {
@@ -2930,11 +3055,11 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Airport Operations",
-            "Facilities Maintenance",
-            "Law Enforcement",
-            "Network Administration",
-            "Construction Management"
+            "Transportation",
+            "Public Safety and Security",
+            "Building and Construction",
+            "Systems Analysis",
+            "Law and Government"
         ]
     },
     {
@@ -2950,11 +3075,11 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Industrial Sales",
-            "Warehouse Operations",
-            "VMI/JIT Programs",
-            "Communication",
-            "Logistics"
+            "Sales and Marketing",
+            "Warehouse Operations Management",
+            "Inventory Control Systems",
+            "Customer and Personal Service",
+            "Transportation"
         ]
     },
     {
@@ -2970,11 +3095,11 @@
         ],
         "location": "Indianapolis/Bloomington",
         "requiredSkills": [
-            "Circuit Board Assembly",
-            "Soldering",
-            "Analog/Digital Circuits",
-            "Quality Assurance",
-            "Process Improvement"
+            "Computers and Electronics",
+            "Production and Processing",
+            "Engineering and Technology",
+            "Quality Control Analysis",
+            "Circuit Board Diagnostics"
         ]
     },
     {
@@ -2990,11 +3115,11 @@
         ],
         "location": "Fort Wayne",
         "requiredSkills": [
-            "CDL Class A",
-            "Packing and Loading",
-            "Dispatch",
-            "Problem Resolution",
-            "Investigation"
+            "Transportation",
+            "Customer and Personal Service",
+            "Geography",
+            "Public Safety and Security",
+            "Logistics and Supply Chain Management"
         ]
     },
     {
@@ -3010,11 +3135,11 @@
         ],
         "location": "Elwood",
         "requiredSkills": [
-            "Food Safety (SQF/HACCP)",
-            "Production Management",
-            "Industrial Maintenance",
-            "Food Science",
-            "Forklift Operation"
+            "Food Production",
+            "Quality Control Analysis",
+            "Production and Processing",
+            "Mechanical Knowledge",
+            "Administration and Management"
         ]
     },
     {
@@ -3030,11 +3155,11 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "AWS/Azure/GCP",
-            "Data Warehousing",
-            "SQL",
-            "Troubleshooting",
-            "Enterprise Sales"
+            "Computers and Electronics",
+            "Systems Analysis",
+            "Cloud Computing Platforms",
+            "Technology Design",
+            "Sales and Marketing"
         ]
     },
     {
@@ -3050,11 +3175,11 @@
         ],
         "location": "Evansville",
         "requiredSkills": [
-            "Retail Management",
-            "Inventory Planning",
-            "Web Analytics",
-            "Business Analysis",
-            "Multi-Store Leadership"
+            "Sales and Marketing",
+            "Administration and Management",
+            "Economics and Accounting",
+            "Merchandise Planning and Allocation",
+            "Systems Analysis"
         ]
     },
     {
@@ -3070,11 +3195,11 @@
         ],
         "location": "Batesville",
         "requiredSkills": [
-            "Woodworking/Metalworking",
-            "CAD/CAM",
-            "Welding",
-            "Logistics",
-            "Relationship Sales"
+            "Production and Processing",
+            "Engineering and Technology",
+            "Welding and Soldering",
+            "Transportation",
+            "Sales and Marketing"
         ]
     },
     {
@@ -3090,11 +3215,11 @@
         ],
         "location": "Whiting",
         "requiredSkills": [
-            "Refinery Operations",
-            "Process Safety Management (PSM)",
-            "Industrial Controls",
-            "Rotating Equipment",
-            "OSHA Regulations"
+            "Production and Processing",
+            "Chemistry",
+            "Process Control Systems",
+            "Public Safety and Security",
+            "Engineering and Technology"
         ]
     },
     {
@@ -3110,11 +3235,11 @@
         ],
         "location": "Warrick",
         "requiredSkills": [
-            "Industrial Electrical Systems",
-            "Hydraulics/Pneumatics",
-            "Metallurgy",
-            "Heavy Manufacturing",
-            "Environmental Compliance"
+            "Repairing",
+            "Mechanical Knowledge",
+            "Production and Processing",
+            "Public Safety and Security",
+            "Metallurgical Process Control"
         ]
     },
     {
@@ -3130,11 +3255,11 @@
         ],
         "location": "Elkhart",
         "requiredSkills": [
-            "Assembly",
-            "Woodworking",
-            "Steel Fabrication",
-            "Attention to Detail",
-            "RV Systems Repair"
+            "Building and Construction",
+            "Production and Processing",
+            "Welding and Soldering",
+            "Quality Control Analysis",
+            "Repairing"
         ]
     },
     {
@@ -3150,11 +3275,11 @@
         ],
         "location": "Logansport",
         "requiredSkills": [
-            "Food Processing",
-            "Industrial Maintenance",
-            "Food Safety",
-            "Team Leadership",
-            "Employee Relations"
+            "Food Production",
+            "Production and Processing",
+            "Mechanical Knowledge",
+            "Quality Control Analysis",
+            "Personnel and Human Resources"
         ]
     },
     {
@@ -3170,11 +3295,11 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Wealth Management",
-            "Client Support",
-            "Securities Processing",
-            "Leadership",
-            "FINRA regulations"
+            "Economics and Accounting",
+            "Sales and Marketing",
+            "Customer and Personal Service",
+            "Administration and Management",
+            "Law and Government"
         ]
     },
     {
@@ -3190,11 +3315,11 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Aircraft Assembly",
-            "Composites Fabrication",
-            "Aviation Maintenance",
-            "Aerospace Manufacturing Processes",
-            "AS9100"
+            "Aircraft Structure, Surfaces, Rigging, and Systems Assembly",
+            "Composite Materials Fabrication",
+            "Aviation Maintenance and Repair",
+            "Engineering and Technology",
+            "Quality Control Analysis"
         ]
     },
     {
@@ -3210,11 +3335,12 @@
         ],
         "location": "Plainfield",
         "requiredSkills": [
-            "Aseptic Processing",
-            "Bioassays/HPLC",
-            "Bioprocess Engineering",
-            "Cold Chain Logistics",
-            "GMP Validation"
+            "Knowledge of Good Manufacturing Practices (GMP)",
+            "Quality Control Analysis",
+            "Aseptic Processing Techniques",
+            "Scientific Data Documentation and Interpretation",
+            "Operation Monitoring of Bioprocessing Equipment",
+            "Process Validation Principles"
         ]
     },
     {
@@ -3230,11 +3356,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Excavator/Dozer Operation",
-            "Asphalt Production",
-            "Civil Engineering",
-            "Site Management",
-            "Construction Bidding"
+            "Operation and Control of Construction Equipment",
+            "Knowledge of Building and Construction Materials",
+            "Construction Project Management",
+            "Cost Estimation and Analysis",
+            "Reading and Interpreting Civil Engineering Blueprints",
+            "Management of Personnel Resources"
         ]
     },
     {
@@ -3250,11 +3377,12 @@
         ],
         "location": "Multiple",
         "requiredSkills": [
-            "Nursing Process",
-            "Laboratory Analysis",
-            "Pulmonary Care",
-            "Patient Support",
-            "Medical Terminology"
+            "Patient Assessment and Care",
+            "Knowledge of Medical Terminology",
+            "Clinical Laboratory Procedures",
+            "Administration of Medications and Treatments",
+            "Use of Electronic Health Record (EHR) Software",
+            "Service Orientation"
         ]
     },
     {
@@ -3270,11 +3398,12 @@
         ],
         "location": "Spencer",
         "requiredSkills": [
-            "Cleanroom Manufacturing",
-            "Process Validation",
-            "Medical Device Quality Systems",
-            "Product Development",
-            "Clinical Support"
+            "Knowledge of Medical Device Manufacturing Processes",
+            "Quality Management Systems (QMS) and ISO 13485",
+            "Process Validation (IQ/OQ/PQ)",
+            "Technology Design and Prototyping",
+            "Complex Problem Solving",
+            "Statistical Process Control (SPC)"
         ]
     },
     {
@@ -3290,11 +3419,12 @@
         ],
         "location": "East Troy (multiple IN locations)",
         "requiredSkills": [
-            "Tube Mill Operation",
-            "Metallurgy",
-            "Industrial Repair",
-            "Customer Service",
-            "ISO 9001"
+            "Operation and Control of Metal Forming Machinery",
+            "Metallurgical Analysis and Testing",
+            "Troubleshooting and Repair of Industrial Machinery",
+            "Quality Assurance and Control Systems",
+            "Reading Technical Drawings and Specifications",
+            "Customer and Personal Service"
         ]
     },
     {
@@ -3310,11 +3440,12 @@
         ],
         "location": "Evansville",
         "requiredSkills": [
-            "Natural Gas Systems",
-            "Electrical Distribution",
-            "Utility Engineering",
-            "Problem Solving",
-            "Accounting"
+            "Installation and Repair of Utility Systems",
+            "Troubleshooting Complex Equipment",
+            "Knowledge of Public Safety and Security Regulations",
+            "Utility Engineering and Technology Principles",
+            "Active Listening and Customer Service",
+            "Knowledge of Accounting Principles"
         ]
     },
     {
@@ -3330,11 +3461,12 @@
         ],
         "location": "Batesville",
         "requiredSkills": [
-            "Mechanical Design (CAD)",
-            "Embedded Systems",
-            "Medical Equipment Assembly",
-            "Marketing Strategy",
-            "Technical Troubleshooting"
+            "Computer-Aided Design (CAD) for Mechanical Systems",
+            "Embedded Systems and Circuit Board Design",
+            "Assembly of Electromechanical Devices",
+            "Product Lifecycle Management",
+            "Troubleshooting and Repair of Complex Medical Equipment",
+            "Technology Design"
         ]
     },
     {
@@ -3350,11 +3482,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Mechanical Assembly",
-            "Equipment Repair",
-            "Technical Sales",
-            "CNC Programming",
-            "Logistics"
+            "Reading and Interpreting Technical Blueprints",
+            "Mechanical and Electrical Assembly",
+            "Complex Problem Solving in Equipment Repair",
+            "CNC Machine Setup and Operation",
+            "Logistics and Supply Chain Analysis",
+            "Persuasion and Technical Sales"
         ]
     },
     {
@@ -3370,11 +3503,12 @@
         ],
         "location": "Delphi",
         "requiredSkills": [
-            "Meat Processing",
-            "Industrial Maintenance",
-            "HACCP/USDA Regulations",
-            "Livestock Buying",
-            "Human Resources"
+            "Knowledge of Food Production and Processing",
+            "Hazard Analysis and Critical Control Points (HACCP) Systems",
+            "Adherence to USDA Food Safety Regulations",
+            "Maintenance of Industrial Production Equipment",
+            "Negotiation and Procurement",
+            "Knowledge of Personnel and Human Resources Principles"
         ]
     },
     {
@@ -3390,11 +3524,12 @@
         ],
         "location": "East Chicago",
         "requiredSkills": [
-            "Chemical Plant Operations",
-            "Hazardous Materials Transport",
-            "Industrial Repair",
-            "Process Safety",
-            "B2B Sales"
+            "Chemical Process Operation and Monitoring",
+            "Process Safety Management (PSM)",
+            "Transportation of Hazardous Materials (DOT Regulations)",
+            "Troubleshooting and Repair of Mechanical Systems",
+            "Knowledge of Engineering and Technology",
+            "Technical Sales and Account Management"
         ]
     },
     {
@@ -3410,11 +3545,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Direct Sales",
-            "Home Security Installation",
-            "Customer Service",
-            "Sales Leadership",
-            "Talent Acquisition"
+            "Persuasion and Negotiation",
+            "Customer and Personal Service",
+            "Installation of Low-Voltage Wiring and Equipment",
+            "Management of Personnel Resources",
+            "Active Listening",
+            "Knowledge of Sales and Marketing Principles"
         ]
     },
     {
@@ -3430,11 +3566,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "B2B Sales",
-            "Insurance Account Management",
-            "Employee Benefits",
-            "Claims Adjudication",
-            "Risk Management"
+            "Knowledge of Insurance Principles and Practices",
+            "Risk Analysis and Management",
+            "Judgment and Decision Making",
+            "Client Relationship Management",
+            "Negotiation and Persuasion",
+            "Service Orientation"
         ]
     },
     {
@@ -3450,11 +3587,12 @@
         ],
         "location": "Elkhart",
         "requiredSkills": [
-            "Teaching",
-            "Pedagogy",
-            "Student Support",
-            "Special Needs Assistance",
-            "Food Service"
+            "Instruction and Curriculum Design",
+            "Learning Strategies and Assessment",
+            "Social Perceptiveness",
+            "Service Orientation",
+            "Coordination and Collaboration",
+            "Knowledge of Psychology"
         ]
     },
     {
@@ -3470,11 +3608,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Gas Turbine Manufacturing",
-            "Aerodynamics",
-            "Data Acquisition",
-            "CNC Machining",
-            "Aerospace Supply Chain"
+            "Knowledge of Aerospace Engineering and Technology",
+            "Manufacturing Process Planning and Control",
+            "Computer-Aided Manufacturing (CAM) and CNC Programming",
+            "Quality Control Analysis",
+            "Systems Analysis and Evaluation",
+            "Reading and Interpreting Complex Engineering Drawings"
         ]
     },
     {
@@ -3490,11 +3629,12 @@
         ],
         "location": "Carmel",
         "requiredSkills": [
-            "Actuarial Modeling",
-            "Agile Project Management",
-            "Insurance Policy Service",
-            "Risk Assessment",
-            "Marketing Automation"
+            "Mathematical Reasoning and Statistical Analysis",
+            "Risk Assessment and Management",
+            "Systems Analysis and Project Management",
+            "Knowledge of Insurance Products and Principles",
+            "Complex Problem Solving",
+            "Judgment and Decision Making"
         ]
     },
     {
@@ -3510,11 +3650,12 @@
         ],
         "location": "Merrillville",
         "requiredSkills": [
-            "Hotel Operations",
-            "Hospitality Sales",
-            "Culinary Arts",
-            "Customer Service",
-            "Team Leadership"
+            "Customer and Personal Service",
+            "Administration and Management",
+            "Management of Personnel Resources",
+            "Coordination",
+            "Service Orientation",
+            "Knowledge of Food Production"
         ]
     },
     {
@@ -3530,11 +3671,12 @@
         ],
         "location": "Speedway",
         "requiredSkills": [
-            "Large-Scale Event Planning",
-            "Sponsorship Activation",
-            "Ticketing Systems",
-            "Media Relations",
-            "Customer Experience"
+            "Coordination of Large-Scale Events",
+            "Sales and Marketing Strategy",
+            "Public and Media Relations",
+            "Customer and Personal Service",
+            "Administration and Management",
+            "Negotiation and Persuasion"
         ]
     },
     {
@@ -3550,11 +3692,12 @@
         ],
         "location": "Fishers",
         "requiredSkills": [
-            "Access Control/CCTV Installation",
-            "B2B Sales",
-            "Technical Troubleshooting",
-            "Security System Design",
-            "Project Management"
+            "Installation and Repair of Electronic Security Systems",
+            "Technology Design",
+            "Troubleshooting Complex Systems",
+            "Persuasion and Sales Techniques",
+            "Operations Analysis",
+            "Customer and Personal Service"
         ]
     },
     {
@@ -3570,11 +3713,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Ophthalmology",
-            "Optical Dispensing",
-            "Medical Office Administration",
-            "Surgical Scheduling",
-            "Optometry"
+            "Ophthalmic Examination and Diagnostic Testing",
+            "Knowledge of Medicine and Dentistry",
+            "Customer and Personal Service",
+            "Coordination and Scheduling",
+            "Active Listening",
+            "Service Orientation"
         ]
     },
     {
@@ -3590,11 +3734,12 @@
         ],
         "location": "Terre Haute",
         "requiredSkills": [
-            "Surgical Instrument Repair",
-            "Medical Sales",
-            "Logistics",
-            "Quality Control",
-            "Client Communication"
+            "Repairing and Maintaining Mechanical Equipment",
+            "Quality Control Analysis",
+            "Troubleshooting",
+            "Customer and Personal Service",
+            "Production and Processing",
+            "Arm-Hand Steadiness"
         ]
     },
     {
@@ -3610,11 +3755,12 @@
         ],
         "location": "Richmond",
         "requiredSkills": [
-            "Acute Care",
-            "Clinical Laboratory Science",
-            "Echocardiography",
-            "Emergency Medical Services",
-            "Healthcare Administration"
+            "Patient Assessment and Acute Care",
+            "Clinical Laboratory Science and Testing",
+            "Operation of Diagnostic Imaging Equipment",
+            "Emergency Medical Response Procedures",
+            "Healthcare Administration and Management",
+            "Judgment and Decision Making"
         ]
     },
     {
@@ -3630,11 +3776,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Customer Service",
-            "Pharmacy Operations",
-            "Retail Management",
-            "Leadership",
-            "Warehouse Logistics"
+            "Customer and Personal Service",
+            "Management of Personnel Resources",
+            "Knowledge of Pharmaceutical Drugs and Dispensing",
+            "Inventory Control and Management",
+            "Operations Analysis",
+            "Service Orientation"
         ]
     },
     {
@@ -3650,11 +3797,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Point of Sale (POS)",
-            "Supervision",
-            "Pharmacy Support",
-            "Loss Prevention",
-            "Supply Chain"
+            "Service Orientation",
+            "Coordination and Supervision",
+            "Knowledge of Pharmacy Regulations and Procedures",
+            "Monitoring for Public Safety and Security",
+            "Supply Chain and Logistics Operations",
+            "Active Listening"
         ]
     },
     {
@@ -3670,11 +3818,12 @@
         ],
         "location": "Mount Vernon",
         "requiredSkills": [
-            "Chemical Processing",
-            "Process Optimization",
-            "Quality Control Testing",
-            "Industrial Maintenance",
-            "Environmental Health & Safety"
+            "Operation Monitoring of Chemical Processes",
+            "Knowledge of Engineering and Technology",
+            "Quality Control Analysis",
+            "Repairing and Maintaining Mechanical Equipment",
+            "Knowledge of Environmental Health and Safety (EHS) Regulations",
+            "Science"
         ]
     },
     {
@@ -3691,10 +3840,11 @@
         "location": "Warsaw",
         "requiredSkills": [
             "Quality Management Systems (QMS)",
-            "Lean Manufacturing",
-            "CNC Programming",
-            "FDA/CE Mark Submissions",
-            "Orthopedic Design"
+            "Manufacturing Process Design and Improvement",
+            "CNC Programming and Operation",
+            "Regulatory Affairs and Compliance",
+            "Technology Design for Medical Devices",
+            "Knowledge of Production and Processing"
         ]
     },
     {
@@ -3710,11 +3860,12 @@
         ],
         "location": "Carmel",
         "requiredSkills": [
-            "Product Design",
-            "Embedded C",
-            "Brand Strategy",
-            "Production Management",
-            "Strategic Procurement"
+            "Mechanical Engineering Design Principles",
+            "Embedded Software and Firmware Development",
+            "Marketing and Sales Strategy",
+            "Production and Operations Management",
+            "Global Sourcing and Procurement",
+            "Technology Design"
         ]
     },
     {
@@ -3730,11 +3881,12 @@
         ],
         "location": "Shelbyville",
         "requiredSkills": [
-            "Polymer Science",
-            "Manufacturing Operations",
-            "Lab Testing",
-            "Quality Systems",
-            "Industrial Repair"
+            "Process Engineering and Optimization",
+            "Chemical Laboratory Procedures",
+            "Quality Control Analysis",
+            "Operation Monitoring",
+            "Troubleshooting and Repair of Industrial Machinery",
+            "Knowledge of Production and Processing"
         ]
     },
     {
@@ -3750,11 +3902,12 @@
         ],
         "location": "Indianapolis",
         "requiredSkills": [
-            "Sourcing",
-            "Sales",
-            "Client Management",
-            "Leadership",
-            "High-Volume Recruiting"
+            "Knowledge of Personnel and Human Resources",
+            "Sales and Marketing Principles",
+            "Management of Personnel Resources",
+            "Persuasion and Negotiation",
+            "Social Perceptiveness",
+            "Service Orientation"
         ]
     },
     {
@@ -3770,11 +3923,12 @@
         ],
         "location": "Indianapolis Area",
         "requiredSkills": [
-            "Teaching",
-            "Leadership",
-            "Special Needs",
-            "Collaboration",
-            "Safety"
+            "Knowledge of Principles and Methods for Curriculum and Training Design",
+            "Social Perceptiveness",
+            "Management of Personnel Resources",
+            "Learning Strategies",
+            "Knowledge of Public Safety and Security",
+            "Coordination"
         ]
     },
     {
@@ -3790,11 +3944,12 @@
         ],
         "location": "Marion",
         "requiredSkills": [
-            "Adult Education",
-            "Student Recruitment",
-            "Financial Aid Processing",
-            "Server Management",
-            "Online Course Development"
+            "Instructional Design and Curriculum Development",
+            "Student Counseling and Advising",
+            "Network and Systems Administration",
+            "Knowledge of Education and Training Principles",
+            "Systems Analysis and Evaluation",
+            "Service Orientation"
         ]
     }
 ]
