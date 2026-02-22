@@ -4,10 +4,7 @@
         "name": "Anderson University",
         "region": "Anderson",
         "topMajors": [],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Other"
+        "type": "Master's Colleges & Universities: Medium Programs"
     },
     {
         "id": "ball-state-university",
@@ -19,10 +16,7 @@
             "Respiratory Therapy",
             "Economics"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Other"
+        "type": "Doctoral Universities: High Research Activity"
     },
     {
         "id": "bethel-university",
@@ -35,10 +29,7 @@
             "Sign Language Interpreting",
             "Science Education"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Other"
+        "type": "Master's Colleges & Universities: Medium Programs"
     },
     {
         "id": "butler-university",
@@ -49,10 +40,7 @@
             "Psychology",
             "Biochemistry"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Other"
+        "type": "Doctoral Universities: High Research Activity"
     },
     {
         "id": "calumet-college-of-st-joseph",
@@ -65,10 +53,7 @@
             "Criminal Justice",
             "Public Administration"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Other"
+        "type": "Baccalaureate Colleges: Diverse Fields"
     },
     {
         "id": "depauw-university",
@@ -80,10 +65,7 @@
             "Business and Leadership",
             "Music"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Liberal Arts"
+        "type": "Baccalaureate Colleges: Arts & Sciences Focus"
     },
     {
         "id": "franklin-college",
@@ -95,10 +77,7 @@
             "Elementary Education",
             "Accounting"
         ],
-        "studentDemographics": {
-            "totalStudents": 985
-        },
-        "type": "Liberal Arts"
+        "type": "Baccalaureate Colleges: Diverse Fields"
     },
     {
         "id": "goshen-college",
@@ -108,10 +87,7 @@
             "Film Production",
             "Communication"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Liberal Arts"
+        "type": "Baccalaureate Colleges: Diverse Fields"
     },
     {
         "id": "holy-cross-college",
@@ -123,10 +99,7 @@
             "Chemistry",
             "Theology"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Liberal Arts"
+        "type": "Baccalaureate Colleges: Diverse Fields"
     },
     {
         "id": "huntington-university",
@@ -139,20 +112,14 @@
             "Occupational Therapy",
             "Counseling"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Other"
+        "type": "Master's Colleges & Universities: Medium Programs"
     },
     {
         "id": "indiana-state-university",
         "name": "Indiana State University",
         "region": "Indiana",
         "topMajors": [],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Other"
+        "type": "Doctoral Universities: High Research Activity"
     },
     {
         "id": "indiana-tech",
@@ -164,10 +131,7 @@
             "Computer Sciences",
             "Arts and Sciences"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Other"
+        "type": "Master's Colleges & Universities: Medium Programs"
     },
     {
         "id": "indiana-university",
@@ -180,10 +144,7 @@
             "Environmental Science",
             "Cybersecurity"
         ],
-        "studentDemographics": {
-            "totalStudents": 90000
-        },
-        "type": "R1"
+        "type": "Doctoral Universities: Very High Research Activity"
     },
     {
         "id": "iu-indianapolis",
@@ -196,10 +157,7 @@
             "STEM",
             "arts and humanities"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "R1"
+        "type": "Doctoral Universities: Very High Research Activity"
     },
     {
         "id": "indiana-wesleyan-university",
@@ -210,10 +168,7 @@
             "Seminary Studies",
             "Education"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Liberal Arts"
+        "type": "Doctoral/Professional Universities"
     },
     {
         "id": "ivy-tech-community-college",
@@ -226,10 +181,7 @@
             "Automotive Technology",
             "Education – Early Childhood"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Community College"
+        "type": "Associate's Colleges: High Transfer-High Traditional"
     },
     {
         "id": "manchester-university",
@@ -242,10 +194,7 @@
             "Athletic Training",
             "Peace Studies"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Liberal Arts"
+        "type": "Master's Colleges & Universities: Medium Programs"
     },
     {
         "id": "marian-university",
@@ -258,10 +207,7 @@
             "Nursing",
             "Osteopathic Medicine"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "R1"
+        "type": "Doctoral/Professional Universities"
     },
     {
         "id": "purdue-university",
@@ -274,10 +220,7 @@
             "cybersecurity",
             "sports technology"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "R1"
+        "type": "Doctoral Universities: Very High Research Activity"
     },
     {
         "id": "rose-hulman-institute-of-technology",
@@ -290,10 +233,7 @@
             "Chemical Engineering",
             "Civil & Environmental Engineering"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Other"
+        "type": "Special Focus Four-Year: Engineering and Other Technology Schools"
     },
     {
         "id": "saint-mary-of-the-woods-college",
@@ -306,10 +246,7 @@
             "Business and Leadership",
             "Arts, Letters & Music"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Liberal Arts"
+        "type": "Baccalaureate Colleges: Diverse Fields"
     },
     {
         "id": "taylor-university",
@@ -321,10 +258,7 @@
             "Art",
             "Religious Studies"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Liberal Arts"
+        "type": "Master's Colleges & Universities: Medium Programs"
     },
     {
         "id": "trine-university",
@@ -337,10 +271,7 @@
             "Orthotics and Prosthetics",
             "Chemistry"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Other"
+        "type": "Doctoral/Professional Universities"
     },
     {
         "id": "university-of-evansville",
@@ -350,12 +281,7 @@
             "Physician Assistant Science",
             "Mental Health Education"
         ],
-        "studentDemographics": {
-            "totalStudents": 0,
-            "firstGenerationPercentage": 0,
-            "underrepresentedMinorityPercentage": 0
-        },
-        "type": "Other"
+        "type": "Master's Colleges & Universities: Larger Programs"
     },
     {
         "id": "university-of-indianapolis",
@@ -368,12 +294,7 @@
             "Engineering",
             "Physical Therapy"
         ],
-        "studentDemographics": {
-            "totalStudents": 0,
-            "firstGenerationPercentage": 0,
-            "underrepresentedMinorityPercentage": 0
-        },
-        "type": "Other"
+        "type": "Doctoral/Professional Universities"
     },
     {
         "id": "university-of-notre-dame",
@@ -386,10 +307,7 @@
             "Science and Technology",
             "Faith and Service"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "R1"
+        "type": "Doctoral Universities: Very High Research Activity"
     },
     {
         "id": "university-of-saint-francis",
@@ -402,10 +320,7 @@
             "Physician Assistant Studies",
             "Game and Application Development"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Other"
+        "type": "Master's Colleges & Universities: Medium Programs"
     },
     {
         "id": "university-of-southern-indiana",
@@ -418,10 +333,7 @@
             "Business",
             "Nursing and Health Professions"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Other"
+        "type": "Master's Colleges & Universities: Larger Programs"
     },
     {
         "id": "valparaiso-university",
@@ -434,10 +346,7 @@
             "Physician Assistant Studies",
             "Chemistry"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Other"
+        "type": "Master's Colleges & Universities: Larger Programs"
     },
     {
         "id": "vincennes-university",
@@ -450,20 +359,14 @@
             "Agribusiness",
             "Collaborative Robotics Training"
         ],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Community College"
+        "type": "Associate's Colleges: High Transfer-High Traditional"
     },
     {
         "id": "wabash-college",
         "name": "Wabash College",
         "region": "Crawfordsville",
         "topMajors": [],
-        "studentDemographics": {
-            "totalStudents": 0
-        },
-        "type": "Liberal Arts"
+        "type": "Baccalaureate Colleges: Arts & Sciences Focus"
     },
     {
         "id": "western-governors-university",
@@ -476,9 +379,6 @@
             "Elementary Education",
             "Cybersecurity and Information Assurance"
         ],
-        "studentDemographics": {
-            "totalStudents": 300000
-        },
-        "type": "Other"
+        "type": "Special Focus Four-Year: Other Health Professions Schools"
     }
 ]

@@ -8,7 +8,7 @@ export interface InstitutionSchema {
     underrepresentedMinorityPercentage?: number;
     firstGenerationPercentage?: number;
   };
-  type: 'R1' | 'Liberal Arts' | 'Community College' | 'Other';
+  type: string; // Carnegie Classification
 }
 
 export interface EmployerSchema {
