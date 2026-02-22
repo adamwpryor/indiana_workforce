@@ -84,9 +84,9 @@ async function scrapeHomepage(url) {
 
 async function loadSecureKey() {
     // Custom Node.js Zero-Trust Implementation
-    const key = process.env.GEMINI_API_KEY;
+    const key = process.env.BLT_GEMINI_KEY;
     if (!key) {
-        throw new Error("Security Alert: GEMINI_API_KEY environment variable is not set.");
+        throw new Error("Security Alert: BLT_GEMINI_KEY environment variable is not set.");
     }
     return key;
 }
@@ -97,7 +97,7 @@ async function main() {
         apiKey = await loadSecureKey();
     } catch (e) {
         console.error(`ERROR: ${e.message}`);
-        console.error("Please set your GEMINI_API_KEY in your OS environment variables before running this Zero-Trust script.");
+        console.error("Please set your BLT_GEMINI_KEY in your OS environment variables before running this Zero-Trust script.");
         process.exit(1);
     }
 
