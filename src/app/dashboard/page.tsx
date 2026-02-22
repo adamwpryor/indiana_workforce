@@ -91,6 +91,11 @@ export default function Dashboard() {
     return { nodes, links: validLinks };
   }, [matches, activeFilters]);
 
+  const filteredMatches = useMemo(() => {
+    const validNodeIds = new Set(graphData.nodes.map(n => n.id));
+    return matches.filter(m => validNodeIds.has(m.sourceId) && validNodeIds.has(m.targetId));
+  }, [matches, graphData]);
+
   return (
     <div className="flex flex-col lg:flex-row h-screen w-full bg-slate-50 overflow-y-auto lg:overflow-hidden font-sans">
       {/* Left Panel - Data Summary */}
@@ -130,7 +135,7 @@ export default function Dashboard() {
       <div className="w-full lg:w-1/4 lg:h-full relative z-10 shadow-lg shrink-0">
         <AIReasoningPane
           selectedNode={selectedNode}
-          matches={matches}
+          matches={filteredMatches}
           institutions={mockInstitutions}
           employers={mockEmployers}
         />
