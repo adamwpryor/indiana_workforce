@@ -1,9 +1,11 @@
 import os
 import sys
 import json
+import requests
+from bs4 import BeautifulSoup
 from typing import List, Optional
 from pydantic import BaseModel, Field
-from firecrawl import FirecrawlApp
+import google.generativeai as genai
 
 # Add the src structure to the python path so we can import the zero trust module
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
@@ -63,44 +65,68 @@ TARGET_INSTITUTIONS = {
 
 OUTPUT_FILE = os.path.join(os.path.dirname(__file__), '..', 'src', 'data', 'institutions.json')
 
+def scrape_homepage(url: str) -> str:
+    """Fetches the homepage and extracts visible text."""
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+    response = requests.get(url, headers=headers, timeout=10)
+    response.raise_for_status()
+    soup = BeautifulSoup(response.content, 'html.parser')
+    
+    # Remove script and style elements
+    for script in soup(["script", "style"]):
+        script.extract()
+        
+    # Get text
+    text = soup.get_text(separator=' ', strip=True)
+    return text[:20000] # Limit tokens to reasonable amount for Google GenAI
+
 def main():
     try:
-        api_key = load_secure_key("FIRECRAWL_API_KEY")
+        api_key = load_secure_key("GEMINI_API_KEY")
     except ValueError as e:
         print(f"ERROR: {e}")
-        print("Please set your API key in your OS environment variables before running this Zero-Trust script.")
+        print("Please set your GEMINI_API_KEY in your OS environment variables before running this Zero-Trust script.")
         return
 
-    # Initialize Firecrawl SDK
-    app = FirecrawlApp(api_key=api_key)
+    # Initialize Google GenAI SDK
+    genai.configure(api_key=api_key)
+    # Instantiate the model with JSON structured output configuration
+    model = genai.GenerativeModel('gemini-2.5-flash', generation_config={"response_mime_type": "application/json", "response_schema": InstitutionExtractSchema})
     
     extracted_data = []
 
-    print(f"Starting Firecrawl Extraction for {len(TARGET_INSTITUTIONS)} Institutions...")
+    print(f"Starting Gemini Custom Extraction for {len(TARGET_INSTITUTIONS)} Institutions...")
     
     for name, url in TARGET_INSTITUTIONS.items():
         print(f"Crawling {name}: {url}...")
         try:
-            # We use Firecrawl's extract endpoint with pydantic schema to force structured JSON output
-            data = app.scrape_url(
-                url,
-                params={
-                    'formats': ['extract'],
-                    'extract': {
-                        'prompt': f"Extract detailed profile information for {name} from their homepage. Identify their top majors, overall student enrollment numeric figure, and classify their institution type strictly as one of: 'R1', 'Liberal Arts', 'Community College', or 'Other'.",
-                        'schema': InstitutionExtractSchema.model_json_schema()
-                    }
-                }
-            )
+            # 1. Scrape the homepage text
+            homepage_text = scrape_homepage(url)
             
-            if 'extract' in data:
-                result = data['extract']
-                # Merge the correct name from our index in case the LLM wanders
-                result['name'] = name
-                extracted_data.append(result)
-                print(f"  [+] Success: Parsed {name}")
-            else:
-                print(f"  [-] Failed: No 'extract' object returned for {name}.")
+            # 2. Use Gemini to extract structural data
+            prompt = f"""
+            You are a data extraction research assistant. Review the following text scraped from {name}'s homepage:
+            {url}
+            
+            EXTRACTED TEXT:
+            {homepage_text}
+            
+            Extract detailed profile information based on the text. 
+            Identify their top majors, overall student enrollment numeric figure, 
+            and classify their institution type strictly as one of: 'R1', 'Liberal Arts', 'Community College', or 'Other'.
+            Ensure you output valid JSON matching the exact schema requested.
+            """
+            
+            response = model.generate_content(prompt)
+            
+            result = json.loads(response.text)
+            
+            # Merge the correct name from our index to maintain consistency
+            result['name'] = name
+            extracted_data.append(result)
+            print(f"  [+] Success: Parsed {name}")
                 
         except Exception as e:
             print(f"  [!] Error crawling {name}: {e}")

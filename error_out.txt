@@ -1,0 +1,51 @@
+Traceback (most recent call last):
+  File "C:\Users\adamw\OneDrive\Desktop\coding_workspaces\indiana_workforce\scripts\catch_err.py", line 4, in <module>
+    import data_crawler
+  File "C:\Users\adamw\OneDrive\Desktop\coding_workspaces\indiana_workforce\scripts\data_crawler.py", line 8, in <module>
+    import google.generativeai as genai
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\google\generativeai\__init__.py", line 47, in <module>
+    from google.generativeai import caching
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\google\generativeai\caching.py", line 21, in <module>
+    from google.generativeai import protos
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\google\generativeai\protos.py", line 74, in <module>
+    from google.ai.generativelanguage_v1beta.types import *
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\google\ai\generativelanguage_v1beta\__init__.py", line 28, in <module>
+    from .services.model_service import ModelServiceAsyncClient, ModelServiceClient
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\google\ai\generativelanguage_v1beta\services\model_service\__init__.py", line 16, in <module>
+    from .async_client import ModelServiceAsyncClient
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\google\ai\generativelanguage_v1beta\services\model_service\async_client.py", line 57, in <module>
+    from .client import ModelServiceClient
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\google\ai\generativelanguage_v1beta\services\model_service\client.py", line 72, in <module>
+    from .transports.base import DEFAULT_CLIENT_INFO, ModelServiceTransport
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\google\ai\generativelanguage_v1beta\services\model_service\transports\__init__.py", line 19, in <module>
+    from .base import ModelServiceTransport
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\google\ai\generativelanguage_v1beta\services\model_service\transports\base.py", line 21, in <module>
+    from google.api_core import gapic_v1, operations_v1
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\google\api_core\operations_v1\__init__.py", line 17, in <module>
+    from google.api_core.operations_v1.abstract_operations_client import AbstractOperationsClient
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\google\api_core\operations_v1\abstract_operations_client.py", line 22, in <module>
+    from google.api_core.operations_v1.transports.base import (
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\google\api_core\operations_v1\transports\__init__.py", line 29, in <module>
+    from .rest_asyncio import AsyncOperationsRestTransport
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\google\api_core\operations_v1\transports\rest_asyncio.py", line 24, in <module>
+    from google.auth.aio.transport.sessions import AsyncAuthorizedSession  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\google\auth\aio\transport\sessions.py", line 27, in <module>
+    from google.auth.aio.transport.aiohttp import Request as AiohttpRequest
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\google\auth\aio\transport\aiohttp.py", line 23, in <module>
+    import aiohttp  # type: ignore
+    ^^^^^^^^^^^^^^
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\aiohttp\__init__.py", line 6, in <module>
+    from .client import (
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\aiohttp\client.py", line 87, in <module>
+    from .connector import (
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\aiohttp\connector.py", line 924, in <module>
+    _SSL_CONTEXT_VERIFIED = _make_ssl_context(True)
+                            ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\site-packages\aiohttp\connector.py", line 907, in _make_ssl_context
+    sslcontext = ssl.create_default_context()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\adamw\anaconda3\envs\indiana-workforce-crawler\Lib\ssl.py", line 780, in create_default_context
+    context.keylog_filename = keylogfile
+    ^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: '\\\\?\\Volume{ba5fbc33-b5dd-4468-b9fb-349269ef43b8}\\virtual_file.log'
