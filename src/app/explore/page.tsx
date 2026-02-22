@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, GitMerge, Building2, GraduationCap, BrainCircuit, Search, Network } from 'lucide-react';
+import { ArrowLeft, GitMerge, Building2, GraduationCap, BrainCircuit, Search, Network, Activity } from 'lucide-react';
 import { mockInstitutions, mockEmployers } from '@/data/mock';
 import { generateMatches } from '@/lib/InsightEngine';
 import { InstitutionSchema, EmployerSchema } from '@/types';
