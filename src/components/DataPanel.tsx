@@ -32,8 +32,8 @@ export default function DataPanel({ institutions, employers, activeFilters, onFi
             <div className="grid grid-cols-2 gap-4">
                 <div className="bg-blue-50 p-4 rounded-xl border border-blue-100">
                     <GraduationCap className="text-blue-500 mb-2 h-6 w-6" />
-                    <div className="text-2xl font-bold text-blue-900">{(totalStudents / 1000).toFixed(0)}k+</div>
-                    <div className="text-xs font-semibold text-blue-700 uppercase tracking-wider">Students</div>
+                    <div className="text-2xl font-bold text-blue-900">{totalStudents.toLocaleString()}</div>
+                    <div className="text-xs font-semibold text-blue-700 uppercase tracking-wider">Total Students</div>
                 </div>
                 <div className="bg-emerald-50 p-4 rounded-xl border border-emerald-100">
                     <Building2 className="text-emerald-500 mb-2 h-6 w-6" />

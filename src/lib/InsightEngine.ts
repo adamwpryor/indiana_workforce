@@ -185,6 +185,11 @@ export function generateMatches(
         // Filter for "natural" matches meeting a threshold
         let acceptedMatches = potentialMatches.filter(m => m.matchStrengthScore >= 65);
 
+        // Cap maximum connections to 25 to prevent extreme hub overcrowding
+        if (acceptedMatches.length > 25) {
+            acceptedMatches = acceptedMatches.slice(0, 25);
+        }
+
         // GUARANTEE BASELINE CONNECTIONS:
         if (acceptedMatches.length < MIN_CONNECTIONS_PER_INSTITUTION) {
             acceptedMatches = potentialMatches.slice(0, MIN_CONNECTIONS_PER_INSTITUTION);
@@ -193,8 +198,6 @@ export function generateMatches(
             acceptedMatches.forEach(m => {
                 if (m.matchStrengthScore < 65) {
                     m.aiReasoning = `Strategic Exploratory Focus: Although traditional academic alignment might be developing, the Insight Engine identifies ${employers.find(e => e.id === m.targetId)?.name} as a vital regional partner for ${inst.name}. By bridging the employer's need for skills like ${employers.find(e => e.id === m.targetId)?.requiredSkills.slice(0, 2).join(' and ')} with the institution's distinct student demographic, a high-impact, non-traditional workforce pipeline can be forged.`;
-                    // Keep the actual score mathematical, but label it as a strategic inclusion in the breakdown
-                    m.scoreBreakdown?.push({ category: 'Strategic Exploratory Partnership Guarantee', score: 0 });
                 }
             });
         }
