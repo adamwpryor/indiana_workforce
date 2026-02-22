@@ -69,9 +69,10 @@ export function generateMatches(
             );
 
             const baseScore = 30; // Lowered baseline to compensate for remote/digital trends and broader geography
-            const keywordBonus = Math.min(35, overlap.length * 10); // Increased weight for exact keyword alignment
+            const keywordBonus = Math.min(45, overlap.length * 15); // Powerful weight for exact keyword alignment
             let ipedsBonus = 0;
             let liberalArtsBonus = 0;
+            let scaleBonus = 0;
 
             const scoreBreakdown = [
                 { category: 'Baseline Regional Alignment', score: baseScore }
@@ -112,6 +113,25 @@ export function generateMatches(
                 }
             }
 
+            // Enterprise Scale & Research Pipeline (R1 / Massive Enrollment)
+            let scaleNarrative = '';
+            const isR1 = inst.type.toLowerCase().includes('very high research');
+
+            if (isR1) {
+                scaleBonus += 12;
+                scoreBreakdown.push({ category: 'Enterprise Scale / R1 Research Output', score: 12 });
+                scaleNarrative += `As an R1 research institution, ${inst.name} operates at the enterprise scale necessary to partner on cutting-edge ${emp.industry} innovation. `;
+            }
+
+            if (inst.studentDemographics.totalStudents > 25000) {
+                scaleBonus += 8;
+                scoreBreakdown.push({ category: 'High-Volume Talent Pipeline', score: 8 });
+                scaleNarrative += `The massive student body ensures a reliable, high-volume flow of entry-level talent for scaled operations. `;
+            } else if (inst.studentDemographics.totalStudents > 10000) {
+                scaleBonus += 4;
+                scoreBreakdown.push({ category: 'Moderate-Volume Talent Pipeline', score: 4 });
+            }
+
             // Liberal Arts Counterweight Bonus
             let liberalArtsNarrative = '';
             if (hasLiberalArts) {
@@ -128,7 +148,7 @@ export function generateMatches(
             }
 
             const variance = Math.floor(Math.random() * 4);
-            const totalScore = Math.min(99, Math.round(baseScore + keywordBonus + ipedsBonus + liberalArtsBonus + variance));
+            const totalScore = Math.min(99, Math.round(baseScore + keywordBonus + ipedsBonus + scaleBonus + liberalArtsBonus + variance));
 
             // Generate Bespoke, Creative AI Reasoning connecting O*NET to IPEDS and Curriculum
             const topSkills = emp.requiredSkills.slice(0, 3).join(', ');
@@ -137,11 +157,13 @@ export function generateMatches(
             if (overlap.length > 0) {
                 aiReasoning += `This connection is driven by direct alignment between the university's academic output in [${overlap.join(', ').toUpperCase()}] and the employer's need for O*NET-validated skills such as ${topSkills}. `;
                 aiReasoning += ipedsNarrative;
+                aiReasoning += scaleNarrative;
                 aiReasoning += liberalArtsNarrative;
                 aiReasoning += `Creatively, this partnership could evolve into a specialized cooperative education program where students apply these exact foundational elements in real-world ${emp.industry} environments before graduation.`;
             } else {
                 aiReasoning += `While direct program overlap is not immediately obvious, the critical workforce need for O*NET skills like ${topSkills} presents an opportunity for cross-disciplinary training. `;
                 aiReasoning += ipedsNarrative;
+                aiReasoning += scaleNarrative;
                 aiReasoning += liberalArtsNarrative;
                 aiReasoning += `A creative approach would involve ${inst.name} developing a micro-credential or boot-camp tailored specifically to upskill the local workforce for ${emp.name}'s emerging roles in ${emp.industry}.`;
             }
