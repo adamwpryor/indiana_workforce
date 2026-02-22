@@ -20,13 +20,6 @@ export interface EmployerSchema {
   requiredSkills: string[];
 }
 
-export interface IntermediarySchema {
-  id: string;
-  name: string;
-  focusArea: string;
-  availablePrograms: string[];
-}
-
 export interface MatchSchema {
   id: string;
   sourceId: string; // ID of the Institution
