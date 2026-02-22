@@ -44,10 +44,10 @@ export function generateMatches(
             "Non-Traditional Talent Pathway Design: Reimagining hiring criteria to value cognitive flexibility over direct technical translation."
         ];
 
-        if (score >= 82) {
+        if (score >= 70) {
             if (isStem && (industry.includes('Tech') || industry.includes('Engineering') || industry.includes('Manufacturing'))) return techApprenticeship[Math.floor(Math.random() * techApprenticeship.length)];
             return highIntensity[Math.floor(Math.random() * highIntensity.length)];
-        } else if (score >= 65) {
+        } else if (score >= 50) {
             if (isLiberalArts && !isStem) return liberalArtsFocus[Math.floor(Math.random() * liberalArtsFocus.length)];
             return moderateDevelopment[Math.floor(Math.random() * moderateDevelopment.length)];
         } else {
@@ -68,8 +68,8 @@ export function generateMatches(
                 empKeywords.some((ek) => ek.includes(k) || k.includes(ek))
             );
 
-            const baseScore = 45; // Lowered baseline to compensate for remote/digital trends
-            const keywordBonus = Math.min(25, overlap.length * 8);
+            const baseScore = 30; // Lowered baseline to compensate for remote/digital trends and broader geography
+            const keywordBonus = Math.min(35, overlap.length * 10); // Increased weight for exact keyword alignment
             let ipedsBonus = 0;
             let liberalArtsBonus = 0;
 
@@ -117,12 +117,12 @@ export function generateMatches(
             if (hasLiberalArts) {
                 const employerValuesHumanities = empKeywords.some(s => s.includes('communication') || s.includes('writing') || s.includes('critical thinking') || s.includes('analysis') || s.includes('management') || s.includes('design') || s.includes('strategy'));
                 if (employerValuesHumanities) {
-                    liberalArtsBonus = 12;
-                    scoreBreakdown.push({ category: 'Human Analytics & Ethics Alignment', score: 12 });
+                    liberalArtsBonus = 15;
+                    scoreBreakdown.push({ category: 'Human Analytics & Ethics Alignment', score: 15 });
                     liberalArtsNarrative = `The institution's robust liberal arts framework provides the crucial critical thinking and communication skills explicitly required for ${emp.name}'s strategic roles. `;
                 } else {
-                    liberalArtsBonus = 5;
-                    scoreBreakdown.push({ category: 'Cross-Disciplinary Versatility', score: 5 });
+                    liberalArtsBonus = 7;
+                    scoreBreakdown.push({ category: 'Cross-Disciplinary Versatility', score: 7 });
                     liberalArtsNarrative = `Furthermore, the institution's liberal arts core ensures cognitive flexibility, an essential trait for navigating the unmapped challenges in modern ${emp.industry} environments. `;
                 }
             }
@@ -160,19 +160,19 @@ export function generateMatches(
         // Sort potential matches by score descending
         potentialMatches.sort((a, b) => b.matchStrengthScore - a.matchStrengthScore);
 
-        // Filter for "natural" matches meeting a threshold (lowered to allow more connections naturally with the new baseline)
-        let acceptedMatches = potentialMatches.filter(m => m.matchStrengthScore >= 65);
+        // Filter for "natural" matches meeting a threshold
+        let acceptedMatches = potentialMatches.filter(m => m.matchStrengthScore >= 40);
 
         // GUARANTEE BASELINE CONNECTIONS:
         if (acceptedMatches.length < MIN_CONNECTIONS_PER_INSTITUTION) {
             acceptedMatches = potentialMatches.slice(0, MIN_CONNECTIONS_PER_INSTITUTION);
 
-            // Adjust reasoning for stretch assignments
+            // Adjust reasoning for stretch assignments without artificially inflating the actual score integer
             acceptedMatches.forEach(m => {
-                if (m.matchStrengthScore < 65) {
+                if (m.matchStrengthScore < 40) {
                     m.aiReasoning = `Strategic Exploratory Focus: Although traditional academic alignment might be developing, the Insight Engine identifies ${employers.find(e => e.id === m.targetId)?.name} as a vital regional partner for ${inst.name}. By bridging the employer's need for skills like ${employers.find(e => e.id === m.targetId)?.requiredSkills.slice(0, 2).join(' and ')} with the institution's distinct student demographic, a high-impact, non-traditional workforce pipeline can be forged.`;
-                    m.scoreBreakdown?.push({ category: 'Strategic Exploratory Partnership', score: 65 - m.matchStrengthScore });
-                    m.matchStrengthScore = 65; // Visually boost the forced connection slightly so it's not invisible
+                    // Keep the actual score mathematical, but label it as a strategic inclusion in the breakdown
+                    m.scoreBreakdown?.push({ category: 'Strategic Exploratory Partnership Guarantee', score: 0 });
                 }
             });
         }
