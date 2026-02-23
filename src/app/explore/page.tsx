@@ -31,13 +31,13 @@ export default function Explore() {
                 {/* Header */}
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-200 pb-6 mb-2">
                     <div>
-                        <Link href="/" className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-800 font-semibold mb-4 text-sm transition-colors">
+                        <Link href="/" className="inline-flex items-center gap-2 text-brand-teal hover:text-brand-teal/80 font-semibold mb-4 text-sm transition-colors">
                             <ArrowLeft className="w-4 h-4" /> Back to Intro
                         </Link>
-                        <h1 className="text-3xl font-extrabold text-[#0F2C52] tracking-tight">Imagine a Connection</h1>
+                        <h1 className="text-3xl font-heading font-extrabold text-brand-navy tracking-tight">Imagine a Connection</h1>
                         <p className="text-slate-500 mt-1 font-medium">Bespoke AI Insight Engine Sandbox</p>
                     </div>
-                    <Link href="/dashboard" className="px-6 py-3 bg-[#0F2C52] hover:bg-blue-900 text-white rounded-lg font-bold shadow-md transition-all flex items-center gap-2">
+                    <Link href="/dashboard" className="px-6 py-3 bg-gradient-to-r from-brand-teal to-brand-sage hover:from-brand-teal/90 hover:to-brand-sage/90 text-white rounded-lg font-bold shadow-md transition-all flex items-center gap-2">
                         <Network className="w-4 h-4" /> Go to Ecosystem Map
                     </Link>
                 </div>
@@ -46,14 +46,14 @@ export default function Explore() {
                 <div className="grid md:grid-cols-2 gap-6">
                     <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col h-[320px]">
                         <label className="block text-sm font-semibold text-slate-600 uppercase tracking-widest mb-3 flex items-center gap-2 shrink-0">
-                            <GraduationCap className="text-blue-500 w-5 h-5" /> Select Institution
+                            <GraduationCap className="text-brand-teal w-5 h-5" /> Select Institution
                         </label>
                         <div className="relative mb-3 shrink-0">
                             <Search className="absolute left-3 top-2.5 h-4 w-4 text-slate-400" />
                             <input
                                 type="text"
                                 placeholder="Search by name or region..."
-                                className="w-full bg-slate-50 border border-slate-300 text-slate-800 rounded-lg pl-10 p-2 text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-shadow outline-none"
+                                className="w-full bg-slate-50 border border-slate-300 text-slate-800 rounded-lg pl-10 p-2 text-sm focus:ring-2 focus:ring-brand-teal focus:border-brand-teal transition-shadow outline-none"
                                 value={instSearch}
                                 onChange={(e) => setInstSearch(e.target.value)}
                             />
@@ -64,7 +64,7 @@ export default function Explore() {
                                     <li key={inst.id}>
                                         <button
                                             onClick={() => setInstId(inst.id)}
-                                            className={`w-full text-left p-3 text-sm transition-colors ${instId === inst.id ? 'bg-blue-100 text-blue-900 font-bold border-l-4 border-blue-500' : 'text-slate-700 hover:bg-slate-200 font-medium border-l-4 border-transparent'}`}
+                                            className={`w-full text-left p-3 text-sm transition-colors ${instId === inst.id ? 'bg-brand-sky/20 text-brand-navy font-bold border-l-4 border-brand-teal' : 'text-slate-700 hover:bg-slate-200 font-medium border-l-4 border-transparent'}`}
                                         >
                                             {inst.name} <span className="opacity-75 text-xs">({inst.region})</span>
                                         </button>
@@ -79,14 +79,14 @@ export default function Explore() {
 
                     <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm flex flex-col h-[320px]">
                         <label className="block text-sm font-semibold text-slate-600 uppercase tracking-widest mb-3 flex items-center gap-2 shrink-0">
-                            <Building2 className="text-emerald-500 w-5 h-5" /> Select Employer
+                            <Building2 className="text-brand-sage w-5 h-5" /> Select Employer
                         </label>
                         <div className="relative mb-3 shrink-0">
                             <Search className="absolute left-3 top-2.5 h-4 w-4 text-slate-400" />
                             <input
                                 type="text"
                                 placeholder="Search by name or industry..."
-                                className="w-full bg-slate-50 border border-slate-300 text-slate-800 rounded-lg pl-10 p-2 text-sm focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 transition-shadow outline-none"
+                                className="w-full bg-slate-50 border border-slate-300 text-slate-800 rounded-lg pl-10 p-2 text-sm focus:ring-2 focus:ring-brand-sage focus:border-brand-sage transition-shadow outline-none"
                                 value={empSearch}
                                 onChange={(e) => setEmpSearch(e.target.value)}
                             />
@@ -97,7 +97,7 @@ export default function Explore() {
                                     <li key={emp.id}>
                                         <button
                                             onClick={() => setEmpId(emp.id)}
-                                            className={`w-full text-left p-3 text-sm transition-colors ${empId === emp.id ? 'bg-emerald-100 text-emerald-900 font-bold border-l-4 border-emerald-500' : 'text-slate-700 hover:bg-slate-200 font-medium border-l-4 border-transparent'}`}
+                                            className={`w-full text-left p-3 text-sm transition-colors ${empId === emp.id ? 'bg-brand-sage/20 text-brand-navy font-bold border-l-4 border-brand-sage' : 'text-slate-700 hover:bg-slate-200 font-medium border-l-4 border-transparent'}`}
                                         >
                                             {emp.name} <span className="opacity-75 text-xs">({emp.industry})</span>
                                         </button>
@@ -116,7 +116,7 @@ export default function Explore() {
                     <div className="bg-white rounded-2xl border border-slate-200 shadow-md overflow-hidden animate-in fade-in slide-in-from-bottom-4 duration-500">
                         <div className="p-8 border-b border-slate-100 flex flex-col md:flex-row items-center justify-between gap-6 bg-slate-900 text-white">
                             <div className="flex-1 text-center md:text-left">
-                                <h2 className="text-2xl font-bold text-blue-300">{selectedInst.name}</h2>
+                                <h2 className="text-2xl font-bold text-brand-sky">{selectedInst.name}</h2>
                                 <div className="text-slate-400 text-sm mt-1">{selectedInst.type}</div>
                             </div>
                             <div className="flex flex-col items-center justify-center">
@@ -126,7 +126,7 @@ export default function Explore() {
                                 <div className="text-xs font-bold uppercase tracking-widest text-slate-400 mt-2">Insight Score</div>
                             </div>
                             <div className="flex-1 text-center md:text-right">
-                                <h2 className="text-2xl font-bold text-emerald-300">{selectedEmp.name}</h2>
+                                <h2 className="text-2xl font-bold text-brand-sage">{selectedEmp.name}</h2>
                                 <div className="text-slate-400 text-sm mt-1">{selectedEmp.industry} Sector</div>
                             </div>
                         </div>
@@ -135,8 +135,8 @@ export default function Explore() {
 
                             {/* Left Col: Breakdown */}
                             <div className="p-8 bg-slate-50">
-                                <h3 className="text-lg font-bold text-slate-800 mb-6 flex items-center gap-2">
-                                    <Activity className="w-5 h-5 text-blue-500" /> Deterministic Math
+                                <h3 className="text-lg font-heading font-bold text-brand-navy mb-6 flex items-center gap-2">
+                                    <Activity className="w-5 h-5 text-brand-teal" /> Deterministic Math
                                 </h3>
                                 <div className="space-y-4">
                                     {match.scoreBreakdown?.map((b, i) => (
@@ -151,14 +151,14 @@ export default function Explore() {
                             {/* Middle & Right Col: AI Narrative & Pathway */}
                             <div className="p-8 lg:col-span-2">
                                 <div className="mb-10">
-                                    <h3 className="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2">
-                                        <BrainCircuit className="w-5 h-5 text-purple-500" /> Generative AI Reasoning
+                                    <h3 className="text-lg font-heading font-bold text-brand-navy mb-4 flex items-center gap-2">
+                                        <BrainCircuit className="w-5 h-5 text-brand-gold" /> Generative AI Reasoning
                                     </h3>
-                                    <div className="bg-purple-50 rounded-xl p-6 border border-purple-100 text-purple-900 leading-relaxed font-medium">
+                                    <div className="bg-brand-gold/10 rounded-xl p-6 border border-brand-gold/20 text-brand-navy leading-relaxed font-medium">
                                         {match.aiReasoning.split('\n').map((line, idx) => {
                                             if (!line.trim()) return null;
                                             if (line.trim().startsWith('### ')) {
-                                                return <h4 key={idx} className="text-lg font-bold text-[#0F2C52] mt-6 mb-2 first:mt-0">{line.replace('### ', '')}</h4>;
+                                                return <h4 key={idx} className="text-lg font-heading font-bold text-brand-navy mt-6 mb-2 first:mt-0">{line.replace('### ', '')}</h4>;
                                             }
                                             return <p key={idx} className="mb-3 last:mb-0">{line}</p>;
                                         })}
@@ -166,14 +166,14 @@ export default function Explore() {
                                 </div>
 
                                 <div>
-                                    <h3 className="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2">
-                                        <GitMerge className="w-5 h-5 text-emerald-500" /> Recommended Pathway
+                                    <h3 className="text-lg font-heading font-bold text-brand-navy mb-4 flex items-center gap-2">
+                                        <GitMerge className="w-5 h-5 text-brand-sage" /> Recommended Pathway
                                     </h3>
-                                    <div className="bg-emerald-50 rounded-xl p-6 border border-emerald-100">
-                                        <p className="text-emerald-900 font-bold text-lg mb-2">
+                                    <div className="bg-brand-sage/10 rounded-xl p-6 border border-brand-sage/20">
+                                        <p className="text-brand-navy font-bold text-lg mb-2">
                                             {match.recommendedPathway?.split(':')[0]}
                                         </p>
-                                        <p className="text-emerald-700 leading-relaxed">
+                                        <p className="text-brand-navy/80 leading-relaxed">
                                             {match.recommendedPathway?.split(':')[1]?.trim()}
                                         </p>
                                     </div>

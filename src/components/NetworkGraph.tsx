@@ -87,7 +87,7 @@ export default function NetworkGraph({ data, onNodeClick, selectedNodeId }: Netw
     };
 
     return (
-        <div ref={containerRef} className="w-full h-full bg-[#0F2C52] border border-slate-200 rounded-lg overflow-hidden relative shadow-inner">
+        <div ref={containerRef} className="w-full h-full bg-brand-navy border border-slate-200 rounded-lg overflow-hidden relative shadow-inner">
             {/* @ts-ignore */}
             <ForceGraph2D
                 ref={fgRef}

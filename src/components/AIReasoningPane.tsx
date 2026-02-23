@@ -33,14 +33,14 @@ export default function AIReasoningPane({ selectedNode, matches, institutions, e
         <div className="h-full lg:overflow-y-auto p-6 bg-slate-100 lg:border-l border-t lg:border-t-0 border-slate-200">
             <div className="mb-6 pb-4 border-b border-slate-100">
                 <div className="flex items-center gap-2 mb-1">
-                    <span className={`w-3 h-3 rounded-full ${selectedNode.group === 'institution' ? 'bg-[#92B4EC]' : selectedNode.group === 'employer' ? 'bg-[#F9D9AA]' : 'bg-[#E48F45]'}`}></span>
+                    <span className={`w-3 h-3 rounded-full ${selectedNode.group === 'institution' ? 'bg-brand-sky' : selectedNode.group === 'employer' ? 'bg-brand-peach' : 'bg-brand-gold'}`}></span>
                     <span className="text-xs font-bold uppercase tracking-widest text-slate-400">{selectedNode.group} selected</span>
                 </div>
                 <h2 className="text-2xl font-bold text-slate-800 leading-tight">{selectedNode.name}</h2>
             </div>
 
             <h3 className="text-sm font-semibold text-slate-800 uppercase tracking-wider mb-4 flex items-center gap-2">
-                <Sparkles className="h-4 w-4 text-[#E48F45]" />
+                <Sparkles className="h-4 w-4 text-brand-gold" />
                 AI Pathway Recommendations
             </h3>
 
@@ -49,7 +49,7 @@ export default function AIReasoningPane({ selectedNode, matches, institutions, e
                     <p className="text-sm text-slate-600 italic mb-4">No AI pathways detected for this entity currently. This indicates a gap in the local opportunity network.</p>
                     <button
                         onClick={() => alert("This feature will prompt the data crawler to research alignment for a specified entity.")}
-                        className="w-full py-2.5 px-4 bg-[#1A5F7A] hover:bg-[#0F2C52] text-white rounded-lg text-sm font-medium transition-colors flex justify-center items-center gap-2 shadow-sm">
+                        className="w-full py-2.5 px-4 bg-brand-teal hover:bg-brand-navy text-white rounded-lg text-sm font-medium transition-colors flex justify-center items-center gap-2 shadow-sm">
                         <Search className="h-4 w-4" />
                         Propose New Connection
                     </button>
@@ -62,13 +62,13 @@ export default function AIReasoningPane({ selectedNode, matches, institutions, e
 
                         return (
                             <div key={match.id} className="bg-slate-50 border border-slate-200 rounded-xl p-5 shadow-sm relative overflow-hidden group hover:border-blue-300 transition-colors">
-                                <div className="absolute top-0 left-0 w-1 h-full bg-[#0F2C52]"></div>
+                                <div className="absolute top-0 left-0 w-1 h-full bg-brand-navy"></div>
 
                                 <div className="flex justify-between items-start mb-3">
                                     <div className="font-semibold text-slate-800">
-                                        Pathway with <span className="text-[#0F2C52]">{targetName}</span>
+                                        Pathway with <span className="text-brand-navy">{targetName}</span>
                                     </div>
-                                    <div className="bg-slate-200 text-[#0F2C52] text-xs font-bold px-2 py-1 rounded">
+                                    <div className="bg-slate-200 text-brand-navy text-xs font-bold px-2 py-1 rounded">
                                         Score: {match.matchStrengthScore}
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@ export default function AIReasoningPane({ selectedNode, matches, institutions, e
                                                 {match.scoreBreakdown.map((item, idx) => (
                                                     <li key={idx} className="flex justify-between items-center text-xs">
                                                         <span className="text-slate-600">{item.category}</span>
-                                                        <span className="font-mono font-medium text-[#1A5F7A]">+{item.score}</span>
+                                                        <span className="font-mono font-medium text-brand-teal">+{item.score}</span>
                                                     </li>
                                                 ))}
                                             </ul>
@@ -94,7 +94,7 @@ export default function AIReasoningPane({ selectedNode, matches, institutions, e
 
                                 {match.recommendedPathway && (
                                     <div className="flex items-center gap-2 text-xs font-medium text-slate-500 bg-white border border-slate-200 px-3 py-2 rounded-lg">
-                                        <Target className="h-3 w-3 text-[#1A5F7A]" />
+                                        <Target className="h-3 w-3 text-brand-teal" />
                                         Recommended Action: <span className="text-slate-800">{match.recommendedPathway}</span>
                                     </div>
                                 )}
@@ -107,7 +107,7 @@ export default function AIReasoningPane({ selectedNode, matches, institutions, e
             {nodeMatches.length > 0 && (
                 <div className="mt-8 pt-6 border-t border-slate-100">
                     <h3 className="text-sm font-semibold text-slate-800 mb-3 flex items-center gap-2">
-                        <Target className="h-4 w-4 text-[#1A5F7A]" />
+                        <Target className="h-4 w-4 text-brand-teal" />
                         Identify Missing Connections
                     </h3>
                     <p className="text-xs text-slate-500 mb-4 leading-relaxed">
@@ -115,7 +115,7 @@ export default function AIReasoningPane({ selectedNode, matches, institutions, e
                     </p>
                     <button
                         onClick={() => alert("This feature will prompt the data crawler to research alignment for a specified entity.")}
-                        className="w-full py-2.5 px-4 bg-white border-2 border-[#1A5F7A] text-[#1A5F7A] hover:bg-slate-50 rounded-lg text-sm font-bold transition-colors flex justify-center items-center gap-2 shadow-sm">
+                        className="w-full py-2.5 px-4 bg-white border-2 border-brand-teal text-brand-teal hover:bg-slate-50 rounded-lg text-sm font-bold transition-colors flex justify-center items-center gap-2 shadow-sm">
                         <Search className="h-4 w-4" />
                         Propose New Connection
                     </button>

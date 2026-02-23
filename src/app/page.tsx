@@ -18,7 +18,7 @@ export default function Home() {
           An AI Partner-Matching Dashboard for Indiana. Bridging the "Productivity Tax" gap by connecting higher education output with strategic employer needs.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center">
-          <Link href="/dashboard" className="px-8 py-4 bg-brand-navy hover:bg-brand-navy/90 text-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 group">
+          <Link href="/dashboard" className="px-8 py-4 bg-gradient-to-r from-brand-teal to-brand-sage hover:from-brand-teal/90 hover:to-brand-sage/90 text-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2 group">
             Explore the Ecosystem Map
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Link>
@@ -29,27 +29,27 @@ export default function Home() {
       </section>
 
       {/* The Mandate */}
-      <section className="px-6 py-16 bg-white border-y border-slate-200">
+      <section className="px-6 py-16 bg-brand-navy border-y border-brand-navy/90">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-heading font-bold text-brand-navy mb-4">The AI Mandate: Beyond Automation</h2>
-            <p className="text-slate-600 text-lg leading-relaxed mb-6">
+            <h2 className="text-3xl font-heading font-bold text-brand-sky mb-4">The AI Mandate: Beyond Automation</h2>
+            <p className="text-brand-sky/90 text-lg leading-relaxed mb-6">
               71% of organizations are stranded in "pilot purgatory" because they are bolting AI onto broken workflows. For higher education, simply purchasing a generic Copilot license is fundamentally negative if the pedagogy remains static.
             </p>
-            <p className="text-slate-600 text-lg leading-relaxed">
-              When we focus on teaching students mere efficiency, we graduate them into the <strong>Productivity Tax</strong>. We must stop assessing the polished product and start scaffolding the iteration itself. This tool is designed to identify the strategic partnerships across Indiana that will actively build these systemic workflows.
+            <p className="text-brand-sky/90 text-lg leading-relaxed">
+              When we focus on teaching students mere efficiency, we graduate them into the <strong className="text-white">Productivity Tax</strong>. We must stop assessing the polished product and start scaffolding the iteration itself. This tool is designed to identify the strategic partnerships across Indiana that will actively build these systemic workflows.
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div className="bg-slate-50 p-6 rounded-xl border border-slate-200 shadow-sm">
+            <div className="bg-white/10 p-6 rounded-xl border border-white/20 shadow-sm">
               <ShieldAlert className="w-8 h-8 text-brand-gold mb-4" />
-              <h3 className="font-heading font-bold text-slate-800 mb-2">The Threat</h3>
-              <p className="text-sm text-slate-600">Bolting AI outside the curriculum as a "cheat code" produces vulnerable, unverified output.</p>
+              <h3 className="font-heading font-bold text-white mb-2">The Threat</h3>
+              <p className="text-sm text-brand-sky/90">Bolting AI outside the curriculum as a "cheat code" produces vulnerable, unverified output.</p>
             </div>
-            <div className="bg-brand-sky/10 p-6 rounded-xl border border-brand-sky/30 shadow-sm">
+            <div className="bg-brand-sky/20 p-6 rounded-xl border border-brand-sky/30 shadow-sm">
               <Network className="w-8 h-8 text-brand-teal mb-4" />
-              <h3 className="font-heading font-bold text-slate-800 mb-2">The Solution</h3>
-              <p className="text-sm text-slate-600">Driving AI under the curriculum to evaluate, manage, and verify integrated enterprise knowledge.</p>
+              <h3 className="font-heading font-bold text-white mb-2">The Solution</h3>
+              <p className="text-sm text-brand-sky/90">Driving AI under the curriculum to evaluate, manage, and verify integrated enterprise knowledge.</p>
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ export default function Home() {
         <p className="text-slate-300 text-lg mb-8 max-w-2xl mx-auto">
           Our AI engine is scanning 34 Indiana institutions against 249 high-impact employers, executing thousands of deterministic calculations to uncover hidden workflow synergies.
         </p>
-        <Link href="/dashboard" className="px-8 py-4 bg-brand-teal hover:bg-brand-teal/90 text-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2">
+        <Link href="/dashboard" className="px-8 py-4 bg-gradient-to-r from-brand-teal to-brand-sage hover:from-brand-teal/90 hover:to-brand-sage/90 text-white rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all inline-flex items-center gap-2">
           Launch Dashboard
           <ArrowRight className="w-5 h-5" />
         </Link>

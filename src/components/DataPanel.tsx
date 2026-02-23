@@ -26,7 +26,7 @@ export default function DataPanel({ institutions, employers, activeFilters, onFi
     return (
         <div className="flex flex-col gap-6 h-full lg:overflow-y-auto p-5 bg-slate-100 lg:border-r border-b lg:border-b-0 border-slate-200">
             <div className="flex flex-col gap-2 pb-4 border-b border-slate-200">
-                <Link href="/" className="inline-flex items-center gap-2 text-[#0F2C52] hover:text-blue-700 font-bold text-sm transition-colors uppercase tracking-wider">
+                <Link href="/" className="inline-flex items-center gap-2 text-brand-navy hover:text-brand-navy/80 font-heading font-bold text-sm transition-colors uppercase tracking-wider">
                     <ArrowLeft className="w-4 h-4" /> Intro page
                 </Link>
                 <Link href="/explore" className="inline-flex items-center gap-2 text-slate-500 hover:text-slate-800 font-semibold text-xs transition-colors uppercase tracking-wider">
@@ -40,15 +40,15 @@ export default function DataPanel({ institutions, employers, activeFilters, onFi
             </div>
 
             <div className="grid grid-cols-2 gap-4">
-                <div className="bg-blue-50 p-4 rounded-xl border border-blue-100">
-                    <GraduationCap className="text-blue-500 mb-2 h-6 w-6" />
-                    <div className="text-2xl font-bold text-blue-900">{totalStudents.toLocaleString()}</div>
-                    <div className="text-xs font-semibold text-blue-700 uppercase tracking-wider">Total Students</div>
+                <div className="bg-brand-sky/10 p-4 rounded-xl border border-brand-sky/30">
+                    <GraduationCap className="text-brand-teal mb-2 h-6 w-6" />
+                    <div className="text-2xl font-bold text-brand-navy">{totalStudents.toLocaleString()}</div>
+                    <div className="text-xs font-semibold text-brand-navy/80 uppercase tracking-wider">Total Students</div>
                 </div>
-                <div className="bg-emerald-50 p-4 rounded-xl border border-emerald-100">
-                    <Building2 className="text-emerald-500 mb-2 h-6 w-6" />
-                    <div className="text-2xl font-bold text-emerald-900">{employers.length} Top</div>
-                    <div className="text-xs font-semibold text-emerald-700 uppercase tracking-wider">Employers</div>
+                <div className="bg-brand-sage/10 p-4 rounded-xl border border-brand-sage/30">
+                    <Building2 className="text-brand-sage mb-2 h-6 w-6" />
+                    <div className="text-2xl font-bold text-brand-navy">{employers.length} Top</div>
+                    <div className="text-xs font-semibold text-brand-navy/80 uppercase tracking-wider">Employers</div>
                 </div>
             </div>
 
@@ -58,7 +58,7 @@ export default function DataPanel({ institutions, employers, activeFilters, onFi
                 </label>
                 <select
                     id="nodeSearch"
-                    className="block w-full rounded-md border-slate-300 shadow-sm focus:border-[#1A5F7A] focus:ring-[#1A5F7A] text-slate-700 sm:text-sm p-2 border bg-white"
+                    className="block w-full rounded-md border-slate-300 shadow-sm focus:border-brand-teal focus:ring-brand-teal text-slate-700 sm:text-sm p-2 border bg-white"
                     value={selectedNodeId || ''}
                     onChange={(e) => onNodeSelect(e.target.value || null)}
                 >
@@ -82,7 +82,7 @@ export default function DataPanel({ institutions, employers, activeFilters, onFi
                     {activeFilters.size > 0 ? (
                         <button
                             onClick={onClearFilters}
-                            className="text-xs font-semibold text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-2 py-1 rounded transition-colors"
+                            className="text-xs font-semibold text-brand-teal hover:text-brand-teal/80 bg-brand-sky/10 hover:bg-brand-sky/20 px-2 py-1 rounded transition-colors"
                         >
                             Clear Filters
                         </button>
@@ -99,12 +99,12 @@ export default function DataPanel({ institutions, employers, activeFilters, onFi
                             <button
                                 key={sector}
                                 onClick={() => onFilterToggle(sector)}
-                                className={`w-full flex items-center justify-between p-1.5 -mx-1.5 rounded-md hover:bg-slate-200 transition-colors ${isActive ? 'bg-blue-50' : ''}`}>
+                                className={`w-full flex items-center justify-between p-1.5 -mx-1.5 rounded-md hover:bg-slate-200 transition-colors ${isActive ? 'bg-brand-sky/20' : ''}`}>
                                 <div className="flex items-center gap-2">
                                     <span style={{ backgroundColor: color }} className="w-2.5 h-2.5 rounded-full inline-block"></span>
                                     <span className={`text-sm font-medium ${isActive ? 'text-slate-900' : 'text-slate-600'}`}>{sector}</span>
                                 </div>
-                                {isActive && <span className="text-xs text-blue-600 font-semibold">Active</span>}
+                                {isActive && <span className="text-xs text-brand-teal font-semibold">Active</span>}
                             </button>
                         )
                     })}
@@ -124,7 +124,7 @@ export default function DataPanel({ institutions, employers, activeFilters, onFi
                             <li key={type}>
                                 <button
                                     onClick={() => onFilterToggle(type)}
-                                    className={`w-full text-left text-sm flex justify-between px-2 py-1.5 rounded border ${isActive ? 'bg-blue-50 border-blue-200 text-blue-800 font-semibold' : 'bg-white border-slate-200 text-slate-600 hover:border-slate-300'}`}>
+                                    className={`w-full text-left text-sm flex justify-between px-2 py-1.5 rounded border ${isActive ? 'bg-brand-sky/20 border-brand-sky/30 text-brand-navy font-semibold' : 'bg-white border-slate-200 text-slate-600 hover:border-slate-300'}`}>
                                     <span className="truncate pr-2">{type}</span>
                                     <span className="text-slate-400 text-xs px-1.5 py-0.5 bg-slate-100 rounded-full">{count}</span>
                                 </button>
