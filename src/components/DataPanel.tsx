@@ -1,5 +1,5 @@
 import { InstitutionSchema, EmployerSchema } from '@/types';
-import { Building2, GraduationCap, Filter, Search, ArrowLeft, Network } from 'lucide-react';
+import { Building2, GraduationCap, Filter, Search, ArrowLeft, Network, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import { parseIndustries, getSectorColorMapping } from '@/lib/colorUtils';
 
@@ -29,8 +29,9 @@ export default function DataPanel({ institutions, employers, activeFilters, onFi
                 <Link href="/" className="inline-flex items-center gap-2 text-brand-navy hover:text-brand-navy/80 font-heading font-bold text-sm transition-colors uppercase tracking-wider">
                     <ArrowLeft className="w-4 h-4" /> Intro page
                 </Link>
-                <Link href="/explore" className="inline-flex items-center gap-2 text-slate-500 hover:text-slate-800 font-semibold text-xs transition-colors uppercase tracking-wider">
-                    <Network className="w-3.5 h-3.5" /> Imagine a connection sandbox
+                <Link href="/explore" className="w-full mt-1 px-4 py-2.5 bg-gradient-to-r from-brand-teal to-brand-sage hover:from-brand-teal/90 hover:to-brand-sage/90 text-white rounded-lg text-xs font-bold transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2 uppercase tracking-wider group">
+                    <Network className="w-4 h-4" /> Imagine a connection
+                    <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                 </Link>
             </div>
 
